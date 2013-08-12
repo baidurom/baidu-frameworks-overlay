@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark" >
+
+    <LinearLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+      <TextView
+            android:id="@+id/headerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+        <TextView
+            android:id="@+id/ResultDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- header text ('XXX times left') -->
+
+        <TextView
+            android:id="@+id/TimeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF4735CD"
+            android:textSize="18sp" />
+        <!-- more sim info button -->
+
+        <Button
+            android:id="@+id/moresiminfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:gravity="center"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!-- header text ('For') -->
+            <!-- PR288328-bujian-001 modified -->
+
+            <TextView
+                android:id="@+id/ForText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <!-- header text ('SIM Card Name') -->
+
+            <TextView
+                android:id="@+id/SIMCardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:ellipsize="middle"
+                android:gravity="center|bottom"
+                android:maxWidth="100dip"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FF4735CD"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+   
+    <!-- password entry -->
+
+    <LinearLayout
+        android:id="@+id/EnterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- displays dots as user enters pin -->
+
+        <TextView
+            android:id="@+id/pinDisplay"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" 
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/backspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-3dip"
+            android:layout_marginRight="-3dip"
+            android:src="@android:drawable/ic_input_delete" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/keyPad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EnterPassword"
+        android:layout_marginTop="@android:dimen/yi_lockscreen_pin_top_padding"
+        layout="@android:layout/twelve_key_entry" />
+
+    <Button
+        android:id="@+id/emergencyCall"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dip"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_lockscreen_emergency_call"
+        android:drawablePadding="6dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/lockscreen_emergency_call"
+        android:textSize="18dip" />
+
+</RelativeLayout>

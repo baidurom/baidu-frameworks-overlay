@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--yi add begin-->
+    <!-- add by tangliuxiang to fit the 960x540 lockscreen -->
+    <add-resource type="dimen" name="yi_lockscreen_unlockWidget_height" />
+    <dimen name="yi_lockscreen_unlockWidget_height">228dip</dimen>
+    <!--yi add end-->
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the general lock screen which shows information about the
+  state of the device, as well as instructions on how to get past it
+  depending on the state of the device.  It is the same for landscape
+  and portrait.-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lock_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:layout_gravity="right"
+        android:paddingTop="26dp"
+	android:gravity="right">
+	
+        <TextView
+	    android:id="@+id/carrier"
+	    android:layout_width="0dip"
+	    android:layout_weight="1"
+	    android:layout_height="wrap_content"
+	    android:singleLine="true"
+	    android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+	    android:gravity="right"
+	    android:drawablePadding="4dip"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textSize="12dip"
+            android:typeface="sans"
+	    android:textColor="#99FFFFFF"
+            android:shadowColor="#99000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="3.0"/>
+
+	<TextView
+	    android:id="@+id/carrierDivider"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:textSize="12dip"
+	    android:drawablePadding="2dip"/>
+
+	<TextView
+	    android:id="@+id/carrierGemini"
+	    android:layout_width="0dip"
+	    android:layout_weight="1"
+	    android:layout_height="wrap_content"
+	    android:drawablePadding="4dip"
+	    android:singleLine="true"
+	    android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+	    android:gravity="right"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textSize="12dip"
+            android:typeface="sans"
+	    android:textColor="#99FFFFFF"
+            android:shadowColor="#99000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="3.0"/>
+    </LinearLayout>
+ 
+    <ImageView
+        android:id="@+id/weather_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <GridLayout
+        android:id="@+id/workspace"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="#29000000">
+
+        <!-- TODO: To follow ICS design to configuration of Widget -->
+        <!-- top: status -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zz_lockscreen_status_height"
+            android:orientation="vertical">
+            <include layout="@layout/zz_keyguard_screen_status_port"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/zz_lockscreen_unlock_widget_margin_top"
+            >
+
+            <com.baidu.internal.keyguard.slide.SmartMultiUnlockView
+                android:id="@+id/unlock_widget"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                />
+                <!--
+                android:shortcutDrawables="@array/zz_lockscreen_targets_five_shortcuts"
+                android:shortcutDescriptions="@array/zz_lockscreen_five_shortcuts_description"
+                android:centerHandleDrawable="@drawable/zz_lockscreen_handle"
+                android:outerRingRadius="@dimen/zz_smartmultiUnlockview_target_placement_radius"
+                android:targetSnapMargin="@dimen/zz_smartmultiunlockview_snap_margin"
+                android:targetHitRadius="@dimen/zz_smartmultiunlockview_hit_radius"
+                android:horizontalCenterOffset="0dip"
+                android:verticalCenterOffset="@dimen/zz_lockscreen_unlock_widget_center_offset"
+                android:hitVibrationDuration="20"
+                android:notifierDrawable="@drawable/zz_lockscreen_notification_round"
+                android:unlockDistance="@integer/zz_lockscreen_unlock_widget_distance"
+                android:notifierTextSize="12"
+                android:notifierTextColor="#ffffffff"
+                />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            style="?android:attr/buttonBarStyle"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <Button android:id="@+id/emergencyCallButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textSize="@dimen/keyguard_lockscreen_status_line_font_size"
+                android:text="@*android:string/lockscreen_emergency_call"
+                android:drawableLeft="@*android:drawable/lockscreen_emergency_button"
+                android:drawablePadding="0dip"
+                android:visibility="gone"
+            />
+
+        </LinearLayout>
+
+    </GridLayout>
+    
+</FrameLayout>

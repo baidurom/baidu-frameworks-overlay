@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+===============================================================
+                        PLEASE READ
+===============================================================
+
+The Holo themes must not be modified in order to pass CTS.
+Many related themes and styles depend on other values defined in this file.
+If you would like to provide custom themes and styles for your device,
+please see styles_device_defaults.xml.
+
+===============================================================
+                        PLEASE READ
+===============================================================
+ -->
+<resources>
+    <!-- Global Theme Styles -->
+    <eat-comment />
+
+    <style name="Widget.EditText">
+        <item name="focusable">true</item>
+        <item name="focusableInTouchMode">true</item>
+        <item name="clickable">true</item>
+        <item name="background">?attr/editTextBackground</item>
+        <item name="textAppearance">?attr/textAppearanceMediumInverse</item>
+        <item name="textColor">?attr/editTextColor</item>
+        <item name="gravity">center_vertical</item>
+        <item name="textColorHighlight">@color/yi_highlighted_text_baidu_dark</item>
+    </style>
+
+    <style name="Widget.KeyboardView" parent="Widget">
+        <item name="background">@drawable/keyboard_background</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_ics</item>
+        <item name="keyTextSize">22sp</item>
+        <item name="keyTextColor">#FFFFFFFF</item>
+        <item name="keyPreviewLayout">@layout/keyboard_key_preview</item>
+        <item name="keyPreviewOffset">-12dip</item>
+        <item name="keyPreviewHeight">80dip</item>
+        <item name="labelTextSize">14sp</item>
+        <item name="popupLayout">@layout/keyboard_popup_keyboard</item>
+        <item name="verticalCorrection">-10dip</item>
+        <item name="shadowColor">#BB000000</item>
+        <item name="shadowRadius">2.75</item>
+    </style>
+
+    <style name="Widget.Holo.EditText" parent="Widget.EditText">
+        <item name="textColorHighlight">@color/highlighted_text_holo_dark</item>
+    </style>
+
+    <style name="Widget.Holo.CompoundButton.Switch">
+        <item name="track">@drawable/switch_track_holo_dark</item>
+        <item name="thumb">@drawable/switch_inner_holo_dark</item>
+        <item name="pointOn">@drawable/switch_thumb_dark_on_point</item>
+        <item name="pointOff">@drawable/switch_thumb_dark_off_point</item>
+        <item name="switchTextAppearance">@style/TextAppearance.Holo.Widget.Switch</item>
+        <item name="textOn">@string/capital_on</item>
+        <item name="textOff">@string/capital_off</item>
+        <item name="thumbTextPadding">12dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+    </style>
+
+    <style name="Widget.Holo.Light.CompoundButton.Switch" parent="Widget.CompoundButton.Switch">
+        <item name="track">@drawable/switch_track_holo_light</item>
+        <item name="thumb">@drawable/switch_inner_holo_light</item>
+        <item name="pointOn">@drawable/switch_thumb_light_on_point</item>
+        <item name="pointOff">@drawable/switch_thumb_light_off_point</item>
+        <item name="switchTextAppearance">@style/TextAppearance.Holo.Widget.Switch</item>
+        <item name="textOn">@string/capital_on</item>
+        <item name="textOff">@string/capital_off</item>
+        <item name="thumbTextPadding">12dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse">
+        <item name="android:textColor">@color/yi_action_tab_text_selected_baidu_light</item>
+    </style>
+
+    <!-- Notification content styles -->
+    <style name="TextAppearance.StatusBar.EventContent">
+        <item name="textColor">#80878d</item>
+        <item name="textSize">12sp</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+        <item name="textColor">#4f555a</item>
+        <item name="textSize">16sp</item>
+        <item name="textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="textSize">13sp</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Info">
+        <!-- inherit all -->
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time">
+        <!-- inherit all -->
+    </style>
+</resources>
