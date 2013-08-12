@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Switch">
+        <!-- Drawable to use as the "thumb" that switches back and forth. -->
+        <attr name="pointOn" format="reference"/>
+        <attr name="pointOff" format="reference"/>
+    </declare-styleable>
+
+    <!--BEGIN BAIDU, cairui01@baidu.com.cn -->
+    <!-- =============================== -->
+    <!-- SmartMultiUnlockView class attributes -->
+    <!-- =============================== -->
+    <eat-comment />
+    <declare-styleable name="SmartMultiUnlockView">
+        <!-- Reference to an array resource that be shown as targets around a circle. -->
+        <attr name="shortcutDrawables" format="reference"/>
+
+        <!-- Reference to an array resource that be used as description for the targets around the circle. -->
+        <attr name="shortcutDescriptions" format="reference"/>
+
+        <!-- Sets a drawable as the drag center. -->
+        <attr name="centerHandleDrawable" format="reference" />
+
+        <!-- Outer radius of target circle. Icons will be drawn on this circle. -->
+        <attr name="outerRingRadius" format="dimension" />
+
+        <!-- Size of target radius. Points within this distance of target center is a "hit". -->
+        <attr name="targetHitRadius" format="dimension" />
+
+        <!-- Tactile feedback duration for actions. Set to '0' for no vibration. -->
+        <attr name="hitVibrationDuration" format="integer"/>
+
+        <!-- How close we need to be before snapping to a target. -->
+        <attr name="targetSnapMargin" format="dimension" />
+
+        <!-- Used to shift center of pattern vertically. -->
+        <attr name="verticalCenterOffset" format="dimension" />
+
+        <!-- Used to shift center of pattern horizontally. -->
+        <attr name="horizontalCenterOffset" format="dimension" />
+
+        <!-- Sets a notifier drawable.-->
+        <attr name="notifierDrawable" format="reference" />
+
+        <!-- Sets a normal unlock drag distance.-->
+        <attr name="unlockDistance" format="integer" />
+
+        <!-- notifier textsize.-->
+        <attr name="notifierTextSize" format="integer"/>
+
+        <!-- notifier text color.-->$
+        <attr name="notifierTextColor" format="reference|color"/>
+
+    </declare-styleable>
+    <!-- END -->
+
+</resources>
