@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- BEGIN BAIDU, cairui01@baidu.com.cn -->
-    <add-resource type="dimen" name="zz_lockscreen_flipper_width" />
-    <dimen name="zz_lockscreen_flipper_width">800px</dimen>
-    <!-- END -->
-</resources>

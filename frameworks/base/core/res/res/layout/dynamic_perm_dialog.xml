@@ -23,40 +23,50 @@
     android:id="@+id/parentPanel"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:paddingTop="0dip"
-    android:paddingBottom="0dip">
+    android:layout_marginLeft="8dip"
+    android:layout_marginRight="8dip"
+    android:orientation="vertical">
 
         <LinearLayout android:id="@+id/title_template"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="6dip"
-            android:layout_marginBottom="6dip"
-            android:layout_marginLeft="16dip"
-            android:layout_marginRight="16dip"
-            android:layout_gravity="center_vertical">
+	        android:gravity="center_vertical|center_horizontal"
+            android:minHeight="61dp"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+			android:background="@drawable/yi_dialog_top_baidu_light">
                     
             <ImageView android:id="@+id/dialog_title_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
+                android:visibility="gone"
                android:src="@null"  />
 
             <com.android.internal.widget.DialogTitle
                 style="?android:attr/windowTitleStyle"
+		android:textSize="16sp"
+                android:textColor="#ff5597d3"
                 android:singleLine="true"
                 android:ellipsize="end"
+                android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/dynamic_perm_popup_dialog_title"/>
         </LinearLayout>
+         <View android:id="@+id/titleDivider"
+	 
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:visibility="gone"
+            android:background="#ff5597d3" />
 
-        <View 
-	        android:layout_width="match_parent"
-	        android:layout_height="2dp"
-	        android:background="@color/yi_baidu_blue_light"/>
-
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+		android:background="@drawable/yi_dialog_bottom_baidu_light">
     <LinearLayout android:id="@+id/contentPanel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -65,6 +75,7 @@
         <ScrollView android:id="@+id/scrollView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+	        android:clipToPadding="false"
             android:paddingTop="4dip"
             android:paddingLeft="14dip"
             android:paddingRight="10dip"
@@ -131,37 +142,46 @@
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+	    	android:minHeight="42dp"
             android:orientation="vertical"
             android:divider="?android:attr/dividerHorizontal"
-            android:showDividers="beginning"
             android:paddingTop="0dip">
 
         <LinearLayout
-                style="?android:attr/buttonBarStyle"
+	    style="?android:attr/buttonBarStyle"
+            android:paddingTop="2dip"
+            android:paddingBottom="8dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:showDividers="none"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:measureWithLargestChild="true"
-                android:background="@drawable/dynamic_dialog_bottom_medium_baidu_light">
+                android:measureWithLargestChild="true">
 
             <Button android:id="@+id/deny_btn"
                 android:layout_width="0dip"
-                android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:layout_weight="1"
+				android:layout_marginLeft="8dip"
+				android:layout_marginRight="4dip"
                 android:text="@string/deny_btn_text"
                 android:maxLines="2"
-                style="?android:attr/buttonBarButtonStyle" />
+                style="?android:attr/buttonStyle"
+                android:textSize="14sp"
+                android:layout_height="wrap_content" />
 
             <Button android:id="@+id/permit_btn"
                 android:layout_width="0dip"
-                android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_weight="1"
+				android:layout_marginRight="8dip"
                 android:text="@string/permit_btn_text"
                 android:maxLines="2"
-                style="?android:attr/buttonBarButtonStyle" />
-
+                style="?android:attr/buttonStyle"
+                android:textSize="14sp"
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </LinearLayout>
+	</LinearLayout>
 </LinearLayout>

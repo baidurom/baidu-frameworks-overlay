@@ -111,5 +111,4 @@ please see styles_device_defaults.xml.
     <style name="TextAppearance.StatusBar.EventContent.Time">
         <!-- inherit all -->
     </style>
- 
 </resources>
