@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baidu.internal.keyguard.hotword.Constellation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/constellation_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-100dp" >
+
+        <ImageView
+            android:id="@+id/constellation_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/baidu_keyguard_constellation_01" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/constellation_bg"
+            android:layout_alignTop="@+id/constellation_bg"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="20dp"
+            layout="@layout/baidu_keyguard_axis_single_line" />
+
+        <TextView
+            android:id="@+id/hotword1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/constellation_bg"
+            android:layout_alignTop="@id/constellation_bg"
+            android:layout_marginLeft="198dp"
+            android:layout_marginTop="14dp"
+            android:ellipsize="end"
+            android:maxWidth="140dp"
+            android:padding="8dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/hotword2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/constellation_bg"
+            android:layout_alignTop="@id/constellation_bg"
+            android:layout_marginRight="208dp"
+            android:layout_marginTop="72dp"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:maxWidth="140dp"
+            android:padding="8dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/hotword3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/constellation_bg"
+            android:layout_alignTop="@id/constellation_bg"
+            android:layout_marginLeft="219dp"
+            android:layout_marginTop="88dp"
+            android:ellipsize="end"
+            android:maxWidth="140dp"
+            android:padding="8dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/hotword4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/constellation_bg"
+            android:layout_alignTop="@id/constellation_bg"
+            android:layout_marginRight="212dp"
+            android:layout_marginTop="164dp"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:maxWidth="140dp"
+            android:padding="8dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/hotword5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/constellation_bg"
+            android:layout_alignTop="@id/constellation_bg"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="199dp"
+            android:ellipsize="end"
+            android:maxWidth="140dp"
+            android:padding="8dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-100dp"
+        layout="@layout/baidu_keyguard_search" />
+
+</com.baidu.internal.keyguard.hotword.Constellation>

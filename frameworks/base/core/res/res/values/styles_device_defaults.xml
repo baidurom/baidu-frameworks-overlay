@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+===============================================================
+                        PLEASE READ
+===============================================================
+This file contains the themes that are the Device Defaults.
+If you want to edit styles to skin your device, do it here.
+We recommend that you do not edit styles.xml and instead edit
+this file.
+
+Editing this file instead of styles.xml will greatly simplify
+merges for future platform versions and CTS compliance will be
+easier.
+===============================================================
+                        PLEASE READ
+===============================================================
+ -->
+<resources>
+    <!-- Widget Styles -->
+    <style name="Widget.DeviceDefault" parent="Widget.Holo" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Button" parent="Widget.Holo.Button" >
+        <item name="android:background">@android:drawable/yi_btn_default_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.Button.Small" parent="Widget.Holo.Button.Small" >
+        <item name="android:background">@android:drawable/yi_btn_default_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.Button.Inset" parent="Widget.Holo.Button.Inset" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Button.Toggle" parent="Widget.Holo.Button.Toggle" >
+        <item name="android:background">@android:drawable/yi_btn_toggle_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.TextView" parent="Widget.Holo.TextView" >
+		
+    </style>
+    <style name="Widget.DeviceDefault.AutoCompleteTextView" parent="Widget.Holo.AutoCompleteTextView" >
+        <item name="android:dropDownSelector">@android:drawable/yi_list_selector_baidu_dark</item>
+        <item name="android:popupBackground">@android:drawable/yi_menu_dropdown_panel_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.CompoundButton.CheckBox" parent="Widget.Holo.CompoundButton.CheckBox" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ListView.DropDown" parent="Widget.Holo.ListView.DropDown" >
+
+    </style>
+    <style name="Widget.DeviceDefault.EditText" parent="Widget.Holo.EditText" >
+        <item name="android:textColorHighlight">@android:color/yi_highlighted_text_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.ExpandableListView" parent="Widget.Holo.ExpandableListView" >
+        <item name="android:groupIndicator">@android:drawable/yi_expander_group_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.GridView" parent="Widget.Holo.GridView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ImageButton" parent="Widget.Holo.ImageButton" >
+        <item name="android:background">@android:drawable/yi_btn_default_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.ListView" parent="Widget.Holo.ListView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.PopupWindow" parent="Widget.Holo.PopupWindow" >
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar" parent="Widget.Holo.ProgressBar" >
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_medium_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Horizontal" parent="Widget.Holo.ProgressBar.Horizontal" >
+        <item name="android:progressDrawable">@android:drawable/yi_progress_horizontal_baidu_dark</item>
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_indeterminate_horizontal_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Small" parent="Widget.Holo.ProgressBar.Small" >
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_small_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Small.Title" ><!--parent="Widget.Holo.ProgressBar.Small.Title" -->
+
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Large" parent="Widget.Holo.ProgressBar.Large" >
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_large_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.SeekBar" parent="Widget.Holo.SeekBar" >
+        <item name="android:progressDrawable">@android:drawable/yi_scrubber_progress_horizontal_baidu_dark</item>
+        <item name="android:indeterminateDrawable">@android:drawable/yi_scrubber_progress_horizontal_baidu_dark</item>
+        <item name="android:thumb">@android:drawable/yi_scrubber_control_selector_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.RatingBar" parent="Widget.Holo.RatingBar" >
+        <item name="android:progressDrawable">@android:drawable/yi_ratingbar_full_baidu_dark</item>
+        <item name="android:indeterminateDrawable">@android:drawable/yi_ratingbar_full_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.RatingBar.Indicator" parent="Widget.Holo.RatingBar.Indicator" >
+        <item name="android:progressDrawable">@android:drawable/yi_ratingbar_baidu_dark</item>
+        <item name="android:indeterminateDrawable">@android:drawable/yi_ratingbar_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.RatingBar.Small" parent="Widget.Holo.RatingBar.Small" >
+        <item name="android:progressDrawable">@android:drawable/yi_ratingbar_small_baidu_dark</item>
+        <item name="android:indeterminateDrawable">@android:drawable/yi_ratingbar_small_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.CompoundButton.RadioButton" parent="Widget.Holo.CompoundButton.RadioButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ScrollView" parent="Widget.Holo.ScrollView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.HorizontalScrollView" parent="Widget.Holo.HorizontalScrollView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Spinner" parent="Widget.Holo.Spinner" >
+        <item name="android:background">@android:drawable/yi_spinner_background_baidu_dark</item>
+        <item name="android:dropDownSelector">@android:drawable/yi_list_selector_baidu_dark</item>
+        <item name="android:popupBackground">@android:drawable/yi_menu_dropdown_panel_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.CompoundButton.Star" parent="Widget.Holo.CompoundButton.Star" >
+        <item name="android:button">@android:drawable/yi_btn_star_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.TabWidget" parent="Widget.Holo.TabWidget" >
+        <item name="android:showDividers">none</item>
+        <item name="android:tabLayout">@android:layout/yi_tab_indicator_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.WebTextView" parent="Widget.Holo.WebTextView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.WebView" parent="Widget.Holo.WebView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.DropDownItem" parent="Widget.Holo.DropDownItem" >
+
+    </style>
+    <style name="Widget.DeviceDefault.DropDownItem.Spinner" parent="Widget.Holo.DropDownItem.Spinner" >
+
+    </style>
+    <style name="Widget.DeviceDefault.TextView.SpinnerItem" parent="Widget.Holo.TextView.SpinnerItem" >
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Widget.DeviceDefault.ListPopupWindow" parent="Widget.Holo.ListPopupWindow" >
+        <item name="android:dropDownSelector">@android:drawable/yi_list_selector_baidu_dark</item>
+        <item name="android:popupBackground">@android:drawable/yi_menu_dropdown_panel_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.PopupMenu" parent="Widget.Holo.PopupMenu" >
+        <item name="android:dropDownSelector">@android:drawable/yi_list_selector_baidu_dark</item>
+        <item name="android:popupBackground">@android:drawable/yi_menu_dropdown_panel_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.ActionButton" parent="Widget.Holo.ActionButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ActionButton.Overflow" parent="Widget.Holo.ActionButton.Overflow" >
+        <item name="android:src">@android:drawable/yi_ic_menu_moreoverflow_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.ActionButton.TextButton" parent="Widget.Holo.ActionButton.TextButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ActionMode" parent="Widget.Holo.ActionMode" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ActionButton.CloseMode" parent="Widget.Holo.ActionButton.CloseMode" >
+        <item name="android:background">@drawable/yi_btn_cab_done_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.ActionBar" parent="Widget.Holo.ActionBar" >
+        <item name="android:background">@android:drawable/yi_ab_transparent_dark_baidu</item>
+        <item name="android:backgroundStacked">@android:drawable/yi_ab_stacked_transparent_dark_baidu</item>
+        <item name="android:backgroundSplit">@android:drawable/yi_ab_bottom_transparent_dark_baidu</item>
+        <item name="android:progressBarStyle">@android:style/Widget.DeviceDefault.ProgressBar.Horizontal</item>
+        <item name="android:indeterminateProgressStyle">@android:style/Widget.DeviceDefault.ProgressBar</item>
+    </style>
+    <style name="Widget.DeviceDefault.Button.Borderless" parent="Widget.Holo.Button.Borderless" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Tab" parent="Widget.Holo.Tab" >
+        <item name="android:background">@android:drawable/yi_tab_indicator_baidu</item>
+    </style>
+    <!--add begin by rendayun -->
+    <add-resource type="style" name="Widget.DeviceDefault.TabText" parent="Widget.Holo.TabText" />
+    <style name="Widget.DeviceDefault.TabText" parent="Widget.Holo.TabText">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <!--add end by rendayun -->
+    <style name="Widget.DeviceDefault.CalendarView" parent="Widget.Holo.CalendarView" >
+        <item name="android:selectedDateVerticalBar">@android:drawable/yi_day_picker_week_view_dayline_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.DatePicker" parent="Widget.Holo.DatePicker" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ActionBar.TabView" parent="Widget.Holo.ActionBar.TabView" >
+        <item name="android:background">@drawable/yi_tab_indicator_ab_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.ActionBar.TabText" parent="Widget.Holo.ActionBar.TabText" >
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Widget.DeviceDefault.ActionBar.TabBar" parent="Widget.Holo.ActionBar.TabBar" >
+        <item name="android:showDividers">none</item>
+    </style>
+    <style name="Widget.DeviceDefault.ActionBar.Solid" parent="Widget.Holo.ActionBar.Solid" >
+        <item name="android:background">@android:drawable/yi_ab_solid_dark_baidu</item>
+        <item name="android:backgroundStacked">@android:drawable/yi_ab_stacked_solid_dark_baidu</item>
+        <item name="android:backgroundSplit">@android:drawable/yi_ab_bottom_solid_dark_baidu</item>
+        <item name="android:progressBarStyle">@android:style/Widget.DeviceDefault.ProgressBar.Horizontal</item>
+        <item name="android:indeterminateProgressStyle">@android:style/Widget.DeviceDefault.ProgressBar</item>
+    </style>
+    <style name="Widget.DeviceDefault.Button.Borderless.Small" parent="Widget.Holo.Button.Borderless.Small" >
+
+    </style>
+    <style name="Widget.DeviceDefault.AbsListView" parent="Widget.Holo.AbsListView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Spinner.DropDown.ActionBar" > <!--parent="Widget.Holo.Spinner.DropDown.ActionBar" >-->
+        <item name="android:background">@android:drawable/yi_spinner_ab_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.PopupWindow.ActionMode" parent="Widget.Holo.PopupWindow.ActionMode" >
+
+    </style>
+    <style name="Widget.DeviceDefault.CompoundButton.Switch" parent="Widget.Holo.CompoundButton.Switch">
+        <item name="android:track">@android:drawable/yi_switch_track_baidu_dark</item>
+        <item name="android:thumb">@android:drawable/yi_switch_inner_baidu_dark</item>
+        <item name="android:textOn">@string/switch_null_text</item>
+        <item name="android:textOff">@string/switch_null_text</item>
+        <item name="android:thumbTextPadding">25dip</item>
+        <item name="android:switchMinWidth">86dip</item>
+        <item name="android:switchPadding">0dip</item>
+    </style>
+
+    <style name="Widget.DeviceDefault.ExpandableListView.White" parent="Widget.Holo.ExpandableListView.White">
+
+    </style>
+    <style name="Widget.DeviceDefault.Gallery" parent="Widget.Holo.Gallery">
+
+    </style>
+    <style name="Widget.DeviceDefault.GestureOverlayView" parent="Widget.Holo.GestureOverlayView">
+
+    </style>
+    <style name="Widget.DeviceDefault.ImageWell" parent="Widget.Holo.ImageWell">
+
+    </style>
+    <style name="Widget.DeviceDefault.KeyboardView" parent="Widget.Holo.KeyboardView">
+        <item name="android:keyBackground">@android:drawable/yi_btn_keyboard_key_ics</item>
+    </style>
+    <style name="Widget.DeviceDefault.ListView.White" parent="Widget.Holo.ListView.White">
+
+    </style>
+    <style name="Widget.DeviceDefault.NumberPicker" parent="Widget.Holo.NumberPicker">
+        <item name="android:selectionDivider">@android:drawable/yi_numberpicker_selection_divider</item>
+    </style>
+    <style name="Widget.DeviceDefault.PreferenceFrameLayout" parent="Widget.Holo.PreferenceFrameLayout">
+
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Inverse" ><!--parent="Widget.Holo.ProgressBar.Inverse"-->
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_medium_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Large.Inverse" ><!--parent="Widget.Holo.ProgressBar.Large.Inverse"-->
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_large_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Small.Inverse" ><!--parent="Widget.Holo.ProgressBar.Small.Inverse"-->
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_small_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadge.WindowLarge" parent="Widget.Holo.QuickContactBadge.WindowLarge">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadge.WindowMedium" parent="Widget.Holo.QuickContactBadge.WindowMedium">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadge.WindowSmall" parent="Widget.Holo.QuickContactBadge.WindowSmall">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadgeSmall.WindowLarge" parent="Widget.Holo.QuickContactBadgeSmall.WindowLarge">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadgeSmall.WindowMedium" parent="Widget.Holo.QuickContactBadgeSmall.WindowMedium">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadgeSmall.WindowSmall" parent="Widget.Holo.QuickContactBadgeSmall.WindowSmall">
+
+    </style>
+    <style name="Widget.DeviceDefault.Spinner.DropDown" > <!--parent="Widget.Holo.Spinner.DropDown">-->
+
+    </style>
+    <style name="Widget.DeviceDefault.StackView" parent="Widget.Holo.StackView">
+
+    </style>
+    <!--add begin by rendayun -->
+    <add-resource type="style" name="Widget.DeviceDefault.ActivityChooserView" parent="Widget.Holo.ActivityChooserView" />
+    <style name="Widget.DeviceDefault.ActivityChooserView" parent="Widget.Holo.ActivityChooserView">
+        <item name="android:background">@android:drawable/yi_ab_share_pack_baidu_dark</item>
+    </style>
+    <!--add end by rendayun -->
+    <style name="Widget.DeviceDefault.TextSelectHandle" parent="Widget.Holo.TextSelectHandle">
+
+    </style>
+    <style name="Widget.DeviceDefault.TextSuggestionsPopupWindow" parent="Widget.Holo.TextSuggestionsPopupWindow">
+
+    </style>
+    <style name="Widget.DeviceDefault.TextView.ListSeparator" parent="Widget.Holo.TextView.ListSeparator">
+        <item name="android:background">@android:drawable/yi_list_section_divider_baidu_dark</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Widget.DeviceDefault.TimePicker" parent="Widget.Holo.TimePicker">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light" parent="Widget.Holo.Light" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button" parent="Widget.Holo.Light.Button" >
+        <item name="android:background">@android:drawable/yi_btn_default_baidu_light</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:minHeight">42dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Small" parent="Widget.Holo.Light.Button.Small" >
+        <item name="android:background">@android:drawable/yi_btn_default_baidu_light</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:minHeight">42dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Inset" parent="Widget.Holo.Light.Button.Inset" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Toggle" parent="Widget.Holo.Light.Button.Toggle" >
+        <item name="android:background">@android:drawable/yi_btn_toggle_baidu_light</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <add-resource type="style" name="Widget.DeviceDefault.Light.Switch.TextAppearance" parent="TextAppearance.Holo.Widget.Switch" />
+    <style name="Widget.DeviceDefault.Light.Switch.TextAppearance" parent="TextAppearance.Holo.Widget.Switch" >
+    	<item name="android:textColor">?android:attr/editTextColor</item>
+    </style>
+    <add-resource type="style" name="Widget.DeviceDefault.Light.CompoundButton.Switch" parent="Widget.Holo.Light.CompoundButton.Switch" />
+    <style name="Widget.DeviceDefault.Light.CompoundButton.Switch" parent="Widget.Holo.Light.CompoundButton.Switch" >
+        <item name="android:track">@android:drawable/yi_switch_track_baidu_light</item>
+        <item name="android:thumb">@android:drawable/yi_switch_inner_baidu_light</item>
+        <item name="android:textOn">@string/switch_null_text</item>
+        <item name="android:textOff">@string/switch_null_text</item>
+        <item name="android:thumbTextPadding">19dip</item>
+        <item name="android:switchMinWidth">76dip</item>
+        <item name="android:switchPadding">0dip</item>
+        <item name="android:switchTextAppearance">@android:style/Widget.DeviceDefault.Light.Switch.TextAppearance</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.TextView" parent="Widget.Holo.Light.TextView" >
+    
+    </style>
+    <style name="Widget.DeviceDefault.Light.AutoCompleteTextView" parent="Widget.Holo.Light.AutoCompleteTextView" >
+        <item name="android:dropDownSelector">@android:drawable/yi_list_selector_baidu_light</item>
+        <item name="android:popupBackground">@android:drawable/yi_filter_dropdown_panel_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.CompoundButton.CheckBox" parent="Widget.Holo.Light.CompoundButton.CheckBox" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ListView.DropDown" parent="Widget.Holo.Light.ListView.DropDown" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.EditText" parent="Widget.Holo.Light.EditText" >
+        <item name="android:textColorHighlight">@android:color/yi_highlighted_text_baidu_dark</item>
+        <item name="android:paddingTop">3dip</item>
+        <item name="android:paddingBottom">3dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ExpandableListView" parent="Widget.Holo.Light.ExpandableListView" >
+        <item name="android:groupIndicator">@android:drawable/yi_expander_group_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.GridView" parent="Widget.Holo.Light.GridView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ImageButton" parent="Widget.Holo.Light.ImageButton" >
+        <item name="android:background">@android:drawable/yi_btn_default_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ListView" parent="Widget.Holo.Light.ListView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.PopupWindow" parent="Widget.Holo.Light.PopupWindow" >
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar" parent="Widget.Holo.Light.ProgressBar" >
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_medium_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Horizontal" parent="Widget.Holo.Light.ProgressBar.Horizontal" >
+        <item name="android:progressDrawable">@android:drawable/yi_progress_horizontal_baidu_light</item>
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_indeterminate_horizontal_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Small" parent="Widget.Holo.Light.ProgressBar.Small" >
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_small_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Small.Title" parent="Widget.Holo.Light.ProgressBar.Small.Title" >
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_small_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Large" parent="Widget.Holo.Light.ProgressBar.Large" >
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_large_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Inverse" parent="Widget.Holo.Light.ProgressBar.Inverse" >
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_medium_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Small.Inverse" parent="Widget.Holo.Light.ProgressBar.Small.Inverse" >
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_small_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Large.Inverse" parent="Widget.Holo.Light.ProgressBar.Large.Inverse" >
+        <item name="android:indeterminateDrawable">@android:drawable/yi_progress_large_baidu_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.SeekBar" parent="Widget.Holo.Light.SeekBar" >
+        <item name="android:progressDrawable">@android:drawable/yi_scrubber_progress_horizontal_baidu_light</item>
+        <item name="android:indeterminateDrawable">@android:drawable/yi_scrubber_progress_horizontal_baidu_light</item>
+        <item name="android:thumb">@android:drawable/yi_scrubber_control_selector_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.RatingBar" parent="Widget.Holo.Light.RatingBar" >
+        <item name="android:progressDrawable">@android:drawable/yi_ratingbar_full_baidu_light</item>
+        <item name="android:indeterminateDrawable">@android:drawable/yi_ratingbar_full_baidu_light</item>
+        <item name="android:minHeight">48dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.RatingBar.Indicator" parent="Widget.Holo.Light.RatingBar.Indicator" >
+        <item name="android:progressDrawable">@android:drawable/yi_ratingbar_baidu_light</item>
+        <item name="android:indeterminateDrawable">@android:drawable/yi_ratingbar_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.RatingBar.Small" parent="Widget.Holo.Light.RatingBar.Small" >
+        <item name="android:progressDrawable">@android:drawable/yi_ratingbar_small_baidu_light</item>
+        <item name="android:indeterminateDrawable">@android:drawable/yi_ratingbar_small_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.CompoundButton.RadioButton" parent="Widget.Holo.Light.CompoundButton.RadioButton" >
+        <item name="android:button">@drawable/yi_btn_star_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ScrollView" parent="Widget.Holo.Light.ScrollView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.HorizontalScrollView" parent="Widget.Holo.Light.HorizontalScrollView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Spinner" parent="Widget.Holo.Light.Spinner" >
+        <item name="android:background">@android:drawable/yi_spinner_background_baidu_light</item>
+        <item name="android:dropDownSelector">@android:drawable/yi_list_selector_baidu_light</item>
+        <item name="android:popupBackground">@android:drawable/yi_spinner_popup_backgroud_baidu_light</item>
+        <item name="android:minWidth">90dip</item>
+        <item name="android:minHeight">35dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.CompoundButton.Star" parent="Widget.Holo.Light.CompoundButton.Star" >
+        <item name="android:button">@android:drawable/yi_btn_star_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.TabWidget" parent="Widget.DeviceDefault.TabWidget" >
+		<item name="android:background">@android:drawable/yi_ab_stacked_solid_inverse_baidu</item>
+		<item name="android:showDividers">middle</item>
+        <item name="android:divider">@android:drawable/yi_divider_vertical_tab_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.WebTextView" parent="Widget.Holo.Light.WebTextView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.WebView" parent="Widget.Holo.Light.WebView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.DropDownItem" parent="Widget.Holo.Light.DropDownItem" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.DropDownItem.Spinner" parent="Widget.Holo.Light.DropDownItem.Spinner" >
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.TextView.SpinnerItem" parent="Widget.Holo.Light.TextView.SpinnerItem" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ListPopupWindow" parent="Widget.Holo.Light.ListPopupWindow" >
+        <item name="android:dropDownSelector">@android:drawable/yi_list_selector_baidu_light</item>
+        <item name="android:popupBackground">@android:drawable/yi_spinner_popup_backgroud_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.PopupMenu" parent="Widget.DeviceDefault.Light.ListPopupWindow" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Tab" parent="Widget.Holo.Light.Tab" >
+        <item name="android:background">@android:drawable/yi_tab_indicator_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.CalendarView" parent="Widget.Holo.Light.CalendarView" >
+        <item name="android:selectedDateVerticalBar">@android:drawable/yi_day_picker_week_view_dayline_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Borderless.Small" parent="Widget.Holo.Light.Button.Borderless.Small" >
+		
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionButton" parent="Widget.Holo.Light.ActionButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionButton.Overflow" parent="Widget.Holo.Light.ActionButton.Overflow" >
+        <item name="android:src">@android:drawable/yi_ic_menu_moreoverflow_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionMode" parent="Widget.Holo.Light.ActionMode" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionButton.CloseMode" parent="Widget.Holo.Light.ActionButton.CloseMode" >
+        <item name="android:background">@drawable/yi_btn_cab_done_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar" parent="Widget.Holo.Light.ActionBar" >
+        <item name="android:background">@android:drawable/yi_ab_transparent_light_baidu</item>
+        <item name="android:backgroundStacked">@android:drawable/yi_ab_stacked_transparent_light_baidu</item>
+        <item name="android:backgroundSplit">@android:drawable/yi_ab_bottom_transparent_light_baidu</item>
+        <item name="android:homeAsUpIndicator">@android:drawable/yi_ic_ab_back_baidu_light</item>
+        <item name="android:progressBarStyle">@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal</item>
+        <item name="android:indeterminateProgressStyle">@android:style/Widget.DeviceDefault.Light.ProgressBar</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabView" parent="Widget.Holo.Light.ActionBar.TabView" >
+        <item name="android:background">@drawable/yi_tab_indicator_ab_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabText" parent="Widget.Holo.Light.ActionBar.TabText" >
+		<item name="android:textColor">@android:color/yi_primary_text_baidu_light</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">normal</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabBar" parent="Widget.Holo.Light.ActionBar.TabBar" >
+        <item name="android:showDividers">none</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.Solid" parent="Widget.Holo.Light.ActionBar.Solid" >
+        <item name="android:background">@android:drawable/yi_ab_solid_light_baidu</item>
+        <item name="android:backgroundStacked">@android:drawable/yi_ab_stacked_solid_light_baidu</item>
+        <item name="android:backgroundSplit">@android:drawable/yi_ab_bottom_solid_light_baidu</item>
+        <item name="android:progressBarStyle">@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal</item>
+        <item name="android:indeterminateProgressStyle">@android:style/Widget.DeviceDefault.Light.ProgressBar</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.Solid.Inverse" parent="Widget.Holo.Light.ActionBar.Solid.Inverse" >
+        <item name="android:titleTextStyle">@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="android:background">@android:drawable/yi_ab_solid_dark_baidu</item>
+        <item name="android:backgroundStacked">@android:drawable/yi_ab_stacked_solid_inverse_baidu</item>
+        <item name="android:backgroundSplit">@android:drawable/yi_ab_bottom_solid_inverse_baidu</item>
+        <item name="android:homeAsUpIndicator">@android:drawable/yi_ic_ab_back_baidu_dark</item>
+        <item name="android:progressBarStyle">@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal</item>
+        <item name="android:indeterminateProgressStyle">@android:style/Widget.DeviceDefault.Light.ProgressBar</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabBar.Inverse" ><!--parent="Widget.Holo.Light.ActionBar.TabBar.Inverse" -->
+		<item name="android:showDividers">none</item>
+        <item name="android:divider">@android:drawable/yi_divider_vertical_tab_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabView.Inverse" parent="Widget.Holo.Light.ActionBar.TabView.Inverse" >
+		<item name="android:background">@drawable/yi_tab_indicator_ab_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabText.Inverse" parent="Widget.Holo.Light.ActionBar.TabText.Inverse" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionMode.Inverse" parent="Widget.Holo.Light.ActionMode.Inverse" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.AbsListView" parent="Widget.Holo.Light.AbsListView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Spinner.DropDown.ActionBar" > <!--parent="Widget.Holo.Light.Spinner.DropDown.ActionBar" >-->
+        <item name="android:background">@android:drawable/yi_spinner_ab_baidu_light</item>
+        <item name="android:popupBackground">@drawable/yi_filter_dropdown_panel_baidu_light</item>
+    </style>
+    <add-resource type="style" name="Widget.DeviceDefault.Light.Spinner.DropDown.DarkActionBar" />
+    <style name="Widget.DeviceDefault.Light.Spinner.DropDown.DarkActionBar">
+        <item name="android:background">@android:drawable/yi_spinner_ab_baidu_dark</item>
+        <item name="android:popupBackground">@drawable/yi_filter_dropdown_panel_baidu_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.PopupWindow.ActionMode" parent="Widget.Holo.Light.PopupWindow.ActionMode" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Borderless" parent="Widget.Holo.Light.Button.Borderless">
+		<item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:background">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="android:minHeight">42dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.DatePicker" parent="Widget.Holo.Light.DatePicker">
+		<item name="android:internalLayout">@android:layout/yi_date_picker_baidu</item>
+    </style>
+
+    <style name="Widget.DeviceDefault.Light.ExpandableListView.White" parent="Widget.Holo.Light.ExpandableListView.White">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Gallery" parent="Widget.Holo.Light.Gallery">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.GestureOverlayView" parent="Widget.Holo.Light.GestureOverlayView">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ImageWell" parent="Widget.Holo.Light.ImageWell">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ListView.White" parent="Widget.Holo.Light.ListView.White">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.NumberPicker" parent="Widget.Holo.Light.NumberPicker">
+        <item name="android:selectionDivider">@null</item>
+        <item name="android:minWidth">55dip</item>
+        <item name="android:maxHeight">145dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.Spinner.DropDown" > <!--parent="Widget.Holo.Light.Spinner.DropDown">-->
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.TextView.ListSeparator" parent="Widget.Holo.Light.TextView.ListSeparator">
+        <item name="android:background">@android:drawable/yi_list_section_divider_baidu_light</item>
+        <item name="android:textColor">@android:color/yi_list_section_divider_text_light</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">24dip</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
+        <item name="android:paddingRight">?android:attr/listPreferredItemPaddingLeft</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.TimePicker" parent="Widget.Holo.Light.TimePicker">
+        <item name="android:internalLayout">@android:layout/yi_time_picker_baidu</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.TextSuggestionsPopupWindow" parent="Widget.Holo.Light.TextSuggestionsPopupWindow">
+
+    </style>
+    <!--add begin by rendayun -->
+    <add-resource type="style" name="Widget.DeviceDefault.Light.ActivityChooserView" parent="Widget.Holo.Light.ActivityChooserView" />
+    <style name="Widget.DeviceDefault.Light.ActivityChooserView" parent="Widget.Holo.Light.ActivityChooserView">
+        <item name="android:background">@android:drawable/yi_ab_share_pack_baidu_light</item>
+    </style>
+    <!--add end by rendayun -->
+
+    <!-- Text Appearance Styles -->
+    <style name="TextAppearance.DeviceDefault" parent="TextAppearance.Holo" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Inverse" parent="TextAppearance.Holo.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Large" parent="TextAppearance.Holo.Large" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Large.Inverse" parent="TextAppearance.Holo.Large.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Medium" parent="TextAppearance.Holo.Medium" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Medium.Inverse" parent="TextAppearance.Holo.Medium.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Small" parent="TextAppearance.Holo.Small" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Small.Inverse" parent="TextAppearance.Holo.Small.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.SearchResult.Title" parent="TextAppearance.Holo.SearchResult.Title" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.SearchResult.Subtitle" parent="TextAppearance.Holo.SearchResult.Subtitle" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget" parent="TextAppearance.Holo.Widget" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.Button" parent="TextAppearance.Holo.Widget.Button" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.IconMenu.Item" parent="TextAppearance.Holo.Widget.IconMenu.Item" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.TabWidget" parent="TextAppearance.Holo.Widget.TabWidget" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.TextView" parent="TextAppearance.Holo.Widget.TextView" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.TextView.PopupMenu" parent="TextAppearance.Holo.Widget.TextView.PopupMenu" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.DropDownHint" parent="TextAppearance.Holo.Widget.DropDownHint" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.DropDownItem" parent="TextAppearance.Holo.Widget.DropDownItem" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem" parent="TextAppearance.Holo.Widget.TextView.SpinnerItem" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.EditText" parent="TextAppearance.Holo.Widget.EditText" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.PopupMenu" parent="TextAppearance.Holo.Widget.PopupMenu" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.PopupMenu.Large" parent="TextAppearance.Holo.Widget.PopupMenu.Large" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.PopupMenu.Small" parent="TextAppearance.Holo.Widget.PopupMenu.Small" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Title" parent="TextAppearance.Holo.Widget.ActionBar.Title" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle" parent="TextAppearance.Holo.Widget.ActionBar.Subtitle" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Title" parent="TextAppearance.Holo.Widget.ActionMode.Title" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Subtitle" parent="TextAppearance.Holo.Widget.ActionMode.Subtitle" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.WindowTitle" parent="TextAppearance.Holo.WindowTitle" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.DialogWindowTitle" parent="TextAppearance.Holo.DialogWindowTitle" >
+        <item name="android:textColor">@android:color/yi_baidu_blue_light</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <add-resource type="style" name="TextAppearance.DeviceDefault.Light.DialogWindowTitle" parent="TextAppearance.Holo.Light.DialogWindowTitle" />
+    <style name="TextAppearance.DeviceDefault.Light.DialogWindowTitle" parent="TextAppearance.Holo.Light.DialogWindowTitle" >
+        <item name="android:textColor">@android:color/yi_baidu_blue_light</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse" parent="TextAppearance.Holo.Widget.ActionBar.Title.Inverse" >
+        <item name="android:textColor">@color/yi_dark_action_bar_title</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle.Inverse" parent="TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Title.Inverse" parent="TextAppearance.Holo.Widget.ActionMode.Title.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Subtitle.Inverse" parent="TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Menu" parent="TextAppearance.Holo.Widget.ActionBar.Menu" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:shadowColor">#33000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">5.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light" parent="TextAppearance.Holo.Light">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Inverse" parent="TextAppearance.Holo.Light.Inverse">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Large" parent="TextAppearance.Holo.Light.Large">
+		<item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Large.Inverse" parent="TextAppearance.Holo.Light.Large.Inverse">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Medium" parent="TextAppearance.Holo.Light.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Medium.Inverse" parent="TextAppearance.Holo.Light.Medium.Inverse">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.SearchResult.Subtitle" parent="TextAppearance.Holo.Light.SearchResult.Subtitle">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.SearchResult.Title" parent="TextAppearance.Holo.Light.SearchResult.Title">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Small" parent="TextAppearance.Holo.Light.Small">
+		<item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Small.Inverse" parent="TextAppearance.Holo.Light.Small.Inverse">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Widget.Button" parent="TextAppearance.Holo.Light.Widget.Button">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Widget.PopupMenu.Large" parent="TextAppearance.Holo.Light.Widget.PopupMenu.Large">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Widget.PopupMenu.Small" parent="TextAppearance.Holo.Light.Widget.PopupMenu.Small">
+
+    </style>
+
+
+    <!-- Preference Styles -->
+    <style name="Preference.DeviceDefault" parent="Preference.Holo">
+        <item name="android:layout">@android:layout/yi_preference_baidu</item>
+    </style>
+    <style name="Preference.DeviceDefault.Category" parent="Preference.Holo.Category">
+    	<!-- 
+        <item name="android:layout">@android:layout/yi_preference_category_baidu</item>
+         -->
+    </style>
+    <style name="Preference.DeviceDefault.CheckBoxPreference" parent="Preference.Holo.CheckBoxPreference">
+        <item name="android:layout">@android:layout/yi_preference_baidu</item>
+    </style>
+    <style name="Preference.DeviceDefault.DialogPreference" parent="Preference.Holo.DialogPreference">
+        <item name="android:layout">@android:layout/yi_preference_baidu</item>
+    </style>
+    <style name="Preference.DeviceDefault.DialogPreference.EditTextPreference" parent="Preference.Holo.DialogPreference.EditTextPreference">
+        <item name="android:layout">@android:layout/yi_preference_baidu</item>
+    </style>
+    <add-resource type="style" name="Preference.DeviceDefault.Light.DialogPreference.EditTextPreference" parent="Preference.DeviceDefault.DialogPreference.EditTextPreference" />
+    <style name="Preference.DeviceDefault.Light.DialogPreference.EditTextPreference" parent="Preference.DeviceDefault.DialogPreference.EditTextPreference">
+        <item name="android:dialogLayout">@android:layout/yi_preference_dialog_edittext_light</item>
+    </style>
+    <style name="Preference.DeviceDefault.DialogPreference.YesNoPreference" parent="Preference.Holo.DialogPreference.YesNoPreference">
+        <item name="android:layout">@android:layout/yi_preference_baidu</item>
+    </style>
+    <style name="Preference.DeviceDefault.Information" parent="Preference.Holo.Information">
+		<item name="android:layout">@android:layout/yi_preference_baidu</item>
+    </style>
+    <style name="Preference.DeviceDefault.PreferenceScreen" parent="Preference.Holo.PreferenceScreen">
+        <item name="android:layout">@android:layout/yi_preference_baidu</item>
+    </style>
+    <style name="Preference.DeviceDefault.RingtonePreference" parent="Preference.Holo.RingtonePreference">
+        <item name="android:layout">@android:layout/yi_preference_baidu</item>
+    </style>
+    <style name="Preference.DeviceDefault.SwitchPreference" parent="Preference.Holo.SwitchPreference">
+        <item name="android:layout">@android:layout/yi_preference_baidu</item>
+        <item name="android:switchTextOn">@string/switch_null_text</item>
+        <item name="android:switchTextOff">@string/switch_null_text</item>
+    </style>
+
+
+    <!-- AlertDialog Styles -->
+    <style name="AlertDialog.DeviceDefault" parent="AlertDialog.Holo">
+        <item name="fullDark">@android:drawable/yi_dialog_full_baidu_dark</item>
+        <item name="topDark">@android:drawable/yi_dialog_top_baidu_dark</item>
+        <item name="centerDark">@android:drawable/yi_dialog_middle_baidu_dark</item>
+        <item name="bottomDark">@android:drawable/yi_dialog_bottom_baidu_dark</item>
+        <item name="fullBright">@android:drawable/yi_dialog_full_baidu_dark</item>
+        <item name="topBright">@android:drawable/yi_dialog_top_baidu_dark</item>
+        <item name="centerBright">@android:drawable/yi_dialog_middle_baidu_dark</item>
+        <item name="bottomBright">@android:drawable/yi_dialog_bottom_baidu_dark</item>
+        <item name="bottomMedium">@android:drawable/yi_dialog_bottom_baidu_dark</item>
+        <item name="centerMedium">@android:drawable/yi_dialog_middle_baidu_dark</item>
+        <item name="layout">@android:layout/yi_alert_dialog_baidu</item>
+    </style>
+    <style name="AlertDialog.DeviceDefault.Light" ><!--parent="AlertDialog.Holo.Light" -->
+        <item name="fullDark">@android:drawable/yi_dialog_full_baidu_light</item>
+        <item name="topDark">@android:drawable/yi_dialog_top_baidu_light</item>
+        <item name="centerDark">@android:drawable/yi_dialog_middle_baidu_light</item>
+        <item name="bottomDark">@android:drawable/yi_dialog_bottom_baidu_light</item>
+        <item name="fullBright">@android:drawable/yi_dialog_full_baidu_light</item>
+        <item name="topBright">@android:drawable/yi_dialog_top_baidu_light</item>
+        <item name="centerBright">@android:drawable/yi_dialog_middle_baidu_light</item>
+        <item name="bottomBright">@android:drawable/yi_dialog_bottom_baidu_light</item>
+        <item name="bottomMedium">@android:drawable/yi_dialog_bottom_medium_baidu_light</item>
+        <item name="centerMedium">@android:drawable/yi_dialog_middle_baidu_light</item>
+        <item name="layout">@android:layout/yi_alert_dialog_baidu_light</item>
+        <item name="listLayout">@android:layout/yi_select_dialog_baidu_light</item>
+        <item name="listItemLayout">@android:layout/yi_select_dialog_item_baidu_light</item>
+        <item name="multiChoiceItemLayout">@android:layout/yi_select_dialog_multichoice_baidu_light</item>
+        <item name="singleChoiceItemLayout">@android:layout/yi_select_dialog_singlechoice_baidu_light</item>
+    </style>
+
+
+    <!-- Animation Styles -->
+    <style name="Animation.DeviceDefault.Activity" parent="Animation.Holo.Activity">
+
+    </style>
+    <style name="Animation.DeviceDefault.Dialog" parent="Animation.Holo.Dialog">
+
+    </style>
+
+    <!-- DialogWindowTitle Styles -->
+    <style name="DialogWindowTitle.DeviceDefault" parent="DialogWindowTitle.Holo">
+        <item name="android:textAppearance">@style/TextAppearance.DeviceDefault.DialogWindowTitle</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="DialogWindowTitle.DeviceDefault.Light" parent="DialogWindowTitle.Holo.Light">
+        <item name="android:textAppearance">@style/TextAppearance.DeviceDefault.Light.DialogWindowTitle</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <!-- WindowTitle Styles -->
+    <style name="WindowTitle.DeviceDefault" parent="WindowTitle.Holo">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WindowTitleBackground.DeviceDefault" parent="WindowTitleBackground.Holo">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <!-- Other Styles -->
+    <style name="DeviceDefault.ButtonBar" parent="Holo.ButtonBar" >
+
+    </style>
+    <style name="DeviceDefault.ButtonBar.AlertDialog" parent="Holo.ButtonBar.AlertDialog" >
+		
+    </style>
+    <style name="DeviceDefault.SegmentedButton" parent="Holo.SegmentedButton" >
+        <item name="android:background">@android:drawable/yi_btn_group_baidu_dark</item>
+    </style>
+    <style name="DeviceDefault.Light.ButtonBar" parent="Holo.Light.ButtonBar" >
+		<item name="divider">@android:drawable/yi_divider_vertical_tab_baidu_light</item>
+		<item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">10dip</item>
+    </style>
+
+    <style name="DeviceDefault.Light.ButtonBar.AlertDialog" parent="Holo.Light.ButtonBar.AlertDialog" >
+		<item name="android:divider">@android:drawable/yi_divider_vertical_tab_baidu_light</item>
+    </style>
+    <style name="DeviceDefault.Light.SegmentedButton" parent="Holo.Light.SegmentedButton" >
+        <item name="android:background">@android:drawable/yi_btn_group_baidu_light</item>
+    </style>
+
+    <style name="Animation.DropDownUp">
+        <item name="windowEnterAnimation">@anim/slide_down_up</item>
+        <item name="windowExitAnimation">@anim/slide_down_down</item>
+    </style>
+
+    <style name="Animation.DropDownDown">
+        <item name="windowEnterAnimation">@anim/slide_up_down</item>
+        <item name="windowExitAnimation">@anim/slide_up_up</item>
+    </style>
+
+</resources>

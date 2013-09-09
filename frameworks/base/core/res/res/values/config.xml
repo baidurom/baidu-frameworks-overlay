@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- List of regexpressions describing the interface (if any) that represent tetherable
+         Wifi interfaces.  If the device doesn't want to support tethering over Wifi this
+         should be empty.  An example would be "softap.*" -->
+    <string-array translatable="false" name="config_tether_wifi_regexs">
+        <item>softap</item>
+    </string-array>
+
+    <!--add headset slot-->
+    <string-array name="config_statusBarIcons">
+       <item><xliff:g id="id">ime</xliff:g></item>
+       <item><xliff:g id="id">sync_failing</xliff:g></item>
+       <item><xliff:g id="id">sync_active</xliff:g></item>
+       <item><xliff:g id="id">gps</xliff:g></item>
+       <item><xliff:g id="id">bluetooth</xliff:g></item>
+       <item><xliff:g id="id">nfc</xliff:g></item>
+       <item><xliff:g id="id">tty</xliff:g></item>
+       <item><xliff:g id="id">speakerphone</xliff:g></item>
+       <item><xliff:g id="id">mute</xliff:g></item>
+       <item><xliff:g id="id">volume</xliff:g></item>
+       <item><xliff:g id="id">wifi</xliff:g></item>
+       <item><xliff:g id="id">headset</xliff:g></item>
+       <item><xliff:g id="id">cdma_eri</xliff:g></item>
+       <item><xliff:g id="id">data_connection</xliff:g></item>
+       <item><xliff:g id="id">phone_evdo_signal</xliff:g></item>
+       <item><xliff:g id="id">phone_signal</xliff:g></item>
+       <item><xliff:g id="id">battery</xliff:g></item>
+       <item><xliff:g id="id">alarm_clock</xliff:g></item>
+       <item><xliff:g id="id">secure</xliff:g></item>
+       <item><xliff:g id="id">clock</xliff:g></item>
+    </string-array>
+
+    <!--add baidu location provider-->
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <!-- The standard AOSP fused location provider -->
+        <item>com.android.location.fused</item>
+        <item>com.baidu.map.location</item>
+    </string-array>
+
+    <!-- List of regexpressions describing the interface (if any) that represent tetherable
+         Wifi interfaces.  If the device doesn't want to support tethering over Wifi this
+         should be empty.  An example would be "softap.*" -->
+    <string-array translatable="false" name="config_tether_wifi_regexs">
+        <item>softap</item>
+    </string-array>
+
+    <!-- Component name of the default wallpaper. This will be ImageWallpaper if not
+         specified -->
+    <string name="default_wallpaper_component">@null</string>
+
+    <!-- The default iface on which to monitor data use -->
+    <string name="config_datause_iface">rmnet0</string>
+
+
+    <!-- IP address of the dns server to use if nobody else suggests one -->
+    <string name="config_default_dns_server">8.8.8.8</string>
+
+    <!-- The default character set for GsmAlphabet -->
+    <!-- Empty string means MBCS is not considered -->
+    <string name="gsm_alphabet_default_charset"></string>
+
+    <string name="config_useragentprofile_url"></string>
+
+
+    <!-- Do not translate. Defines the slots is Two Digit Number for dialing normally not USSD -->
+    <string-array name="config_twoDigitNumberPattern">
+    </string-array>
+
+    <string name="config_wimaxServiceJarLocation"></string>
+    <!-- Location of the wimax native library locaiton -->
+    <string name="config_wimaxNativeLibLocation"></string>
+    <!-- Name of the wimax manager class -->
+    <string name="config_wimaxManagerClassname"></string>
+    <!-- Name of the wimax service class -->
+    <string name="config_wimaxServiceClassname"></string>
+    <!-- Name of the wimax state tracker clas -->
+    <string name="config_wimaxStateTrackerClassname"></string>
+
+    <!-- bhpan:animation time length -->
+    <integer name="config_activityShortDur">130</integer>
+    <integer name="config_activityDefaultDur">330</integer>
+
+   <add-resource type="bool" name="config_wakeup_by_volume_key"/>
+   <bool name="config_wakeup_by_volume_key">false</bool> 
+   <add-resource type="bool" name="config_pbap_support"/>
+   <bool name="config_pbap_support">false</bool>
+</resources>

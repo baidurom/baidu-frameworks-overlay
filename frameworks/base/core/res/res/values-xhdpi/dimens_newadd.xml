@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--yi add begin-->
+    <add-resource type="dimen" name="yi_magnifier_range_padding" />
+    <dimen name="yi_magnifier_range_padding">4dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_password_top_padding" />
+    <dimen name="yi_lockscreen_password_top_padding">6dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_pin_top_padding" />
+    <dimen name="yi_lockscreen_pin_top_padding">52dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_hotword1_padding" />
+    <dimen name="yi_lockscreen_hotword1_padding">241dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_hotword2_padding" />
+    <dimen name="yi_lockscreen_hotword2_padding">256dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_hotword3_padding" />
+    <dimen name="yi_lockscreen_hotword3_padding">90dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_hotword4_padding" />
+    <dimen name="yi_lockscreen_hotword4_padding">159dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_hotword5_padding" />
+    <dimen name="yi_lockscreen_hotword5_padding">48dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_hotword6_padding" />
+    <dimen name="yi_lockscreen_hotword6_padding">248dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_hotword7_padding" />
+    <dimen name="yi_lockscreen_hotword7_padding">102dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_unlockwidget_margintop" />
+    <dimen name="yi_lockscreen_unlockwidget_margintop">304dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_voiceprint_height" />
+    <dimen name="yi_lockscreen_voiceprint_height">356dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_password_height" />
+    <dimen name="yi_lockscreen_password_height">356dip</dimen>
+    <!--yi add end-->
+    <!-- BEGIN BAIDU, cairui01@baidu.com -->
+    <add-resource type="dimen" name="zz_lockscreen_flipper_width" />
+    <add-resource type="dimen" name="zz_lockscreen_unlock_widget_margin_top" />
+    <add-resource type="integer" name="zz_lockscreen_unlock_widget_distance" />
+    <add-resource type="dimen" name="zz_lockscreen_unlock_widget_center_offset" />
+    <add-resource type="dimen" name="zz_lockscreen_status_height" />
+    <add-resource type="dimen" name="zz_smartmultiUnlockview_target_placement_radius" />
+    <dimen name="zz_lockscreen_flipper_width">360dip</dimen>
+    <dimen name="zz_lockscreen_unlock_widget_margin_top">-10dip</dimen>
+    <dimen name="zz_lockscreen_unlock_widget_center_offset">20dip</dimen>
+    <dimen name="zz_lockscreen_status_height">310dip</dimen>
+    <dimen name="zz_smartmultiUnlockview_target_placement_radius">110dip</dimen>
+    <!-- END -->
+</resources>

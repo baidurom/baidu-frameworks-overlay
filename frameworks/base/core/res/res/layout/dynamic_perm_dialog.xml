@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/res/layout/alert_dialog.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentPanel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dip"
+    android:layout_marginRight="8dip"
+    android:orientation="vertical">
+
+        <LinearLayout android:id="@+id/title_template"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+	        android:gravity="center_vertical|center_horizontal"
+            android:minHeight="61dp"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+			android:background="@drawable/yi_dialog_top_baidu_light">
+                    
+            <ImageView android:id="@+id/dialog_title_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+               android:src="@null"  />
+
+            <com.android.internal.widget.DialogTitle
+                style="?android:attr/windowTitleStyle"
+		android:textSize="16sp"
+                android:textColor="#ff5597d3"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dynamic_perm_popup_dialog_title"/>
+        </LinearLayout>
+         <View android:id="@+id/titleDivider"
+	 
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:visibility="gone"
+            android:background="#ff5597d3" />
+
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+		android:background="@drawable/yi_dialog_bottom_baidu_light">
+    <LinearLayout android:id="@+id/contentPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <ScrollView android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+	        android:clipToPadding="false"
+            android:paddingTop="4dip"
+            android:paddingLeft="14dip"
+            android:paddingRight="10dip"
+            android:scrollbarStyle="outsideOverlay"
+            android:overScrollMode="ifContentScrolls">
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                
+                <TextView android:id="@+id/dialog_text"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dip"
+                android:lineSpacingExtra="6dip"/>
+                
+                <TextView android:id="@+id/dialog_phone_num_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:visibility="gone"
+                android:textSize="16sp"
+                android:textColor="?android:attr/textColorPrimary"/>
+                
+                <TextView android:id="@+id/dialog_sms_content_text"
+                android:textSize="16sp"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:paddingTop="10dip"
+                android:visibility="gone"/>
+        
+            </LinearLayout>
+            
+        </ScrollView>
+        
+    </LinearLayout>
+
+    <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/remember_cbx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="10dip"
+	    android:text="@string/remember_info_text" />
+
+        <TextView android:id="@+id/remember_tips"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="38dip"
+            android:paddingRight="10dip"
+            android:textColor="?android:attr/textColorSecondary"
+            android:text="@string/remember_tips_text"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+	    	android:minHeight="42dp"
+            android:orientation="vertical"
+            android:divider="?android:attr/dividerHorizontal"
+            android:paddingTop="0dip">
+
+        <LinearLayout
+	    style="?android:attr/buttonBarStyle"
+            android:paddingTop="2dip"
+            android:paddingBottom="8dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:showDividers="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:measureWithLargestChild="true">
+
+            <Button android:id="@+id/deny_btn"
+                android:layout_width="0dip"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+				android:layout_marginLeft="8dip"
+				android:layout_marginRight="4dip"
+                android:text="@string/deny_btn_text"
+                android:maxLines="2"
+                style="?android:attr/buttonStyle"
+                android:textSize="14sp"
+                android:layout_height="wrap_content" />
+
+            <Button android:id="@+id/permit_btn"
+                android:layout_width="0dip"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+				android:layout_marginRight="8dip"
+                android:text="@string/permit_btn_text"
+                android:maxLines="2"
+                style="?android:attr/buttonStyle"
+                android:textSize="14sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>
