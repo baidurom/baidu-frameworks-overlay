@@ -26,7 +26,7 @@
 
     <!-- Size of clock font in LockScreen on Unsecure unlock screen. -->
     <dimen name="keyguard_lockscreen_clock_font_size">70dip</dimen>
-    
+
     <dimen name="notification_large_icon_width">58dip</dimen>
 
     <dimen name="preference_screen_header_padding_side">0dip</dimen>

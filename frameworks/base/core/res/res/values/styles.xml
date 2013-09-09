@@ -58,6 +58,14 @@ please see styles_device_defaults.xml.
         <item name="shadowRadius">2.75</item>
     </style>
 
+    <style name="Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/yi_progress_horizontal_baidu_light</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
     <style name="Widget.Holo.EditText" parent="Widget.EditText">
         <item name="textColorHighlight">@color/highlighted_text_holo_dark</item>
     </style>
@@ -111,4 +119,5 @@ please see styles_device_defaults.xml.
     <style name="TextAppearance.StatusBar.EventContent.Time">
         <!-- inherit all -->
     </style>
+
 </resources>

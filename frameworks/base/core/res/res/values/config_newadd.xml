@@ -2,4 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <add-resource type="integer" name="config_automatic_rotate_delay"/>
     <integer name="config_automatic_rotate_delay">2</integer>
+    <add-resource type="bool" name="config_close_button_backlight"/>
+    <bool name="config_close_button_backlight">false</bool>
 </resources>
