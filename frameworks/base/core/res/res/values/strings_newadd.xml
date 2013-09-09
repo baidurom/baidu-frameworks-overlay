@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!--ADDED BY FDRS BEGIN-->
+    <add-resource type="string" name="search_baidu_web" />
+    <add-resource type="string" name="custom_ringtone_picker" />
+    <add-resource type="string" name="permission_dialog_title" />
+    <add-resource type="string" name="permission_dialog_button_ok" />
+    <add-resource type="string" name="permission_confirm_grant" />
+    <add-resource type="string" name="permission_confirm_deny" />
+    <add-resource type="string" name="permission_prompt" />
+    <add-resource type="string" name="permission_desc_mms" />
+    <add-resource type="string" name="permission_desc_phone" />
+    <add-resource type="string" name="permission_desc_message" />
+    <add-resource type="string" name="permission_settings" />
+    <add-resource type="string" name="permission_dangrous_warning" />
+    <add-resource type="string" name="permission_statusbar_show" />
+    <add-resource type="string" name="permission_statusbar_ignore" />
+    <add-resource type="string" name="permission_toast_deny" />
+    <add-resource type="string" name="permission_toast_eliminated" />
+    <add-resource type="string" name="permission_send_sms_message" />
+    <add-resource type="string" name="permission_call_phone_message" />
+    <add-resource type="string" name="invalidPinRemainTime" />
+	<add-resource type="string" name="invalidPinOneRemainTime" />
+	<add-resource type="string" name="internal_sd" />
+	<add-resource type="string" name="external_sd" />
+
+    <string name="search_baidu_web">http://m.baidu.com/s?from=1635a&amp;word=<xliff:g id="content_type">%s</xliff:g>&amp;ua=baidu_800_480_Nexus*S_1.0</string>
+    <string name="custom_ringtone_picker">Pick ringtones from media</string>
+    <string name="permission_dialog_title">Attention</string>
+    <string name="permission_dialog_button_ok">OK</string>
+    <string name="permission_confirm_grant">Grant</string>
+    <string name="permission_confirm_deny">Deny</string>
+    <string name="permission_prompt">"Always prompting"</string>
+    <string name="permission_desc_mms">" is sending SMS"</string>
+    <string name="permission_desc_phone">" is calling"</string>
+    <string name="permission_desc_message">"Choose Grant may cost your money</string>
+    <string name="permission_settings">You can change your choice in Settings-> Application management</string>
+    <string name="permission_dangrous_warning">" application(s) is attempting to cost your money"</string>
+    <string name="permission_statusbar_show">"Show"</string>
+    <string name="permission_statusbar_ignore">"Check it later"</string>
+    <string name="permission_toast_deny">"request has been denied"</string>
+    <string name="permission_toast_eliminated">"request has been automaticlly denied.There are too many starting fee-based service requests waiting for your handling, please handle the previous requests first!"</string>
+    <string name="permission_send_sms_message">"Sending Message"</string>
+    <string name="permission_call_phone_message">"Making A Phone Call"</string>
+	<string name="internal_sd">Internal SD Card</string>
+	<string name="external_sd">External SD Card</string>
+<!--ADDED BY FDRS END-->
+
+    <add-resource type="string" name="badPuk_one" />
+    <add-resource type="string" name="simInvalidation" />
+    <string name="badPuk_one">The PUK is not correct （<xliff:g id="HOW_MANY_TIMES">%s</xliff:g> times left）.</string>
+    <string name="simInvalidation">"This SIM card has been abandoned, please call customer service for help."</string>
+    <add-resource type="string" name="badPuk_noretrytime" />
+    <string name="badPuk_noretrytime">The PUK is not correct.</string>
+
+    <string name="invalidPinRemainTime">Type a PIN that is 4 to 8 numbers （<xliff:g id="HOW_MANY_TIMES">%s</xliff:g> times left）.</string>
+    <string name="invalidPinOneRemainTime">Type a PIN that is 4 to 8 numbers （<xliff:g id="HOW_MANY_TIMES">%s</xliff:g> time left）.</string>
+
+    <add-resource type="string" name="invalidPuk_one" />
+    <string name="invalidPuk_one">Type a PUK that is 8 digits （<xliff:g id="HOW_MANY_TIMES">%s</xliff:g> times left）.</string>
+    <add-resource type="string" name="invalidPuk_noremaintime" />
+    <string name="invalidPuk_noremaintime">Type a PUK that is 8 digits.</string>
+
+    <!-- Button to reboot the phone, within the Phone Options dialog -->
+    <add-resource type="string" name="reboot" />
+    <string name="reboot">Reboot</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <add-resource type="string" name="reboot_progress" />
+    <string name="reboot_progress">Rebooting\u2026</string>
+    <!-- Reboot Confirmation Dialog.  When the user chooses to reboot the phone, there will be a confirmation dialog.  This is the message. -->
+    <add-resource type="string" name="reboot_confirm" />
+    <string name="reboot_confirm">Your phone will reboot.</string>
+
+    <!-- label for item that turns reboot in phone options dialog -->
+    <add-resource type="string" name="global_action_reboot" />
+    <string name="global_action_reboot">Reboot</string>
+
+    <add-resource type="string" name="global_actions_toggle_airplane_mode_off" />
+    <string name="global_actions_toggle_airplane_mode_off">Disable airplane mode</string>
+
+    <add-resource type="string" name="keyguard_password_wrong_pin_code_one" />
+    <string name="keyguard_password_wrong_pin_code_one">Incorrect PIN code （<xliff:g id="HOW_MANY_TIMES">%s</xliff:g> time left）.</string>
+    <add-resource type="string" name="keyguard_password_wrong_pin_code_no_remain_time" />
+    <string name="keyguard_password_wrong_pin_code_no_remain_time">Incorrect PIN code.</string>
+
+    <add-resource type="string" name="lockscreen_interpretation" />
+    <add-resource type="string" name="lockscreen_statusbar_title" />
+    <add-resource type="string" name="lockscreen_statusbar_msg" />
+    <add-resource type="string" name="lockscreen_voiceprint_interpretation" />
+	<string name="lockscreen_interpretation">Slide down to unlock screen</string>
+	<string name="lockscreen_voiceprint_interpretation">"Slide horizontally to switch voiceprint"</string>
+	<string name="lockscreen_statusbar_title">"Hot Words Search lockscreen mode is in use"</string>
+	<string name="lockscreen_statusbar_msg">"You can modify it by clicking or Setting in setting > System > Security > Lock Screen"</string>
+
+    <add-resource type="string" name="ringtone_picker_select_title" />
+    <add-resource type="string" name="ringtone_picker_custom_title" />
+    <add-resource type="string" name="ringtone_picker_sdcard_unmount" />
+    <add-resource type="string" name="ringtone_picker_sdcard_busy" />
+    <add-resource type="string" name="ringtone_picker_sdcard_empty" />
+    <add-resource type="string" name="ringtone_picker_nothing_selectecd" />
+	 <string name="ringtone_picker_select_title">Ringtone Settings</string>
+    <string name="ringtone_picker_custom_title">Custom Ringtones</string>
+    <string name="ringtone_picker_sdcard_unmount">"SD card not mounted"</string>
+    <string name="ringtone_picker_sdcard_busy">"SD card not available, try later"</string>
+    <string name="ringtone_picker_sdcard_empty">"No ringtone found in SD card"</string>
+    <string name="ringtone_picker_nothing_selectecd">"None selected"</string>
+
+    <!-- please DONT change below one string resource and DONT need translation -->
+    <add-resource type="string" name="baidu_account_verify_code_bind" />
+    <add-resource type="string" name="baidu_account_verify_code_password" />
+    <string name="baidu_account_verify_code_bind">这条短信来自百度账户，用于绑定您装有Yi平台的手机。系统已自动捕捉短信，短信不会产生额外的费用。</string>
+    <string name="baidu_account_verify_code_password">这条短信来自百度账户，用于找回密码。系统已自动捕捉短信，短信不会产生额外的费用。</string>
+
+    <!-- YI ADD BEGIN -->
+    <add-resource type="string" name="elapsed_time_long_format_h_mm_ss" />
+    <add-resource type="string" name="lunar_year" />
+    <add-resource type="string" name="lunar_month" />
+    <add-resource type="string" name="lunar_day" />
+    <add-resource type="string" name="lunar_leap" />
+    <add-resource type="string" name="lunar_chushi" />
+    <add-resource type="string" name="lunar_ershi" />
+    <add-resource type="string" name="lunar_sanshi" />
+    <!-- Format string for times like "01:43:33" (1 hour, 43 minutes, 33 seconds) add for rice begin-->
+    <string name="elapsed_time_long_format_h_mm_ss"><xliff:g id="hours" example="1">%1$02d</xliff:g>:<xliff:g id="minutes" example="43">%2$02d</xliff:g>:<xliff:g id="seconds" example="33">%3$02d</xliff:g></string>
+	<!--begin by taozui. add lunar string. -->
+	<string name="lunar_year"></string>
+	<string name="lunar_month"></string>
+	<string name="lunar_day"></string>
+	<string name="lunar_leap"></string>
+	<string name="lunar_chushi"></string>
+	<string name="lunar_ershi"></string>
+	<string name="lunar_sanshi"></string>
+    <add-resource type="array" name="chineseNumber" />
+	<string-array name="chineseNumber">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+    
+    <add-resource type="array" name="chineseDay" />
+	<string-array name="chineseDay">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+    <add-resource type="array" name="gan" />
+	<string-array name="gan">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+    <add-resource type="array" name="zhi" />
+	<string-array name="zhi">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+    <add-resource type="array" name="animals" />
+	<string-array name="animals">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+    <add-resource type="array" name="chineseTen" />
+	<string-array name="chineseTen">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+    <add-resource type="array" name="solar_terms" />
+	<string-array name="solar_terms">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+    <add-resource type="array" name="chineseYear" />
+	<string-array name="chineseYear">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+    <add-resource type="array" name="chineseTimeSection" />
+	<string-array name="chineseTimeSection">
+	<!-- chinese traditional time section -->
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+
+    <add-resource type="string" name="eventTypeLunarBirthday" />
+    <add-resource type="string" name="china_telecom" />
+    <add-resource type="string" name="china_unicom" />
+    <add-resource type="string" name="china_mobile" />
+    <add-resource type="string" name="caller_info_or" />
+    <add-resource type="string" name="caller_info_or_other" />
+
+    <string name="eventTypeLunarBirthday">Lunar Birthday</string>
+
+	<string name="china_telecom">China Telecom</string>
+	<string name="china_unicom">China Unicom</string>
+	<string name="china_mobile">China Mobile</string>
+
+        <string name="caller_info_or">Or</string>
+        <string name="caller_info_or_other">Or other <xliff:g id="how_many_people">%s</xliff:g> people</string>
+
+    <!-- dynamic permission dialog -->
+
+    <add-resource type="string" name="dynamic_perm_dialog_msg" />
+    <add-resource type="string" name="deny_btn_text" />
+    <add-resource type="string" name="permit_btn_text" />
+    <add-resource type="string" name="dynamic_perm_popup_dialog_title" />
+    <add-resource type="string" name="remember_info_text" />
+    <add-resource type="string" name="action_call" />
+    <add-resource type="string" name="action_sms" />
+    <add-resource type="string" name="action_mms" />
+    <add-resource type="string" name="action_access_call_log" />
+    <add-resource type="string" name="action_access_sms" />
+    <add-resource type="string" name="action_access_contacts" />
+    <add-resource type="string" name="action_access_location" />
+    <add-resource type="string" name="remember_tips_text" />
+    <add-resource type="string" name="phone_call_info_msg" />
+    <add-resource type="string" name="phone_sms_info_msg" />
+    <add-resource type="string" name="sms_info_msg" />
+    <add-resource type="string" name="data_sms_msg" />
+
+    <string name="dynamic_perm_dialog_msg"><xliff:g id="app_name">%1$s</xliff:g> is trying to request <xliff:g id="action_name">%2$s</xliff:g></string>
+    <string name="action_call">make a call</string>
+    <string name="action_sms">send a message</string>
+    <string name="action_mms">send a MMS</string>
+    <string name="action_access_call_log">access the call logs</string>
+    <string name="action_access_sms">access the messages</string>
+    <string name="action_access_contacts">access the contacts</string>
+    <string name="action_access_location">access location</string>
+    <string name="deny_btn_text">Deny</string>
+    <string name="permit_btn_text">Allow</string>
+    <string name="dynamic_perm_popup_dialog_title">Warning</string>
+    <string name="remember_info_text">Save my choice</string>
+    <string name="remember_tips_text">Set Dynamic App Manager via "Settings">"Security">"Permission monitor" on the main screen.</string>
+    <string name="phone_call_info_msg">Outgoing call:<xliff:g id="PHONE_NUM">%1$s</xliff:g></string>
+    <string name="phone_sms_info_msg">To:<xliff:g id="PHONE_NUM">%1$s</xliff:g></string>
+    <string name="sms_info_msg">Message:<xliff:g id="SMS_CONTENT">%1$s</xliff:g></string>
+    <string name="data_sms_msg">Data message</string>
+
+    <add-resource type="string" name="policy_name_battery_low" />
+    <add-resource type="string" name="policy_name_screen_off" />
+    <add-resource type="string" name="mode_name_normal" />
+    <add-resource type="string" name="mode_name_super" />
+
+    <string name="policy_name_battery_low">Power Save when Battery Low</string>
+    <string name="policy_name_screen_off">Power Save when Screen Off</string>
+    <string name="mode_name_normal">Normal Mode</string>
+    <string name="mode_name_super">Super Standby Mode</string>
+
+    <add-resource type="string" name="low_battery_toast" />
+    <add-resource type="string" name="power_settings_notification_title" />
+    <add-resource type="string" name="power_settings_notification_message" />
+    <add-resource type="string" name="charge_complete" />
+    <add-resource type="string" name="low_battery_dialog_title" />
+    <add-resource type="string" name="low_battery_dialog_desc" />
+    <add-resource type="string" name="low_battery_dialog_tips" />
+    <add-resource type="string" name="remember_my_choice" />
+    <string name="low_battery_toast">Power saving enabled at low battery.</string>
+    <string name="power_settings_notification_title">Smart power saving mode available</string>
+    <string name="power_settings_notification_message">Click to check details or change settings</string>
+    <string name="charge_complete">Battery Full.</string>
+    <string name="low_battery_dialog_title">Battery level below %1$s</string>
+    <string name="low_battery_dialog_desc">Power-saving mode launched with calls only.\nPower-saving exits automatically when power recovers.</string>
+    <string name="low_battery_dialog_tips">Change your option through "Settings"->"Battery"->"Smart Power Saving Settings" on home screen</string>
+    <string name="remember_my_choice">Remember my option</string>
+
+    <add-resource type="string" name="network_invalid" />
+    <string name="network_invalid">Network invalid, please check the configuration</string>
+    <add-resource type="string" name="switch_null_text" />
+    <string name="switch_null_text"></string>
+
+    <add-resource type="string" name="web_baike" />
+    <add-resource type="string" name="web_translator" />
+    <string name="web_baike">Baike</string>
+    <string name="web_translator">Translator</string>
+    <add-resource type="string" name="global_action_screenshot" />
+    <string name="global_action_screenshot">Screenshot</string>
+
+    <add-resource type="string" name="voice_search_not_found" />
+    <add-resource type="string" name="voice_search_unavailable" />
+    <string name="voice_search_not_found" >You do not install Voice Search Box</string>
+    <string name="voice_search_unavailable">Voice Search has been stopt，you can reset from setting</string>
+
+    <!-- BEGIN BAIDU, cairui01@baidu.com.cn -->
+    <!-- WeatherView of Lock Screen -->
+    <add-resource type="string" name="zz_lockscreen_temperature_units" />
+    <add-resource type="string" name="zz_lockscreen_month_day_hour_minute" />
+ 
+    <string name="zz_lockscreen_temperature_units">°</string>
+    <string name="zz_lockscreen_month_day_hour_minute">MM/dd hh:mm a</string>
+    <!-- END -->
+	
+    <!-- BEGIN BAIDU, wangzirui@baidu.com -->
+    <!-- CL-44871 -->
+    <add-resource type="string" name="progress_unmounting_target" />
+    <add-resource type="string" name="progress_erasing_target" />
+    <string name="progress_unmounting_target">Unmounting <xliff:g id="sdcard">%s</xliff:g>...</string>
+    <string name="progress_erasing_target">Erasing <xliff:g id="sdcard">%s</xliff:g>...</string>
+    <!-- END -->
+
+    <!-- BEGIN BAIDU, huzhenyuan@baidu.com -->
+    <add-resource type="string" name="baidu_keyguard_hotword_am" />
+    <add-resource type="string" name="baidu_keyguard_hotword_pm" />
+    <add-resource type="string" name="baidu_keyguard_hotword_date_format" />
+    <string name="baidu_keyguard_hotword_am">AM</string>
+    <string name="baidu_keyguard_hotword_pm">PM</string>
+    <string name="baidu_keyguard_hotword_date_format">EEE, MMMM d</string>
+
+    <!-- BEGIN BAIDU, v_wudi@baidu.com -->
+    <!-- CL-47236 -->
+    <add-resource type="string" name="ringtone_custom" />
+    <string name="ringtone_custom">custom...</string>
+    <!-- END -->
+</resources>

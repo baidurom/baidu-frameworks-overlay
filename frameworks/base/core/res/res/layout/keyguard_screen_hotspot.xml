@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dip">    
+        <TextView
+            android:id="@+id/status1"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+	    android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12dip"
+            android:drawablePadding="2dip"
+            />
+
+        <TextView
+            android:id="@+id/carrier"
+            android:layout_width="210dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+	    android:gravity="right"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12dip"
+            />
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/searchBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/btn_search_view" />
+    
+	<RelativeLayout
+		android:id="@+id/hotspotLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="86dip"
+	>
+        <TextView
+            android:id="@+id/keyword3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dip"
+            android:shadowColor="#4c000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="3.0"
+            android:textColor="#E6FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/keyword6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="52dip"
+            android:shadowColor="#4c000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="3.0"
+            android:textColor="#E6FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/keyword5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/keyword6"
+            android:layout_marginLeft="66dip"
+            android:layout_marginTop="11dip"
+            android:shadowColor="#4c000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="3.0"
+            android:textColor="#E6FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/keyword2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/keyword6"
+            android:layout_marginRight="28dip"
+            android:layout_marginTop="15dip"
+            android:shadowColor="#4c000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="3.0"
+            android:textColor="#E6FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/keyword7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/keyword5"
+            android:layout_marginLeft="22dip"
+            android:layout_marginTop="11dip"
+            android:shadowColor="#4c000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="3.0"
+            android:textColor="#E6FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/keyword1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/keyword2"
+            android:layout_marginRight="16dip"
+            android:layout_marginTop="15dip"
+            android:shadowColor="#4c000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="3.0"
+            android:textColor="#E6FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/keyword4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/keyword7"
+            android:layout_marginLeft="98dip"
+            android:layout_marginTop="11dip"
+            android:shadowColor="#4c000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="3.0"
+            android:textColor="#E6FFFFFF"
+            android:textSize="14dp" />
+</RelativeLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="205dip">
+	    <ImageView
+	        android:id="@+id/switchIcon"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/luck_arrows_selected_02"
+                android:visibility="gone"
+	    />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="260dip"
+        >
+    <com.android.internal.widget.DigitalClock android:id="@+id/time"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <!-- Because we can't have multi-tone fonts, we render two TextViews, one on
+        top of the other. Hence the redundant layout... -->
+        <TextView android:id="@+id/timeDisplayBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="none"
+            android:textSize="54dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/lockscreen_clock_background"
+            />
+
+        <TextView android:id="@+id/timeDisplayForeground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="none"
+            android:textSize="54dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/lockscreen_clock_foreground"
+            android:layout_alignLeft="@id/timeDisplayBackground"
+            android:layout_alignTop="@id/timeDisplayBackground"
+            />
+        <TextView
+            android:id="@+id/am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/timeDisplayForeground"
+            android:layout_alignBaseline="@id/timeDisplayForeground"
+            android:singleLine="true"
+            android:ellipsize="none"
+            android:textSize="16dip"
+            android:layout_marginLeft="4dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFFFF"
+            android:shadowColor="#4c000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="3.0"
+        />
+
+    </com.android.internal.widget.DigitalClock>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="14dip"
+            />
+     </LinearLayout>
+
+     <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >       
+        <TextView
+            android:id="@+id/alarm_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12dip"
+            android:drawablePadding="2dip"
+            />
+    </LinearLayout>
+<!-- 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include android:id="@+id/transport"
+            layout="@layout/keyguard_transport_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+ -->
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/unlockWidgetLayout"
+        android:layout_width="match_parent"
+        android:layout_height="320dip"
+        android:layout_marginTop="@dimen/yi_lockscreen_unlockwidget_margintop">
+
+ <com.android.internal.widget.multiwaveview.GlowPadView
+            android:id="@+id/unlock_widget"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:gravity="top"
+            android:focusable="true"
+
+            android:targetDrawables="@array/lockscreen_targets_with_camera"
+            android:targetDescriptions="@array/lockscreen_target_descriptions_with_camera"
+            android:directionDescriptions="@array/lockscreen_direction_descriptions"
+            android:handleDrawable="@drawable/ic_lockscreen_handle"
+            android:outerRingDrawable="@drawable/ic_lockscreen_outerring"
+            android:outerRadius="@dimen/glowpadview_target_placement_radius"
+            android:innerRadius="@dimen/glowpadview_inner_radius"
+            android:snapMargin="@dimen/glowpadview_snap_margin"
+            android:feedbackCount="1"
+            android:vibrationDuration="20"
+            android:glowRadius="@dimen/glowpadview_glow_radius"
+            android:pointDrawable="@drawable/ic_lockscreen_glowdot"
+            />
+         <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="40dip"
+	        style="?android:attr/buttonBarStyle"
+	        android:gravity="center_horizontal"
+	        >
+
+        <Button android:id="@+id/emergencyCallButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textSize="18dip"
+            android:text="@string/lockscreen_emergency_call"
+            android:drawableLeft="@drawable/ic_lockscreen_emergency_call"
+            android:drawablePadding="6dip"
+            android:visibility="gone"
+        />
+
+    	</LinearLayout>
+    </RelativeLayout>
+
+   
+    
+    <TextView
+		android:id="@+id/moveView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="18dip"
+		android:visibility="gone"
+		android:textColor="#E6FFFFFF"
+		android:layout_gravity="bottom"
+	/>
+    
+    <ImageView
+        android:id="@+id/hiddenUnlockView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/ic_main_unlock_hidden" />
+</FrameLayout>
+
