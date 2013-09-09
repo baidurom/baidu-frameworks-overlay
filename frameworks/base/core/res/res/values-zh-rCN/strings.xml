@@ -68,4 +68,5 @@
     <string name="force_close" msgid="8346072094521265605">"关闭"</string>
     <string name="report" msgid="4060218260984795706">"反馈"</string>
     <string name="wait" msgid="7147118217226317732">"等待"</string>
+    <string name="whichApplication" msgid="4533185947064773386">"选择要使用的应用"</string>
 </resources>

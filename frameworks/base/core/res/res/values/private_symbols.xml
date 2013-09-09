@@ -142,6 +142,9 @@
   <!--CL-21419: read autorotate delay rate from configuration rather than hardcode. -->
   <java-symbol type="integer" name="config_automatic_rotate_delay" />
 
+  <!--CL-54446: enable user to close button backlight-->
+  <java-symbol type="bool" name="config_close_button_backlight"/>
+
   <!--CL-46941: for voice_search_not_found -->
   <java-symbol type="string" name="voice_search_not_found" />
   <java-symbol type="string" name="voice_search_unavailable" />

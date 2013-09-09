@@ -522,7 +522,7 @@ easier.
         <item name="android:indeterminateProgressStyle">@android:style/Widget.DeviceDefault.Light.ProgressBar</item>
     </style>
     <style name="Widget.DeviceDefault.Light.ActionBar.TabBar.Inverse" ><!--parent="Widget.Holo.Light.ActionBar.TabBar.Inverse" -->
-		<item name="android:showDividers">middle</item>
+	<item name="android:showDividers">none</item>
         <item name="android:divider">@android:drawable/yi_divider_vertical_tab_baidu_light</item>
     </style>
     <style name="Widget.DeviceDefault.Light.ActionBar.TabView.Inverse" parent="Widget.Holo.Light.ActionBar.TabView.Inverse" >
