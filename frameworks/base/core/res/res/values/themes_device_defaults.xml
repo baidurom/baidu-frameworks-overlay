@@ -642,6 +642,7 @@ easier.
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryInverse</item>
         <item name="actionModeBackground">@android:drawable/yi_cab_background_top_inverse_baidu</item>
         <item name="actionModeSplitBackground">@android:drawable/yi_cab_background_bottom_inverse_baidu</item>
+        
         <item name="actionModeCloseDrawable">@android:drawable/yi_ic_cab_done_baidu_dark</item>
         <item name="actionOverflowButtonStyle">@android:style/Widget.DeviceDefault.ActionButton.Overflow</item>
         <item name="homeAsUpIndicator">@android:drawable/yi_ic_ab_back_baidu_dark</item>
