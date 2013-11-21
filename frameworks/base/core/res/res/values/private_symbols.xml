@@ -159,6 +159,8 @@
 	<java-symbol type="string" name="reboot" />
 	<java-symbol type="string" name="reboot_progress" />
 	<java-symbol type="string" name="reboot_confirm" />
+	<java-symbol type="string" name="reboot_reboot" />
+	<java-symbol type="string" name="reboot_recovery" />
   <!-- BEGIN BAIDU, cairui01@baidu.com-->
   <java-symbol type="id" name="media_view" />
   <java-symbol type="id" name="album_view" />
@@ -174,6 +176,8 @@
   <java-symbol type="array" name="zz_lockscreen_targets_five_shortcuts_soundon" />
   <java-symbol type="array" name="zz_lockscreen_five_shortcuts_description_silent" />
   <java-symbol type="array" name="zz_lockscreen_five_shortcuts_description_soundon" />
+  <java-symbol type="array" name="shutdown_reboot_actions" />
+  <java-symbol type="array" name="shutdown_reboot_options" />
   <java-symbol type="color" name="zz_lockscreen_white_opacity" />
   <java-symbol type="color" name="zz_lockscreen_agenda_time_opacity" />  
   <java-symbol type="dimen" name="zz_smartmultiUnlockview_target_placement_radius" />
@@ -296,4 +300,22 @@
   <java-symbol type="drawable" name="cld_list_top_selector_baidu_light" />
   <java-symbol type="drawable" name="yi_dialog_middle_custom_baidu_light" />
   <java-symbol type="layout" name="yi_alert_dialog_baidu_light" />
+
+  <java-symbol type="bool" name="config_quickbootSupport"/>
+  <java-symbol type="string" name="power_off_alarm"/>
+  <java-symbol type="string" name="quickboot_shutdown_info"/>
+
+  <!-- From Quickboot charger -->
+  <java-symbol type="drawable" name="battery_0" />
+  <java-symbol type="drawable" name="battery_1" />
+  <java-symbol type="drawable" name="battery_2" />
+  <java-symbol type="drawable" name="battery_3" />
+  <java-symbol type="drawable" name="battery_4" />
+  <java-symbol type="drawable" name="battery_5" />
+  <java-symbol type="drawable" name="battery_charge" />
+  <java-symbol type="drawable" name="battery_fail" />
+  <java-symbol type="drawable" name="qb_boot_notice" />
+
+  <!-- From Quickboot poweron event -->
+  <java-symbol type="bool" name="config_poweron_by_twice_press" />
 </resources>

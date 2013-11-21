@@ -123,5 +123,12 @@
     <color name="yi_list_section_divider_text_light">#ff98a2b3</color>
     <add-resource type="color" name="yi_action_tab_text_selected_baidu_light" />
     <color name="yi_action_tab_text_selected_baidu_light">#ffffffff</color>
+
+    <add-resource type="color" name="yi_status_bar_event_content" />
+    <color name="yi_status_bar_event_content">#80878d</color>
+    <add-resource type="color" name="yi_status_bar_event_content_title" />
+    <color name="yi_status_bar_event_content_title">#4f555a</color>
+    <add-resource type="color" name="yi_action_bar_title_shadow"/>
+    <color name="yi_action_bar_title_shadow">#00000000</color>
 </resources>
 

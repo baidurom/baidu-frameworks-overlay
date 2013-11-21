@@ -22,6 +22,8 @@
     <string name="permission_toast_eliminated">"请求已被自动禁止。当前已有多项启动收费服务的请求等待您处理，请首先处理先前的请求!"</string>
     <string name="permission_send_sms_message">"发送短信"</string>
     <string name="permission_call_phone_message">"拨打电话"</string>
+    <string name="reboot_reboot">重新启动</string>
+    <string name="reboot_recovery">刷机模式</string>
 	<string name="internal_sd">内置 SD 卡</string>
 	<string name="external_sd">外置 SD 卡</string>
 <!--ADDED BY FDRS END--> 
@@ -293,5 +295,13 @@
     <!-- CL-47236 -->
     <add-resource type="string" name="ringtone_custom" />
     <string name="ringtone_custom">自定义铃声...</string>
+    <!-- END -->
+    
+    <!-- BEGIN BAIDU, chenxixiong@baidu.com -->
+    <!-- CL-52691 -->
+    <add-resource type="string" name="power_off_alarm"/>
+    <string name="power_off_alarm">关机闹钟提醒</string>
+    <add-resource type="string" name="quickboot_shutdown_info"/>
+    <string name="quickboot_shutdown_info">您的手机将会关机，使用关机闹钟请勾选如下选项（电量较低时可能无法提醒）。</string>
     <!-- END -->
 </resources>
