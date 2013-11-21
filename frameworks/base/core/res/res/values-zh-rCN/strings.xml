@@ -69,4 +69,5 @@
     <string name="report" msgid="4060218260984795706">"反馈"</string>
     <string name="wait" msgid="7147118217226317732">"等待"</string>
     <string name="whichApplication" msgid="4533185947064773386">"选择要使用的应用"</string>
+    <string name="ringtone_silent" msgid="7937634392408977062">"静音"</string>
 </resources>
