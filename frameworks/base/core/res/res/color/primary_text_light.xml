@@ -21,5 +21,6 @@
     <item android:state_selected="true" android:color="#ff54575f"/>
     <item android:state_activated="true" android:color="#ff54575f"/>
     <item android:color="#ff54575f"/> <!-- not selected -->
+    
 </selector>
 

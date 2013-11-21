@@ -102,11 +102,11 @@ please see styles_device_defaults.xml.
 
     <!-- Notification content styles -->
     <style name="TextAppearance.StatusBar.EventContent">
-        <item name="textColor">#80878d</item>
+        <item name="textColor">@color/yi_status_bar_event_content</item>
         <item name="textSize">12sp</item>
     </style>
     <style name="TextAppearance.StatusBar.EventContent.Title">
-        <item name="textColor">#4f555a</item>
+        <item name="textColor">@color/yi_status_bar_event_content_title</item>
         <item name="textSize">16sp</item>
         <item name="textStyle">bold</item>
     </style>
@@ -119,4 +119,5 @@ please see styles_device_defaults.xml.
     <style name="TextAppearance.StatusBar.EventContent.Time">
         <!-- inherit all -->
     </style>
+ 
 </resources>
