@@ -21,6 +21,8 @@
     <add-resource type="string" name="permission_send_sms_message" />
     <add-resource type="string" name="permission_call_phone_message" />
     <add-resource type="string" name="invalidPinRemainTime" />
+    <add-resource type="string" name="reboot_reboot" />
+    <add-resource type="string" name="reboot_recovery" />
 	<add-resource type="string" name="invalidPinOneRemainTime" />
 	<add-resource type="string" name="internal_sd" />
 	<add-resource type="string" name="external_sd" />
@@ -45,6 +47,8 @@
     <string name="permission_call_phone_message">"Making A Phone Call"</string>
 	<string name="internal_sd">Internal SD Card</string>
 	<string name="external_sd">External SD Card</string>
+    <string name="reboot_reboot">Reboot</string>
+    <string name="reboot_recovery">Recovery</string>
 <!--ADDED BY FDRS END-->
 
     <add-resource type="string" name="badPuk_one" />
@@ -385,5 +389,13 @@
     <!-- CL-47236 -->
     <add-resource type="string" name="ringtone_custom" />
     <string name="ringtone_custom">custom...</string>
+    <!-- END -->
+
+    <!-- BEGIN BAIDU, chenxixiong@baidu.com -->
+    <!-- CL-52691 -->
+    <add-resource type="string" name="power_off_alarm"/>
+    <string name="power_off_alarm">Shut off alarm reminding</string>
+    <add-resource type="string" name="quickboot_shutdown_info"/>
+    <string name="quickboot_shutdown_info">Your phone will be shut down, Please check the option to turn the shut off alarm and quick boot mode(may not be able to remind when low power)</string>
     <!-- END -->
 </resources>

@@ -7,6 +7,8 @@
     <add-resource type="array" name="zz_lockscreen_five_shortcuts_description_soundon" />
     <add-resource type="array" name="zz_lockscreen_targets_five_shortcuts_silent" />
     <add-resource type="array" name="zz_lockscreen_five_shortcuts_description_silent" />
+    <add-resource type="array" name="shutdown_reboot_actions" />
+    <add-resource type="array" name="shutdown_reboot_options" />
 
     <array name="zz_lockscreen_targets_five_shortcuts">
         <item>@drawable/zz_lockscreen_mms</item>
@@ -48,6 +50,16 @@
         <item>PROMPT</item>
         <item>Phone</item>
         <item>Silent</item>
+   </string-array>
+
+   <string-array name="shutdown_reboot_actions">
+        <item>reboot</item>
+        <item>recovery</item>
+   </string-array>
+
+   <string-array name="shutdown_reboot_options">
+        <item>@string/reboot_reboot</item>
+        <item>@string/reboot_recovery</item>
    </string-array>
    <!-- END -->
 </resources>
