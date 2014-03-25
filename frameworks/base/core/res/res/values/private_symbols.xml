@@ -114,6 +114,13 @@
   <java-symbol type="layout" name="super_mode_dialog" />
   <java-symbol type="id" name="tips" />
   <java-symbol type="id" name="remember_or_not" />
+  <java-symbol type="id" name="battery_info" />
+  <java-symbol type="id" name="battery_apps" />
+  <java-symbol type="id" name="battery_apps_button" />
+  <java-symbol type="id" name="battery_apps_message" />
+  <java-symbol type="string" name="battery_apps_message" />
+  <java-symbol type="string" name="battery_apps_button" />
+  <java-symbol type="drawable" name="battery_apps_button" />
   <java-symbol type="string" name="phone_call_info_msg" />
   <java-symbol type="string" name="phone_sms_info_msg" />
   <java-symbol type="string" name="power_settings_notification_message" />
@@ -320,4 +327,23 @@
 
   <!-- From Quickboot poweron event -->
   <java-symbol type="bool" name="config_poweron_by_twice_press" />
+
+  <!-- ADD -->
+  <java-symbol type="layout" name="quickboot_dialog_confirm" />
+
+  <java-symbol type="string" name="quickboot_real_shutdown" />
+  <java-symbol type="array" name="quickboot_info_week_set" />
+  <java-symbol type="string" name="quick_boot_text_info" />
+
+  <java-symbol type="string" name="quickboot_poweroff_alarm" />
+  <java-symbol type="string" name="quickboot_schedule_pwonoff" />
+
+  <java-symbol type="string" name="quickboot_lowbat_poweroff" />
+  <java-symbol type="string" name="quickboot_lowbat_schedule_pwonoff" />
+
+  <java-symbol type="id" name="quickboot_dialog_checkbox" />
+  
+  <java-symbol type="id" name="quickboot_dialog_text_info" />
+  <java-symbol type="id" name="quickboot_dialog_text_warn" />
+
 </resources>
