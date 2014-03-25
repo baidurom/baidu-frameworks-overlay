@@ -23,9 +23,9 @@
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
          Wifi interfaces.  If the device doesn't want to support tethering over Wifi this
          should be empty.  An example would be "softap.*" -->
-    <string-array translatable="false" name="config_tether_wifi_regexs">
+    <!--string-array translatable="false" name="config_tether_wifi_regexs">
         <item>softap</item>
-    </string-array>
+    </string-array-->
 
     <!--add headset slot-->
     <string-array name="config_statusBarIcons">
@@ -61,9 +61,9 @@
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
          Wifi interfaces.  If the device doesn't want to support tethering over Wifi this
          should be empty.  An example would be "softap.*" -->
-    <string-array translatable="false" name="config_tether_wifi_regexs">
+    <!--string-array translatable="false" name="config_tether_wifi_regexs">
         <item>softap</item>
-    </string-array>
+    </string-array-->
 
     <!-- Component name of the default wallpaper. This will be ImageWallpaper if not
          specified -->
