@@ -392,6 +392,13 @@
     <string name="ringtone_custom">custom...</string>
     <!-- END -->
 
+    <!-- CL-57961: show app in low battery dialog -->
+    <add-resource type="string" name="battery_apps_message" />
+    <string name="battery_apps_message">"Top apps consuming power "</string>
+    <add-resource type="string" name="battery_apps_button" />
+    <string name="battery_apps_button">"View"</string>
+    <!-- CL-57961 -->
+
     <!-- BEGIN BAIDU, chenxixiong@baidu.com -->
     <!-- CL-52691 -->
     <add-resource type="string" name="power_off_alarm"/>
@@ -399,4 +406,34 @@
     <add-resource type="string" name="quickboot_shutdown_info"/>
     <string name="quickboot_shutdown_info">Your phone will be shut down, Please check the option to turn the shut off alarm and quick boot mode(may not be able to remind when low power)</string>
     <!-- END -->
+
+    <add-resource type="array" name="quickboot_info_week_set"/>
+    <string-array name="quickboot_info_week_set">
+        <item >"MON"</item>
+        <item >"TUE"</item>
+        <item >"WED"</item>
+        <item >"THU"</item>
+        <item >"FRI"</item>
+        <item >"SAT"</item>
+        <item >"SUN"</item>
+    </string-array>
+
+    <add-resource type="string" name="quickboot_real_shutdown"/>
+    <string name="quickboot_real_shutdown">Power off alarm and schedule power on will be disabled, are you sure to shut down?</string>
+
+    <add-resource type="string" name="quick_boot_text_info"/>
+    <string name="quick_boot_text_info">"Quick boot next time"</string>
+
+    <add-resource type="string" name="quickboot_poweroff_alarm"/>
+    <string name="quickboot_poweroff_alarm">"Power off alarm will ring at: %1$s kk:mm"</string>
+
+    <add-resource type="string" name="quickboot_schedule_pwonoff"/>
+    <string name="quickboot_schedule_pwonoff">"Phone will shutdown at: %1$s kk:mm"</string>  
+
+    <add-resource type="string" name="quickboot_lowbat_poweroff"/>
+    <string name="quickboot_lowbat_poweroff">If the power is low, the power off alarm may fail</string>
+
+    <add-resource type="string" name="quickboot_lowbat_schedule_pwonoff"/>
+    <string name="quickboot_lowbat_schedule_pwonoff">If the power is low, the schedule of power on may fail</string>
+
 </resources>
