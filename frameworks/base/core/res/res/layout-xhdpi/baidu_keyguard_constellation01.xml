@@ -36,12 +36,12 @@
             android:layout_marginLeft="198dp"
             android:layout_marginTop="14dp"
             android:ellipsize="end"
-            android:maxWidth="140dp"
+            android:maxEms="6"
             android:padding="8dp"
             android:shadowColor="@android:color/black"
             android:shadowDy="1"
             android:shadowRadius="3"
-            android:maxLines="1"
+            android:singleLine="true"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 
@@ -55,12 +55,12 @@
             android:layout_marginTop="72dp"
             android:ellipsize="end"
             android:gravity="right"
-            android:maxWidth="140dp"
+            android:maxEms="6"
             android:padding="8dp"
             android:shadowColor="@android:color/black"
             android:shadowDy="1"
             android:shadowRadius="3"
-            android:maxLines="1"
+            android:singleLine="true"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 
@@ -73,12 +73,12 @@
             android:layout_marginLeft="219dp"
             android:layout_marginTop="88dp"
             android:ellipsize="end"
-            android:maxWidth="140dp"
+            android:maxEms="6"
             android:padding="8dp"
             android:shadowColor="@android:color/black"
             android:shadowDy="1"
             android:shadowRadius="3"
-            android:maxLines="1"
+            android:singleLine="true"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 
@@ -92,12 +92,12 @@
             android:layout_marginTop="164dp"
             android:ellipsize="end"
             android:gravity="right"
-            android:maxWidth="140dp"
+            android:maxEms="6"
             android:padding="8dp"
             android:shadowColor="@android:color/black"
             android:shadowDy="1"
             android:shadowRadius="3"
-            android:maxLines="1"
+            android:singleLine="true"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 
@@ -110,12 +110,12 @@
             android:layout_marginLeft="190dp"
             android:layout_marginTop="199dp"
             android:ellipsize="end"
-            android:maxWidth="140dp"
+            android:maxEms="6"
             android:padding="8dp"
             android:shadowColor="@android:color/black"
             android:shadowDy="1"
             android:shadowRadius="3"
-            android:maxLines="1"
+            android:singleLine="true"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
     </RelativeLayout>
