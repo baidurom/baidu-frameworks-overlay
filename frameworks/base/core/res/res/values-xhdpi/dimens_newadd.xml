@@ -27,18 +27,7 @@
     <dimen name="yi_lockscreen_voiceprint_height">356dip</dimen>
     <add-resource type="dimen" name="yi_lockscreen_password_height" />
     <dimen name="yi_lockscreen_password_height">356dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_pattern_top_margin" />
+    <dimen name="yi_lockscreen_pattern_top_margin">20dip</dimen>
     <!--yi add end-->
-    <!-- BEGIN BAIDU, cairui01@baidu.com -->
-    <add-resource type="dimen" name="zz_lockscreen_flipper_width" />
-    <add-resource type="dimen" name="zz_lockscreen_unlock_widget_margin_top" />
-    <add-resource type="integer" name="zz_lockscreen_unlock_widget_distance" />
-    <add-resource type="dimen" name="zz_lockscreen_unlock_widget_center_offset" />
-    <add-resource type="dimen" name="zz_lockscreen_status_height" />
-    <add-resource type="dimen" name="zz_smartmultiUnlockview_target_placement_radius" />
-    <dimen name="zz_lockscreen_flipper_width">360dip</dimen>
-    <dimen name="zz_lockscreen_unlock_widget_margin_top">-10dip</dimen>
-    <dimen name="zz_lockscreen_unlock_widget_center_offset">20dip</dimen>
-    <dimen name="zz_lockscreen_status_height">310dip</dimen>
-    <dimen name="zz_smartmultiUnlockview_target_placement_radius">110dip</dimen>
-    <!-- END -->
 </resources>

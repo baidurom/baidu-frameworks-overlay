@@ -109,13 +109,6 @@
     <!-- A really bright device default shade of blue -->
     <color name="yi_baidu_blue_bright">#ff00ddff</color>
 
-    <!-- BEGIN BAIDU, cairui01@baidu.com.cn -->
-    <add-resource type="color" name="zz_lockscreen_white_opacity" />
-    <add-resource type="color" name="zz_lockscreen_agenda_time_opacity" />
-    <color name="zz_lockscreen_white_opacity">#9affffff</color>
-    <color name="zz_lockscreen_agenda_time_opacity">#72ffffff</color>
-    <!-- END -->
-
     <eat-comment />
     <add-resource type="color" name="yi_dark_action_bar_title" />
     <color name="yi_dark_action_bar_title">#ffffffff</color>

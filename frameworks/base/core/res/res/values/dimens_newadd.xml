@@ -40,27 +40,7 @@
     <dimen name="yi_lockscreen_password_height">306dip</dimen>
     <add-resource type="dimen" name="yi_lockscreen_voiceprint_height" />
     <dimen name="yi_lockscreen_voiceprint_height">306dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_pattern_top_margin" />
+    <dimen name="yi_lockscreen_pattern_top_margin">6dip</dimen>
     <!--yi add end-->
-
-    <!-- BEGIN BAIDU, cairui01@baidu.com.cn -->
-    <add-resource type="dimen" name="zz_smartmultiUnlockview_target_placement_radius" />
-    <add-resource type="dimen" name="zz_smartmultiunlockview_snap_margin" />
-    <add-resource type="dimen" name="zz_smartmultiunlockview_hit_radius" />
-    <add-resource type="dimen" name="zz_lockscreen_flipper_width" />
-    <add-resource type="dimen" name="zz_lockscreen_unlock_widget_margin_top" />
-    <add-resource type="integer" name="zz_lockscreen_unlock_widget_distance" />
-    <add-resource type="dimen" name="zz_lockscreen_unlock_widget_center_offset" />
-    <add-resource type="dimen" name="zz_lockscreen_status_height" />
-    <!-- Default target placement radius for SmartMultiUnlockView -->
-    <dimen name="zz_smartmultiUnlockview_target_placement_radius">105dip</dimen>
-    <!-- Default distance beyond which SmartMultiUnlockView snaps to the target radius -->
-    <dimen name="zz_smartmultiunlockview_snap_margin">20dip</dimen>
-    <!-- Default distance from each snap target that SmartMultiUnlockView considers a "hit" -->
-    <dimen name="zz_smartmultiunlockview_hit_radius">25dip</dimen>
-    <dimen name="zz_lockscreen_flipper_width">320dip</dimen>
-    <dimen name="zz_lockscreen_unlock_widget_margin_top">-20dip</dimen>
-    <integer name="zz_lockscreen_unlock_widget_distance">50</integer>
-    <dimen name="zz_lockscreen_unlock_widget_center_offset">20dip</dimen>
-    <dimen name="zz_lockscreen_status_height">280dip</dimen>
-    <!-- END -->
 </resources>

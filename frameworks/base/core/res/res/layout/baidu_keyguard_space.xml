@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baidu_keyguard_space_shake_background" >
+
+    <LinearLayout
+        android:id="@+id/water_layer_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <com.baidu.internal.keyguard.space.DigitalClock
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="34dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:textColor="@android:color/white"
+            android:textIsSelectable="false"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/clock"
+            android:layout_toRightOf="@+id/clock"
+            android:paddingBottom="20dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:visibility="gone"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:textColor="@android:color/white"
+            android:textIsSelectable="false"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clock"
+            android:layout_marginTop="-10dp"
+            android:paddingLeft="10dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:textColor="@android:color/white"
+            android:textIsSelectable="false"
+            android:textSize="14sp" />
+    </com.baidu.internal.keyguard.space.DigitalClock>
+
+    <TextView
+        android:id="@+id/alarm_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/time"
+        android:layout_below="@+id/time"
+        android:layout_marginTop="6dip"
+        android:drawablePadding="4dip"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="false"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/miss_container"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignLeft="@+id/alarm_status"
+        android:layout_below="@id/alarm_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:minWidth="52dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/miss_call_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:drawablePadding="2dp"
+            android:drawableStart="@drawable/baidu_keyguard_space_miss_call"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/miss_message_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:drawablePadding="2dp"
+            android:drawableStart="@drawable/baidu_keyguard_space_miss_message"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/baidu_keyguard_space_target_view" />
+    </RelativeLayout>
+
+</RelativeLayout>
