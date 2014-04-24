@@ -238,7 +238,7 @@
     <string name="permit_btn_text">允许</string>
     <string name="dynamic_perm_popup_dialog_title">警告</string>
     <string name="remember_info_text">记住我的选择</string>
-    <string name="remember_tips_text">通过主屏幕上的”设置“>”安全“>”权限监控“>设置相应权限</string>
+    <string name="remember_tips_text">通过”安全中心“>”权限监控“>可设置相应权限</string>
     <string name="phone_call_info_msg">拨出号码：<xliff:g id="PHONE_NUM">%1$s</xliff:g></string>
     <string name="phone_sms_info_msg">接收者：<xliff:g id="PHONE_NUM">%1$s</xliff:g></string>
     <string name="sms_info_msg">内容：<xliff:g id="SMS_CONTENT">%1$s</xliff:g></string>
@@ -311,6 +311,13 @@
     <add-resource type="string" name="quickboot_shutdown_info"/>
     <string name="quickboot_shutdown_info">您的手机将会关机，使用关机闹钟请勾选如下选项（电量较低时可能无法提醒）。</string>
     <!-- END -->
+    
+    <!-- BEGIN BAIDU, linguang -->
+    <add-resource type="string" name="chargging"/>
+    <string name="chargging">充电中</string>
+    <add-resource type="string" name="charge_finished"/>
+    <string name="charge_finished">充电完成</string>
+    <!-- END -->
 
     <add-resource type="string" name="quickboot_real_shutdown"/>
     <string name = "quickboot_real_shutdown">"您设置的关机闹钟和定时开机将失效，确认关机？"</string>
@@ -340,5 +347,13 @@
 
     <add-resource type="string" name="quickboot_lowbat_schedule_pwonoff"/>
     <string name="quickboot_lowbat_schedule_pwonoff">"电量低时可能无法定时开机"</string>
+    
+    
+    <add-resource type="string" name="replace_browser_value"/>
+    <string name="replace_browser_value">"浏览器"</string>
+    <add-resource type="string" name="replace_market_value"/>
+    <string name="replace_market_value">"云商店"</string>
+    <add-resource type="string" name="replace_reader_value"/>
+    <string name="replace_reader_value">"阅读"</string>
 
 </resources>

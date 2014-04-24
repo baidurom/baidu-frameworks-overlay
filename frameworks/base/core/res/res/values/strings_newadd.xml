@@ -310,7 +310,7 @@
     <string name="permit_btn_text">Allow</string>
     <string name="dynamic_perm_popup_dialog_title">Warning</string>
     <string name="remember_info_text">Save my choice</string>
-    <string name="remember_tips_text">Set Dynamic App Manager via "Settings">"Security">"Permission monitor" on the main screen.</string>
+    <string name="remember_tips_text">Set app permission via through \"Security\" > \"Permission\"</string>
     <string name="phone_call_info_msg">Outgoing call:<xliff:g id="PHONE_NUM">%1$s</xliff:g></string>
     <string name="phone_sms_info_msg">To:<xliff:g id="PHONE_NUM">%1$s</xliff:g></string>
     <string name="sms_info_msg">Message:<xliff:g id="SMS_CONTENT">%1$s</xliff:g></string>
@@ -360,15 +360,6 @@
     <string name="voice_search_not_found" >You do not install Voice Search Box</string>
     <string name="voice_search_unavailable">Voice Search has been stopt，you can reset from setting</string>
 
-    <!-- BEGIN BAIDU, cairui01@baidu.com.cn -->
-    <!-- WeatherView of Lock Screen -->
-    <add-resource type="string" name="zz_lockscreen_temperature_units" />
-    <add-resource type="string" name="zz_lockscreen_month_day_hour_minute" />
- 
-    <string name="zz_lockscreen_temperature_units">°</string>
-    <string name="zz_lockscreen_month_day_hour_minute">MM/dd hh:mm a</string>
-    <!-- END -->
-	
     <!-- BEGIN BAIDU, wangzirui@baidu.com -->
     <!-- CL-44871 -->
     <add-resource type="string" name="progress_unmounting_target" />
@@ -405,6 +396,13 @@
     <add-resource type="string" name="quickboot_shutdown_info"/>
     <string name="quickboot_shutdown_info">Your phone will be shut down, Please check the option to turn the shut off alarm and quick boot mode(may not be able to remind when low power)</string>
     <!-- END -->
+    
+    <!-- BEGIN BAIDU, linguang -->
+    <add-resource type="string" name="chargging"/>
+    <string name="chargging">Chargging</string>
+    <add-resource type="string" name="charge_finished"/>
+    <string name="charge_finished">Chargging finished</string>
+    <!-- END -->
 
     <add-resource type="array" name="quickboot_info_week_set"/>
     <string-array name="quickboot_info_week_set">
@@ -434,5 +432,12 @@
 
     <add-resource type="string" name="quickboot_lowbat_schedule_pwonoff"/>
     <string name="quickboot_lowbat_schedule_pwonoff">If the power is low, the schedule of power on may fail</string>
+    
+    <add-resource type="string" name="replace_browser_value"/>
+    <string name="replace_browser_value">"Browser"</string>
+    <add-resource type="string" name="replace_market_value"/>
+    <string name="replace_market_value">"App Search"</string>
+    <add-resource type="string" name="replace_reader_value"/>
+    <string name="replace_reader_value">"Reader"</string>
 
 </resources>
