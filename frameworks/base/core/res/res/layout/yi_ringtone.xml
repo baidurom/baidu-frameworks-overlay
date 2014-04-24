@@ -61,55 +61,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:divider="?android:attr/dividerHorizontal"
-        android:orientation="vertical"
-        android:showDividers="beginning" >
+        android:orientation="horizontal" >
 
-        <LinearLayout
-            style="?android:attr/buttonBarStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:measureWithLargestChild="true"
-            android:orientation="horizontal" >
-
-            <LinearLayout
-                android:id="@+id/leftSpacer"
-                android:layout_width="0dip"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.25"
-                android:orientation="horizontal"
-                android:visibility="gone" />
-
-            <Button
-                android:id="@+id/cancel_button"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dip"
-                android:layout_height="48dp"
-                android:layout_gravity="left"
-                android:layout_weight="1"
-                android:maxLines="2"
-                android:text="@string/cancel"
-                android:textSize="14sp" />
-
-            <Button
-                android:id="@+id/ok_button"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dip"
-                android:layout_height="48dp"
-                android:layout_gravity="right"
-                android:layout_weight="1"
-                android:maxLines="2"
-                android:text="@string/ok"
-                android:textSize="14sp" />
-
-            <LinearLayout
-                android:id="@+id/rightSpacer"
-                android:layout_width="0dip"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.25"
-                android:orientation="horizontal"
-                android:visibility="gone" />
-        </LinearLayout>
+	    <Button
+	        android:id="@+id/cancel_button"
+	        android:layout_width="0dip"
+	        android:layout_height="48dp"
+	        android:layout_gravity="left"
+	        android:layout_weight="1"
+	        android:maxLines="2"
+	        android:text="@string/cancel"
+	        android:textSize="14sp" />
+	
+	    <Button
+	        android:id="@+id/ok_button"
+	        android:layout_width="0dip"
+	        android:layout_height="48dp"
+	        android:layout_gravity="right"
+	        android:layout_weight="1"
+	        android:maxLines="2"
+	        android:text="@string/ok"
+	        android:textSize="14sp" />
     </LinearLayout>
 
 </RelativeLayout>

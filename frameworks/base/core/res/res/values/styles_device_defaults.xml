@@ -342,15 +342,14 @@ easier.
     </style>
     <add-resource type="style" name="Widget.DeviceDefault.Light.CompoundButton.Switch" parent="Widget.Holo.Light.CompoundButton.Switch" />
     <style name="Widget.DeviceDefault.Light.CompoundButton.Switch" parent="Widget.Holo.Light.CompoundButton.Switch" >
-        <item name="track">@drawable/yi_switch_track_baidu_light</item>
-        <item name="thumb">@drawable/yi_switch_inner_baidu_light</item>
-        <item name="textOn">@string/switch_null_text</item>
-        <item name="textOff">@string/switch_null_text</item>
-        <item name="thumbTextPadding">19dip</item>
-        <item name="switchMinWidth">76dip</item>
-        <item name="switchPadding">0dip</item>
-        <item name="switchTextAppearance">@style/Widget.DeviceDefault.Light.Switch.TextAppearance</item>
-
+        <item name="android:track">@android:drawable/yi_switch_track_baidu_light</item>
+        <item name="android:thumb">@android:drawable/yi_switch_inner_baidu_light</item>
+        <item name="android:textOn">@string/switch_null_text</item>
+        <item name="android:textOff">@string/switch_null_text</item>
+        <item name="android:thumbTextPadding">19dip</item>
+        <item name="android:switchMinWidth">73dip</item>
+        <item name="android:switchPadding">0dip</item>
+        <item name="android:switchTextAppearance">@android:style/Widget.DeviceDefault.Light.Switch.TextAppearance</item>
     </style>
     <style name="Widget.DeviceDefault.Light.TextView" parent="Widget.Holo.Light.TextView" >
     
