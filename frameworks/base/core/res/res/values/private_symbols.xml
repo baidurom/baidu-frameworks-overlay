@@ -449,5 +449,10 @@
     <java-symbol type="string" name="replace_browser_value"/>
     <java-symbol type="string" name="replace_market_value"/>
     <java-symbol type="string" name="replace_reader_value"/>
+    <java-symbol type="string" name="replace_dolby_value"/>
+    <java-symbol type="string" name="replace_browser_key"/>
+    <java-symbol type="string" name="replace_market_key"/>
+    <java-symbol type="string" name="replace_reader_key"/>
+    <java-symbol type="string" name="replace_dolby_key"/>
 
 </resources>
