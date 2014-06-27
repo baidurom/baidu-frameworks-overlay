@@ -161,6 +161,7 @@
     <java-symbol type="string" name="global_action_screenshot" />
     <java-symbol type="string" name="global_actions_toggle_airplane_mode_off" />
     <java-symbol type="string" name="web_baike" /> 
+    <java-symbol type="string" name="network_invalid" />  
     <java-symbol type="string" name="web_translator" />
     <java-symbol type="string" name="global_action_reboot" />
     <java-symbol type="string" name="reboot" />
@@ -384,6 +385,7 @@
 
     <!-- From Quickboot poweron event -->
     <java-symbol type="bool" name="config_poweron_by_twice_press" />
+
     <!-- ADD -->
     <java-symbol type="layout" name="quickboot_dialog_confirm" />
 
@@ -448,5 +450,10 @@
     <java-symbol type="string" name="replace_browser_value"/>
     <java-symbol type="string" name="replace_market_value"/>
     <java-symbol type="string" name="replace_reader_value"/>
+    <java-symbol type="string" name="replace_dolby_value"/>
+    <java-symbol type="string" name="replace_browser_key"/>
+    <java-symbol type="string" name="replace_market_key"/>
+    <java-symbol type="string" name="replace_reader_key"/>
+    <java-symbol type="string" name="replace_dolby_key"/>
 
 </resources>
