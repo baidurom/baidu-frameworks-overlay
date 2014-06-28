@@ -68,6 +68,7 @@
         android:background="@drawable/baidu_keyguard_slide_miss_bg"
         android:gravity="center"
         android:minWidth="52dp"
+        android:visibility="invisible"
         android:orientation="horizontal" >
 
         <TextView
@@ -79,7 +80,7 @@
             android:drawableStart="@drawable/baidu_keyguard_slide_misscall_bot"
             android:textColor="@android:color/white"
             android:textSize="14sp"
-            android:visibility="visible" />
+            android:visibility="invisible" />
 
         <TextView
             android:id="@+id/miss_mms"
@@ -88,6 +89,7 @@
             android:layout_gravity="center"
             android:drawableStart="@drawable/baidu_keyguard_slide_misssms_bot"
             android:textColor="@android:color/white"
+            android:visibility="invisible"
             android:textSize="14sp" />
     </LinearLayout>
 

@@ -13,7 +13,6 @@
     <!--java-symbol type="drawable" name="stat_sys_lockscreen_prompt" /-->
     <java-symbol type="drawable" name="btn_search_view"/>
     <java-symbol type="drawable" name="ic_lock_screenshot" />
-
     <java-symbol type="layout" name="yi_text_edit_action_popup_text" />
     <java-symbol type="id" name="root" />
     <java-symbol type="id" name="carrier" />
@@ -394,6 +393,7 @@
 
     <!-- From Quickboot poweron event -->
     <java-symbol type="bool" name="config_poweron_by_twice_press" />
+
     <!-- ADD -->
     <java-symbol type="layout" name="quickboot_dialog_confirm" />
 
@@ -458,5 +458,10 @@
     <java-symbol type="string" name="replace_browser_value"/>
     <java-symbol type="string" name="replace_market_value"/>
     <java-symbol type="string" name="replace_reader_value"/>
+    <java-symbol type="string" name="replace_dolby_value"/>
+    <java-symbol type="string" name="replace_browser_key"/>
+    <java-symbol type="string" name="replace_market_key"/>
+    <java-symbol type="string" name="replace_reader_key"/>
+    <java-symbol type="string" name="replace_dolby_key"/>
 
 </resources>
