@@ -119,5 +119,10 @@ please see styles_device_defaults.xml.
     <style name="TextAppearance.StatusBar.EventContent.Time">
         <!-- inherit all -->
     </style>
- 
+     <style name="Widget.DatePicker">
+        <item name="android:startYear">1970</item>
+        <item name="android:endYear">2037</item>
+        <item name="android:internalLayout">@android:layout/date_picker</item>
+        <item name="android:calendarViewShown">false</item>
+    </style>
 </resources>
