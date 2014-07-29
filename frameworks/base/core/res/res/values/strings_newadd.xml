@@ -447,7 +447,7 @@
     <add-resource type="string" name="replace_market_key"/>
     <string name="replace_market_key">"App Search"</string>
     <add-resource type="string" name="replace_reader_key"/>
-    <string name="replace_reader_key">"百度多酷书城"</string>
+    <string name="replace_reader_key">"掌阅iReader"</string>
     <add-resource type="string" name="replace_dolby_key"/>
     <string name="replace_dolby_key">"Dolby"</string>
 
