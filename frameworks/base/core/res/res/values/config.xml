@@ -106,7 +106,7 @@
     <integer name="config_activityDefaultDur">330</integer>
 
    <add-resource type="bool" name="config_wakeup_by_volume_key"/>
-   <bool name="config_wakeup_by_volume_key">false</bool> 
+   <bool name="config_wakeup_by_volume_key">true</bool> 
    <add-resource type="bool" name="config_pbap_support"/>
    <bool name="config_pbap_support">false</bool>
 
