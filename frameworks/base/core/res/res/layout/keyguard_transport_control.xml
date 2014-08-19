@@ -21,6 +21,22 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/transport_controls">
 
+    <!-- FrameLayout used as scrim to show between album art and buttons -->
+    <FrameLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:foreground="@drawable/ic_lockscreen_player_background">
+        <!-- We use ImageView for its cropping features, otherwise could be android:background -->
+        <ImageView
+            android:id="@+id/albumart"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_gravity="fill"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="false"
+        />
+    </FrameLayout>
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"

@@ -93,27 +93,6 @@
             android:textSize="14sp" />
     </LinearLayout>
 
-    <com.baidu.internal.keyguard.slide.iqiyi.SlideListView
-        android:id="@+id/iqiyi_listview"
-        android:layout_width="wrap_content"
-        android:layout_height="213dp"
-        android:layout_centerInParent="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="203dip"
-        android:cacheColorHint="#00000000"
-        android:footerDividersEnabled="false"
-        android:headerDividersEnabled="false"
-        android:overScrollMode="never"
-        android:fadingEdge="none"
-        android:divider="#80000000"
-        android:dividerHeight="1px"
-        android:paddingBottom="1dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingTop="1dp"
-        android:scrollbars="none" />
-
 	<RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -355,11 +355,6 @@
     <add-resource type="string" name="global_action_screenshot" />
     <string name="global_action_screenshot">Screenshot</string>
 
-    <add-resource type="string" name="voice_search_not_found" />
-    <add-resource type="string" name="voice_search_unavailable" />
-    <string name="voice_search_not_found" >You do not install Voice Search Box</string>
-    <string name="voice_search_unavailable">Voice Search has been stopt，you can reset from setting</string>
-
     <!-- BEGIN BAIDU, wangzirui@baidu.com -->
     <!-- CL-44871 -->
     <add-resource type="string" name="progress_unmounting_target" />
@@ -451,4 +446,6 @@
     <add-resource type="string" name="replace_dolby_key"/>
     <string name="replace_dolby_key">"Dolby"</string>
 
+    <add-resource type="string" name="volume_end_text"/>
+    <string name="volume_end_text">" Volume"</string>
 </resources>
