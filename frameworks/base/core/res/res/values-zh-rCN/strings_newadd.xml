@@ -3,8 +3,6 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 <!--ADDED BY FDRS BEGIN-->  
-    <add-resource type="string" name="hot_keywords" /> 
-	  <string name="hot_keywords">实时热点</string>
     <string name="custom_ringtone_picker">"从媒体介质选择铃声"</string>
     <string name="permission_dialog_title">提示</string>
     <string name="permission_dialog_button_ok">确定</string>
@@ -261,9 +259,6 @@
     <string name="low_battery_dialog_tips">通过主屏幕上的“设置”->“电池”->“智能节电设置”更改</string>
     <string name="remember_my_choice">记住我的选择</string>
 
-    <string name="voice_search_not_found" >您没有安装语音搜索</string>
-    <string name="voice_search_unavailable">语音搜索已停用，您可从设置中重新启用</string>
-
     <add-resource type="string" name="network_invalid" />
     <string name="network_invalid">无法连接到网络，请检查网络设置</string>
     <add-resource type="string" name="switch_null_text" />
@@ -367,4 +362,6 @@
     <add-resource type="string" name="replace_dolby_key"/>
     <string name="replace_dolby_key">"Dolby"</string>
 
+    <add-resource type="string" name="volume_end_text"/>
+    <string name="volume_end_text">"音量"</string>
 </resources>

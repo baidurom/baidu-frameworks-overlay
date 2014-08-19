@@ -22,8 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:drawable/yi_dialog_full_baidu_light"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <LinearLayout
             android:id="@+id/slider_group"
@@ -31,6 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
             >
             <!-- Sliders go here -->
         </LinearLayout>
