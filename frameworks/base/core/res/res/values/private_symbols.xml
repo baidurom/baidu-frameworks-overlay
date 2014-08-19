@@ -13,31 +13,6 @@
     <java-symbol type="drawable" name="btn_search_view"/>
     <java-symbol type="layout" name="yi_text_edit_action_popup_text" />
     <java-symbol type="id" name="root" />
-    <java-symbol type="id" name="moveView" />
-    <java-symbol type="id" name="keyword1" />
-    <java-symbol type="id" name="keyword2" />
-    <java-symbol type="id" name="keyword3" />
-    <java-symbol type="id" name="keyword4" />
-    <java-symbol type="id" name="keyword5" />
-    <java-symbol type="id" name="keyword6" />
-    <java-symbol type="id" name="keyword7" />
-    <java-symbol type="id" name="voiceprint" />
-    <java-symbol type="id" name="numeric_input" />
-    <java-symbol type="id" name="voiceunlock_tips" />
-    <java-symbol type="id" name="hotMusic1" />
-    <java-symbol type="id" name="hotMusic2" />
-    <java-symbol type="id" name="hotMusic3" />
-    <java-symbol type="id" name="hotMusic4" />
-    <java-symbol type="id" name="hotMusic5" />
-    <java-symbol type="id" name="searchBox" />
-    <java-symbol type="id" name="switchIcon" />
-    <java-symbol type="id" name="hotMusicLayout" />
-    <java-symbol type="id" name="hiddenUnlockView" />
-    <java-symbol type="id" name="unlockWidgetLayout" />
-    <java-symbol type="id" name="switchIcon" />
-    <java-symbol type="id" name="unlock" />
-    <java-symbol type="id" name="hotspotLayout" />
-    <java-symbol type="string" name="lockscreen_voiceprint_interpretation" />
 
     <java-symbol type="drawable" name="ic_main_unlock_hidden"/>
     <java-symbol type="drawable" name="luck_arrows_selected_03"/>
@@ -49,8 +24,6 @@
     <java-symbol type="drawable" name="ic_lock_idle_charging" />
 
     <java-symbol type="dimen" name="keyguard_lockscreen_outerring_diameter" />
-    <java-symbol type="layout" name="keyguard_screen_hot_music" />
-    <java-symbol type="layout" name="keyguard_screen_hotspot" />
     <java-symbol type="layout" name="select_dialog_multichoice_holo" />
 
     <java-symbol type="id" name="am_pm" />
@@ -152,10 +125,6 @@
     <!--CL-54446: enable user to close button backlight-->
     <java-symbol type="bool" name="config_close_button_backlight"/>
 
-    <!--CL-46941: for voice_search_not_found -->
-    <java-symbol type="string" name="voice_search_not_found" />
-    <java-symbol type="string" name="voice_search_unavailable" />
-
     <!--CL-37927:huxueyan -->
     <java-symbol type="drawable" name="ic_lock_screenshot" />
     <java-symbol type="string" name="global_action_screenshot" />
@@ -231,14 +200,6 @@
     <!-- END -->
   
     <!-- CL-00000: for slide lock screen-->
-    <java-symbol type="id" name="iqiyi_listview" />
-    <java-symbol type="id" name="iqiyi_push_msg_title" />
-    <java-symbol type="id" name="iqiyi_push_msg_content" />
-    <java-symbol type="id" name="iqiyi_push_msg_image" />
-    <java-symbol type="id" name="iqiyi_push_msg_layout" />
-    <java-symbol type="layout" name="baidu_keyguard_slide_iqiyi_list_item" />
-    <java-symbol type="drawable" name="baidu_keyguard_slide_iqiyi_edu" />
-    <java-symbol type="drawable" name="baidu_keyguard_slide_iqiyi_bg" />
     <java-symbol type="id" name="music_view" />
     <java-symbol type="id" name="target_view" />
     <java-symbol type="id" name="time" />
@@ -277,7 +238,6 @@
     <java-symbol type="drawable" name="down_h" />
     <java-symbol type="drawable" name="down_n" />
     <java-symbol type="drawable" name="baidu_keyguard_slide_handle" />
-    <java-symbol type="drawable" name="baidu_keyguard_slide_iqiyi" />
     <java-symbol type="drawable" name="baidu_keyguard_slide_handle_normal" />
     <java-symbol type="drawable" name="baidu_keyguard_slide_handle_pressed" />
     <java-symbol type="drawable" name="baidu_keyguard_slide_handle_charge" />
@@ -455,5 +415,7 @@
     <java-symbol type="string" name="replace_market_key"/>
     <java-symbol type="string" name="replace_reader_key"/>
     <java-symbol type="string" name="replace_dolby_key"/>
+    <java-symbol type="string" name="volume_end_text"/>
 
+    <java-symbol type="string" name="volume_icon_description_fm"/>
 </resources>

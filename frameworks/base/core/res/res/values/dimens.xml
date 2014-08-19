@@ -35,4 +35,6 @@
     <dimen name="preference_fragment_padding_side">0dp</dimen>
 
     <dimen name="action_bar_stacked_tab_max_width">200dp</dimen>
+    
+    <dimen name="keyguard_lockscreen_status_line_clockfont_top_margin">48dp</dimen>
 </resources>

@@ -23,14 +23,14 @@
 
     <!-- FrameLayout used as scrim to show between album art and buttons -->
     <FrameLayout
-        android:layout_width="0px"
-        android:layout_height="0px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:foreground="@drawable/ic_lockscreen_player_background">
         <!-- We use ImageView for its cropping features, otherwise could be android:background -->
         <ImageView
             android:id="@+id/albumart"
-            android:layout_width="0px"
-            android:layout_height="0px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="fill"
             android:scaleType="centerCrop"
             android:adjustViewBounds="false"
@@ -41,26 +41,26 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
+        android:layout_gravity="bottom">
         <TextView
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
             android:layout_marginLeft="16dip"
             android:layout_marginRight="16dip"
             android:gravity="center_horizontal"
             android:singleLine="true"
             android:ellipsize="end"
             android:textAppearance="?android:attr/textAppearanceMedium"
-	    android:textSize="14sp"
         />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="2dip">
+            android:layout_marginTop="5dip">
             <FrameLayout
-                android:layout_width="0dip"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <ImageView
@@ -71,10 +71,11 @@
                     android:src="@drawable/ic_media_previous"
                     android:clickable="true"
                     android:background="?android:attr/selectableItemBackground"
+                    android:padding="10dip"
                     android:contentDescription="@string/lockscreen_transport_prev_description"/>
             </FrameLayout>
             <FrameLayout
-                android:layout_width="0dip"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <ImageView
@@ -85,10 +86,11 @@
                     android:clickable="true"
                     android:src="@drawable/ic_media_play"
                     android:background="?android:attr/selectableItemBackground"
+                    android:padding="10dip"
                     android:contentDescription="@string/lockscreen_transport_play_description"/>
             </FrameLayout>
             <FrameLayout
-                android:layout_width="0dip"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <ImageView
@@ -99,6 +101,7 @@
                     android:clickable="true"
                     android:src="@drawable/ic_media_next"
                     android:background="?android:attr/selectableItemBackground"
+                    android:padding="10dip"
                     android:contentDescription="@string/lockscreen_transport_next_description"/>
             </FrameLayout>
         </LinearLayout>
