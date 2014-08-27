@@ -364,4 +364,7 @@
 
     <add-resource type="string" name="volume_end_text"/>
     <string name="volume_end_text">"音量"</string>
+
+    <add-resource type="string" name="keyguard_password_enter_pin_code_for_subscription"/>
+    <string name="keyguard_password_enter_pin_code_for_subscription">输入 PIN 码</string>
 </resources>

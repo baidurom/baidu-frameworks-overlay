@@ -451,4 +451,7 @@
 
     <add-resource type="string" name="volume_icon_description_fm"/>
     <string name="volume_icon_description_fm">"FM"</string>
+
+    <add-resource type="string" name="keyguard_password_enter_pin_code_for_subscription"/>
+    <string name="keyguard_password_enter_pin_code_for_subscription">Enter PIN code for Subscription</string>
 </resources>
