@@ -441,5 +441,16 @@
     <string name="replace_market_value">"App Search"</string>
     <add-resource type="string" name="replace_reader_value"/>
     <string name="replace_reader_value">"Reader"</string>
+    <add-resource type="string" name="replace_dolby_value"/>
+    <string name="replace_dolby_value">"Dolby"</string>
+    
+    <add-resource type="string" name="replace_browser_key"/>
+    <string name="replace_browser_key">"Baidu Browser"</string>
+    <add-resource type="string" name="replace_market_key"/>
+    <string name="replace_market_key">"App Search"</string>
+    <add-resource type="string" name="replace_reader_key"/>
+    <string name="replace_reader_key">"百度多酷书城"</string>
+    <add-resource type="string" name="replace_dolby_key"/>
+    <string name="replace_dolby_key">"Dolby"</string>
 
 </resources>

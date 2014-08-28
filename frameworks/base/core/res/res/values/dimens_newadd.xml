@@ -40,8 +40,10 @@
     <add-resource type="dimen" name="yi_lockscreen_unlockwidget_margintop" />
     <dimen name="yi_lockscreen_unlockwidget_margintop">238dip</dimen>
     <add-resource type="dimen" name="yi_lockscreen_password_height" />
-    <dimen name="yi_lockscreen_password_height">314dip</dimen>
+    <dimen name="yi_lockscreen_password_height">306dip</dimen>
     <add-resource type="dimen" name="yi_lockscreen_voiceprint_height" />
-    <dimen name="yi_lockscreen_voiceprint_height">314dip</dimen>
+    <dimen name="yi_lockscreen_voiceprint_height">306dip</dimen>
+    <add-resource type="dimen" name="yi_lockscreen_pattern_top_margin" />
+    <dimen name="yi_lockscreen_pattern_top_margin">6dip</dimen>
     <!--yi add end-->
 </resources>

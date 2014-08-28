@@ -354,5 +354,16 @@
     <string name="replace_market_value">"云商店"</string>
     <add-resource type="string" name="replace_reader_value"/>
     <string name="replace_reader_value">"阅读"</string>
+    <add-resource type="string" name="replace_dolby_value"/>
+    <string name="replace_dolby_value">"杜比音效"</string>
+    
+    <add-resource type="string" name="replace_browser_key"/>
+    <string name="replace_browser_key">"百度浏览器"</string>
+    <add-resource type="string" name="replace_market_key"/>
+    <string name="replace_market_key">"百度手机助手"</string>
+    <add-resource type="string" name="replace_reader_key"/>
+    <string name="replace_reader_key">"百度多酷书城"</string>
+    <add-resource type="string" name="replace_dolby_key"/>
+    <string name="replace_dolby_key">"Dolby"</string>
 
 </resources>
