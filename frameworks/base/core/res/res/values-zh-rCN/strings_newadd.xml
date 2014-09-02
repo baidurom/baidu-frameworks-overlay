@@ -299,50 +299,12 @@
     <string name="battery_apps_button">"点击查看"</string>
     <!-- CL-57961 -->
 
-    <!-- BEGIN BAIDU, chenxixiong@baidu.com -->
-    <!-- CL-52691 -->
-    <add-resource type="string" name="power_off_alarm"/>
-    <string name="power_off_alarm">关机闹钟提醒</string>
-    <add-resource type="string" name="quickboot_shutdown_info"/>
-    <string name="quickboot_shutdown_info">您的手机将会关机，使用关机闹钟请勾选如下选项（电量较低时可能无法提醒）。</string>
-    <!-- END -->
-    
     <!-- BEGIN BAIDU, linguang -->
     <add-resource type="string" name="chargging"/>
     <string name="chargging">充电中</string>
     <add-resource type="string" name="charge_finished"/>
     <string name="charge_finished">充电完成</string>
     <!-- END -->
-
-    <add-resource type="string" name="quickboot_real_shutdown"/>
-    <string name = "quickboot_real_shutdown">"您设置的关机闹钟和定时开机将失效，确认关机？"</string>
-
-    <add-resource type="array" name="quickboot_info_week_set"/>
-    <string-array name="quickboot_info_week_set">
-        <item >"日"</item>
-        <item >"一"</item>
-        <item >"二"</item>
-        <item >"三"</item>
-        <item >"四"</item>
-        <item >"五"</item>
-        <item >"六"</item>
-    </string-array>
-    
-    <add-resource type="string" name="quick_boot_text_info"/>
-    <string name="quick_boot_text_info">"下次快速开机"</string>
-
-    <add-resource type="string" name="quickboot_poweroff_alarm"/>
-    <string name="quickboot_poweroff_alarm">"关机闹钟将在周%1$s kk:mm响起"</string>   
-
-    <add-resource type="string" name="quickboot_schedule_pwonoff"/>
-    <string name="quickboot_schedule_pwonoff">"手机将在周%1$s kk:mm定时开机"</string>   
-
-    <add-resource type="string" name="quickboot_lowbat_poweroff"/>
-    <string name="quickboot_lowbat_poweroff">"电量低时可能无法响铃"</string>
-
-    <add-resource type="string" name="quickboot_lowbat_schedule_pwonoff"/>
-    <string name="quickboot_lowbat_schedule_pwonoff">"电量低时可能无法定时开机"</string>
-    
     
     <add-resource type="string" name="replace_browser_value"/>
     <string name="replace_browser_value">"浏览器"</string>

@@ -329,41 +329,12 @@
     <java-symbol type="layout" name="yi_alert_dialog_baidu_light" />
 
     <java-symbol type="bool" name="config_quickbootSupport"/>
-    <java-symbol type="string" name="power_off_alarm"/>
-    <java-symbol type="string" name="quickboot_shutdown_info"/>
-
-    <!-- From Quickboot charger -->
-    <java-symbol type="drawable" name="battery_0" />
-    <java-symbol type="drawable" name="battery_1" />
-    <java-symbol type="drawable" name="battery_2" />
-    <java-symbol type="drawable" name="battery_3" />
-    <java-symbol type="drawable" name="battery_4" />
-    <java-symbol type="drawable" name="battery_5" />
-    <java-symbol type="drawable" name="battery_charge" />
-    <java-symbol type="drawable" name="battery_fail" />
-    <java-symbol type="drawable" name="qb_boot_notice" />
 
     <!-- From Quickboot poweron event -->
     <java-symbol type="bool" name="config_poweron_by_twice_press" />
 
     <!-- ADD -->
-    <java-symbol type="layout" name="quickboot_dialog_confirm" />
 
-    <java-symbol type="string" name="quickboot_real_shutdown" />
-    <java-symbol type="array" name="quickboot_info_week_set" />
-    <java-symbol type="string" name="quick_boot_text_info" />
-
-    <java-symbol type="string" name="quickboot_poweroff_alarm" />
-    <java-symbol type="string" name="quickboot_schedule_pwonoff" />
-
-    <java-symbol type="string" name="quickboot_lowbat_poweroff" />
-    <java-symbol type="string" name="quickboot_lowbat_schedule_pwonoff" />
-
-    <java-symbol type="id" name="quickboot_dialog_checkbox" />
-  
-    <java-symbol type="id" name="quickboot_dialog_text_info" />
-    <java-symbol type="id" name="quickboot_dialog_text_warn" />
-    
     <!-- andd by linguang -->
     <java-symbol type="drawable" name="ic_launcher_360"/>
     <java-symbol type="drawable" name="ic_launcher_360launcher"/>
