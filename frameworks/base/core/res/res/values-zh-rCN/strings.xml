@@ -58,13 +58,13 @@
     <string name="websearch" msgid="4337157977400211589">"搜索"</string>
 
     <string name="aerr_title" msgid="1905800560317137752">"应用出现问题"</string>
-    <string name="aerr_application" msgid="932628488013092776">"“<xliff:g id="APPLICATION">%1$s</xliff:g>”出现问题，您可以反馈来帮助改进应用和百度云ROM。"</string>
-    <string name="aerr_process" msgid="4507058997035697579">"进程”<xliff:g id="PROCESS">%1$s</xliff:g>“出现问题，您可以反馈来帮助改进应用和百度云ROM。"</string>
+    <string name="aerr_application" msgid="932628488013092776">"“<xliff:g id="APPLICATION">%1$s</xliff:g>”出现问题，您可以反馈来帮助改进应用和百度云OS。"</string>
+    <string name="aerr_process" msgid="4507058997035697579">"进程”<xliff:g id="PROCESS">%1$s</xliff:g>“出现问题，您可以反馈来帮助改进应用和百度云OS。"</string>
     <string name="anr_title" msgid="4351948481459135709">"应用无响应"</string>
-    <string name="anr_activity_application" msgid="8339738283149696827">"“<xliff:g id="APPLICATION">%2$s</xliff:g>”无响应，您可以反馈来帮助改进应用和百度云ROM。"</string>
-    <string name="anr_activity_process" msgid="7018289416670457797">"活动”<xliff:g id="ACTIVITY">%1$s</xliff:g>“无响应，您可以反馈来帮助改进应用和百度云ROM。"</string>
-    <string name="anr_application_process" msgid="7208175830253210526">"“<xliff:g id="APPLICATION">%1$s</xliff:g>”无响应，您可以反馈来帮助改进应用和百度云ROM。"</string>
-    <string name="anr_process" msgid="306819947562555821">"进程”<xliff:g id="PROCESS">%1$s</xliff:g>“无响应，您可以反馈来帮助改进应用和百度云ROM。"</string>
+    <string name="anr_activity_application" msgid="8339738283149696827">"“<xliff:g id="APPLICATION">%2$s</xliff:g>”无响应，您可以反馈来帮助改进应用和百度云OS。"</string>
+    <string name="anr_activity_process" msgid="7018289416670457797">"活动”<xliff:g id="ACTIVITY">%1$s</xliff:g>“无响应，您可以反馈来帮助改进应用和百度云OS。"</string>
+    <string name="anr_application_process" msgid="7208175830253210526">"“<xliff:g id="APPLICATION">%1$s</xliff:g>”无响应，您可以反馈来帮助改进应用和百度云OS。"</string>
+    <string name="anr_process" msgid="306819947562555821">"进程”<xliff:g id="PROCESS">%1$s</xliff:g>“无响应，您可以反馈来帮助改进应用和百度云OS。"</string>
     <string name="force_close" msgid="8346072094521265605">"关闭"</string>
     <string name="report" msgid="4060218260984795706">"反馈"</string>
     <string name="wait" msgid="7147118217226317732">"等待"</string>

@@ -61,20 +61,20 @@
     <!-- Title of the alert when an application has crashed. -->
     <string name="aerr_title">Application Stopped</string>
     <!-- Text of the alert that is displayed when an application has crashed. -->
-    <string name="aerr_application">Unfortunately, <xliff:g id="application">%1$s</xliff:g> has stopped, you can feedback to help improve the application and Baidu cloud ROM.</string>
+    <string name="aerr_application">Unfortunately, <xliff:g id="application">%1$s</xliff:g> has stopped, you can feedback to help improve the application and Baidu cloud OS.</string>
     <!-- Text of the alert that is displayed when an application has crashed. -->
     <string name="aerr_process">Unfortunately, the process <xliff:g id="process">%1$s</xliff:g> has
-        stopped, you can feedback to help improve the application and Baidu cloud ROM.</string>
+        stopped, you can feedback to help improve the application and Baidu cloud OS.</string>
     <!-- Title of the alert when an application is not responding. -->
     <string name="anr_title">Application Not Responding</string>
     <!-- Text of the alert that is displayed when an application is not responding. -->
-    <string name="anr_activity_application"><xliff:g id="application">%2$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud ROM.</string>
+    <string name="anr_activity_application"><xliff:g id="application">%2$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud OS.</string>
     <!-- Text of the alert that is displayed when an application is not responding. -->
-    <string name="anr_activity_process">Activity <xliff:g id="activity">%1$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud ROM.</string>
+    <string name="anr_activity_process">Activity <xliff:g id="activity">%1$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud OS.</string>
     <!-- Text of the alert that is displayed when an application is not responding. -->
-    <string name="anr_application_process"><xliff:g id="application">%1$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud ROM.</string>
+    <string name="anr_application_process"><xliff:g id="application">%1$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud OS.</string>
     <!-- Text of the alert that is displayed when an application is not responding. -->
-    <string name="anr_process">Process <xliff:g id="process">%1$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud ROM.</string>
+    <string name="anr_process">Process <xliff:g id="process">%1$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud OS.</string>
     <!-- Button allowing the user to close an application that is not responding. This will kill the application. -->
     <string name="force_close">Close</string>
     <!-- Button allowing the user to send a bug report for application which has encountered an error. -->
