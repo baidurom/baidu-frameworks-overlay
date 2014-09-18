@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Switch">
+        <!-- Drawable to use as the "thumb" that switches back and forth. -->
+        <attr name="pointOn" format="reference"/>
+        <attr name="pointOff" format="reference"/>
+    </declare-styleable>
+
+</resources>

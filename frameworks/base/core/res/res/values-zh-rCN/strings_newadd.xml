@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!--ADDED BY FDRS BEGIN-->  
+    <string name="custom_ringtone_picker">"从媒体介质选择铃声"</string>
+    <string name="permission_dialog_title">提示</string>
+    <string name="permission_dialog_button_ok">确定</string>
+    <string name="permission_confirm_grant">允许</string>
+    <string name="permission_confirm_deny">禁止</string>
+    <string name="permission_prompt">"一直询问"</string>
+    <string name="permission_desc_mms">正在发短信</string>
+    <string name="permission_desc_phone">正在拨打电话</string>
+    <string name="permission_desc_message">允许该权限，可能会产生额外费用</string>
+    <string name="permission_settings">可以在设置中的管理应用程序修改访问权限</string>
+    <string name="permission_dangrous_warning">"个程序正在访问收费项目"</string>
+    <string name="permission_statusbar_show">"查看"</string>
+    <string name="permission_statusbar_ignore">"稍候查看"</string>
+    <string name="permission_toast_deny">"请求已被禁止"</string>
+    <string name="permission_toast_eliminated">"请求已被自动禁止。当前已有多项启动收费服务的请求等待您处理，请首先处理先前的请求!"</string>
+    <string name="permission_send_sms_message">"发送短信"</string>
+    <string name="permission_call_phone_message">"拨打电话"</string>
+    <string name="reboot_reboot">重新启动</string>
+    <string name="reboot_recovery">刷机模式</string>
+	<string name="internal_sd">内置 SD 卡</string>
+	<string name="external_sd">外置 SD 卡</string>
+<!--ADDED BY FDRS END--> 
+
+    <string name="badPuk_noretrytime">"您输入的PUK码不正确。"</string>
+    <string name="badPuk_one" msgid="5702522162746042460">"您输入的PUK码不正确（剩余<xliff:g id="HOW_MANY_TIMES">%s</xliff:g>次）。"</string>
+
+    <string name="invalidPinRemainTime" msgid="3850018445187475377">"输入4至8位PIN码（剩余<xliff:g id="HOW_MANY_TIMES">%s</xliff:g>次）。"</string>
+    <string name="invalidPinOneRemainTime" msgid="3850018445187475377">"输入4至8位PIN码（剩余<xliff:g id="HOW_MANY_TIMES">%s</xliff:g>次）。"</string>
+    <string name="simInvalidation">"输错累计10次，SIM卡已报废，需重新换卡"</string>
+    <string name="invalidPuk_one" msgid="8761456210898036513">"请输入8位数PUK码（剩余<xliff:g id="HOW_MANY_TIMES">%s</xliff:g>次）。"</string>
+    <string name="invalidPuk_noremaintime">"请输入8位数PUK码。"</string>
+
+    <string name="reboot" msgid="4266614107412865049">"重新启动"</string>
+    <string name="reboot_progress" msgid="2281079257329981204">"正在重启..."</string>
+    <string name="reboot_confirm" msgid="649792175242821354">"您的手机会重启。"</string>
+
+    <string name="global_action_reboot" msgid="4471879440839879723">"重启"</string>
+    <string name="global_actions_toggle_airplane_mode_off" msgid="5884330306926307457">"关闭飞行模式"</string>
+
+    <string name="keyguard_password_wrong_pin_code_one" >"PIN 码不正确（剩余<xliff:g id="HOW_MANY_TIMES">%s</xliff:g>次）！"</string>
+    <string name="keyguard_password_wrong_pin_code_no_remain_time" >"PIN 码不正确！"</string>
+
+    <string name="lockscreen_interpretation">"向下滑动解锁"</string>
+    <string name="lockscreen_voiceprint_interpretation">"您可以左右滑动屏幕切换声纹解锁"</string>
+	<string name="lockscreen_statusbar_title">"当前正在使用热词锁屏"</string>
+	<string name="lockscreen_statusbar_msg">"您可点击该消息或进入设置>安全>锁屏方式"设置</string>
+
+    <string name="ringtone_picker_select_title">"铃声设置"</string>
+    <string name="ringtone_picker_custom_title">"用户自定义铃声"</string>
+    <string name="ringtone_picker_sdcard_unmount">"手机未插入SD卡"</string>
+    <string name="ringtone_picker_sdcard_busy">"SD卡未准备好，请稍后再试"</string>
+    <string name="ringtone_picker_sdcard_empty">"SD卡中没有音频文件"</string>
+    <string name="ringtone_picker_nothing_selectecd">"未选择音频文件"</string>
+
+    	<!-- 添加农历信息 -->
+	<string name="lunar_year">年</string>
+	<string name="lunar_month">月</string>
+	<string name="lunar_day">日</string>
+	<string name="lunar_leap">闰</string>
+	<string name="lunar_chushi">初十</string>
+	<string name="lunar_ershi">二十</string>
+	<string name="lunar_sanshi">三十</string>
+    <add-resource type="array" name="chineseNumber" />
+	<string-array name="chineseNumber">
+		<item>正</item>
+		<item>二</item>
+		<item>三</item>
+		<item>四</item>
+		<item>五</item>
+		<item>六</item>
+		<item>七</item>
+		<item>八</item>
+		<item>九</item>
+		<item>十</item>
+		<item>冬</item>
+		<item>腊</item>
+	</string-array>
+
+    <add-resource type="array" name="chineseDay" />
+	<string-array name="chineseDay">
+		<item>一</item>
+		<item>二</item>
+		<item>三</item>
+		<item>四</item>
+		<item>五</item>
+		<item>六</item>
+		<item>七</item>
+		<item>八</item>
+		<item>九</item>
+		<item>十</item>
+	</string-array>
+
+    <add-resource type="array" name="gan" />
+	<string-array name="gan">
+		<item>甲</item>
+		<item>乙</item>
+		<item>丙</item>
+		<item>丁</item>
+		<item>戊</item>
+		<item>己</item>
+		<item>庚</item>
+		<item>辛</item>
+		<item>壬</item>
+		<item>癸</item>
+	</string-array>
+
+    <add-resource type="array" name="zhi" />
+	<string-array name="zhi">
+		<item>子</item>
+		<item>丑</item>
+		<item>寅</item>
+		<item>卯</item>
+		<item>辰</item>
+		<item>巳</item>
+		<item>午</item>
+		<item>未</item>
+		<item>申</item>
+		<item>酉</item>
+		<item>戌</item>
+		<item>亥</item>
+	</string-array>
+    <add-resource type="array" name="animals" />
+	<string-array name="animals">
+		<item>鼠</item>
+		<item>牛</item>
+		<item>虎</item>
+		<item>兔</item>
+		<item>龙</item>
+		<item>蛇</item>
+		<item>马</item>
+		<item>羊</item>
+		<item>猴</item>
+		<item>鸡</item>
+		<item>狗</item>
+		<item>猪</item>
+	</string-array>
+    <add-resource type="array" name="chineseTen" />
+	<string-array name="chineseTen">
+		<item>初</item>
+		<item>十</item>
+		<item>廿</item>
+		<item>卅</item>
+	</string-array>
+
+    <add-resource type="array" name="solar_terms" />
+	<string-array name="solar_terms">
+		<item>小寒</item>
+		<item>大寒</item>
+		<item>立春</item>
+		<item>雨水</item>
+		<item>惊蛰</item>
+		<item>春分</item>
+		<item>清明</item>
+		<item>谷雨</item>
+		<item>立夏</item>
+		<item>小满</item>
+		<item>芒种</item>
+		<item>夏至</item>
+		<item>小暑</item>
+		<item>大暑</item>
+		<item>立秋</item>
+		<item>处暑</item>
+		<item>白露</item>
+		<item>秋分</item>
+		<item>寒露</item>
+		<item>霜降</item>
+		<item>立冬</item>
+		<item>小雪</item>
+		<item>大雪</item>
+		<item>冬至</item>
+	</string-array>
+
+    <add-resource type="array" name="chineseYear" />
+	<string-array name="chineseYear">
+		<item>零</item>
+		<item>一</item>
+		<item>二</item>
+		<item>三</item>
+		<item>四</item>
+		<item>五</item>
+		<item>六</item>
+		<item>七</item>
+		<item>八</item>
+		<item>九</item>
+	</string-array>
+
+	<!-- 中国传统时间段 -->
+    <add-resource type="array" name="chineseTimeSection" />
+	<string-array name="chineseTimeSection">
+		<item>上午</item>
+		<item>中午</item>
+		<item>下午</item>
+	</string-array>
+
+    <string name="eventTypeLunarBirthday">"农历生日"</string>
+
+    <!-- Plmn list -->
+    <string name="china_telecom">中国电信</string>
+    <string name="china_unicom">中国联通</string>
+    <string name="china_mobile">中国移动</string>
+
+    <!-- dynamic permission dialog -->
+
+    <add-resource type="string" name="dynamic_perm_dialog_msg" />
+    <add-resource type="string" name="deny_btn_text" />
+    <add-resource type="string" name="permit_btn_text" />
+    <add-resource type="string" name="dynamic_perm_popup_dialog_title" />
+    <add-resource type="string" name="remember_info_text" />
+    <add-resource type="string" name="action_call" />
+    <add-resource type="string" name="action_sms" />
+    <add-resource type="string" name="action_mms" />
+    <add-resource type="string" name="action_access_call_log" />
+    <add-resource type="string" name="action_access_sms" />
+    <add-resource type="string" name="action_access_contacts" />
+    <add-resource type="string" name="action_access_location" />
+    <add-resource type="string" name="remember_tips_text" />
+    <add-resource type="string" name="phone_call_info_msg" />
+    <add-resource type="string" name="phone_sms_info_msg" />
+    <add-resource type="string" name="sms_info_msg" />
+    <add-resource type="string" name="data_sms_msg" />
+
+    <string name="dynamic_perm_dialog_msg"><xliff:g id="APP_NAME">%1$s</xliff:g>正在请求<xliff:g id="ACTION_NAME">%2$s</xliff:g></string>
+    <string name="action_call">拨打电话</string>
+    <string name="action_sms">发送信息</string>
+    <string name="action_mms">发送彩信</string>
+    <string name="action_access_call_log">访问通话记录</string>
+    <string name="action_access_sms">访问信息记录</string>
+    <string name="action_access_contacts">访问通讯录</string>
+    <string name="action_access_location">读取手机位置信息</string>
+    <string name="deny_btn_text">禁止</string>
+    <string name="permit_btn_text">允许</string>
+    <string name="dynamic_perm_popup_dialog_title">警告</string>
+    <string name="remember_info_text">记住我的选择</string>
+    <string name="remember_tips_text">通过”安全中心“>”权限监控“>可设置相应权限</string>
+    <string name="phone_call_info_msg">拨出号码：<xliff:g id="PHONE_NUM">%1$s</xliff:g></string>
+    <string name="phone_sms_info_msg">接收者：<xliff:g id="PHONE_NUM">%1$s</xliff:g></string>
+    <string name="sms_info_msg">内容：<xliff:g id="SMS_CONTENT">%1$s</xliff:g></string>
+    <string name="data_sms_msg">此信息为数据短信</string>
+
+    <add-resource type="string" name="low_battery_toast" />
+    <add-resource type="string" name="power_settings_notification_title" />
+    <add-resource type="string" name="power_settings_notification_message" />
+    <add-resource type="string" name="charge_complete" />
+    <add-resource type="string" name="low_battery_dialog_title" />
+    <add-resource type="string" name="low_battery_dialog_desc" />
+    <add-resource type="string" name="low_battery_dialog_tips" />
+    <add-resource type="string" name="remember_my_choice" />
+    <string name="low_battery_toast">已开启应急节电。</string>
+    <string name="power_settings_notification_title">当前为智能节电模式</string>
+    <string name="power_settings_notification_message">点击可查看详情及更改设置</string>
+    <string name="charge_complete">充电完成。</string>
+    <string name="low_battery_dialog_title">电量低于%1$s</string>
+    <string name="low_battery_dialog_desc">开启应急节电，仅保留通讯功能。\n电量恢复后自动退出。</string>
+    <string name="low_battery_dialog_tips">通过主屏幕上的“设置”->“电池”->“智能节电设置”更改</string>
+    <string name="remember_my_choice">记住我的选择</string>
+
+    <add-resource type="string" name="network_invalid" />
+    <string name="network_invalid">无法连接到网络，请检查网络设置</string>
+    <add-resource type="string" name="switch_null_text" />
+    <string name="switch_null_text"></string>
+
+    <string name="web_baike">百科</string>
+    <string name="web_translator">翻译</string>
+    <add-resource type="string" name="global_action_screenshot" />
+    <string name="global_action_screenshot">截屏</string>
+	
+    <!-- BEGIN BAIDU, wangzirui@baidu.com -->
+    <!-- CL-44871 -->
+    <add-resource type="string" name="progress_unmounting_target" />
+    <add-resource type="string" name="progress_erasing_target" />
+    <string name="progress_unmounting_target">正在卸载 <xliff:g id="sdcard">%s</xliff:g>...</string>
+    <string name="progress_erasing_target">正在格式化 <xliff:g id="sdcard">%s</xliff:g>...</string>
+    <!-- END -->
+   
+    <!-- BEGIN BAIDU, huzhenyuan@baidu.com -->
+    <add-resource type="string" name="baidu_keyguard_hotword_am" />
+    <add-resource type="string" name="baidu_keyguard_hotword_pm" />
+    <add-resource type="string" name="baidu_keyguard_hotword_date_format" />
+    <string name="baidu_keyguard_hotword_am">上午</string>
+    <string name="baidu_keyguard_hotword_pm">下午</string>
+    <string name="baidu_keyguard_hotword_date_format">M 月 d 日 E</string>
+    <!-- END -->        
+
+    <!-- BEGIN BAIDU, v_wudi@baidu.com -->
+    <!-- CL-47236 -->
+    <add-resource type="string" name="ringtone_custom" />
+    <string name="ringtone_custom">自定义铃声...</string>
+    <!-- END -->
+
+    <!-- CL-57961: show app in low battery dialog -->
+    <add-resource type="string" name="battery_apps_message" />
+    <string name="battery_apps_message">"以下应用耗电超标 "</string>
+    <add-resource type="string" name="battery_apps_button" />
+    <string name="battery_apps_button">"点击查看"</string>
+    <!-- CL-57961 -->
+
+    <!-- BEGIN BAIDU, linguang -->
+    <add-resource type="string" name="chargging"/>
+    <string name="chargging">充电中</string>
+    <add-resource type="string" name="charge_finished"/>
+    <string name="charge_finished">充电完成</string>
+    <!-- END -->
+    
+    <add-resource type="string" name="replace_browser_value"/>
+    <string name="replace_browser_value">"浏览器"</string>
+    <add-resource type="string" name="replace_market_value"/>
+    <string name="replace_market_value">"云商店"</string>
+    <add-resource type="string" name="replace_reader_value"/>
+    <string name="replace_reader_value">"阅读"</string>
+    <add-resource type="string" name="replace_dolby_value"/>
+    <string name="replace_dolby_value">"杜比音效"</string>
+    
+    <add-resource type="string" name="replace_browser_key"/>
+    <string name="replace_browser_key">"百度浏览器"</string>
+    <add-resource type="string" name="replace_market_key"/>
+    <string name="replace_market_key">"百度手机助手"</string>
+    <add-resource type="string" name="replace_reader_key"/>
+    <string name="replace_reader_key">"掌阅iReader"</string>
+    <add-resource type="string" name="replace_dolby_key"/>
+    <string name="replace_dolby_key">"Dolby"</string>
+
+    <add-resource type="string" name="volume_end_text"/>
+    <string name="volume_end_text">"音量"</string>
+</resources>

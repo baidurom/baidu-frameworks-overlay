@@ -1,0 +1,390 @@
+<resources>
+    <!-- We don't want to publish private symbols in android.R as part of the
+       SDK.  Instead, put them here. -->
+    <private-symbols package="com.android.internal" />
+
+    <java-symbol type="string" name="websearch" />
+
+    <java-symbol type="dimen" name="yi_floating_bar_divider_padding" />
+
+    <java-symbol type="drawable" name="yi_list_divider_baidu_light" />
+    <java-symbol type="drawable" name="yi_text_edit_paste_window" />
+    <!--java-symbol type="drawable" name="stat_sys_lockscreen_prompt" /-->
+    <java-symbol type="drawable" name="btn_search_view"/>
+    <java-symbol type="layout" name="yi_text_edit_action_popup_text" />
+    <java-symbol type="id" name="root" />
+
+    <java-symbol type="drawable" name="ic_main_unlock_hidden"/>
+    <java-symbol type="drawable" name="luck_arrows_selected_03"/>
+    <java-symbol type="drawable" name="luck_arrows_selected_01"/>
+    <java-symbol type="drawable" name="luck_arrows_selected_02"/>
+    <java-symbol type="drawable" name="btn_hotmusic_view" />
+    <java-symbol type="drawable" name="btn_newmusic_view" />
+    <java-symbol type="drawable" name="btn_hot_newmusic_view" />
+    <java-symbol type="drawable" name="ic_lock_idle_charging" />
+
+    <java-symbol type="dimen" name="keyguard_lockscreen_outerring_diameter" />
+    <java-symbol type="layout" name="select_dialog_multichoice_holo" />
+
+    <java-symbol type="id" name="am_pm" />
+    <java-symbol type="xml" name="modes" />
+    <java-symbol type="xml" name="policys" />
+    <java-symbol type="layout" name="dynamic_perm_dialog" />
+    <java-symbol type="id" name="deny_btn" />
+    <java-symbol type="id" name="permit_btn" />
+    <java-symbol type="id" name="remember_cbx" />
+    <java-symbol type="id" name="dialog_text" />
+    <!--java-symbol type="id" name="dialaction_access_call_logog_text" /-->
+    <java-symbol type="id" name="remember_tips" />
+    <java-symbol type="id" name="overflow_menu_presenter" />
+    <java-symbol type="string" name="action_call" />
+    <java-symbol type="string" name="action_sms" />
+    <java-symbol type="string" name="action_access_sms" />
+    <java-symbol type="string" name="action_access_call_log" />
+    <java-symbol type="string" name="action_access_contacts" />
+    <java-symbol type="string" name="action_access_location" />
+    <java-symbol type="string" name="dynamic_perm_dialog_msg" />
+    <java-symbol type="string" name="baidu_account_verify_code_bind" />
+    <java-symbol type="string" name="baidu_account_verify_code_password" />
+    <java-symbol type="string" name="search_baidu_web" />
+    <java-symbol type="drawable" name="rice_text_select_magnifier" />
+    <java-symbol type="drawable" name="yi_popup_arrow_down" />
+    <java-symbol type="drawable" name="yi_dialog_full_baidu_light" />
+    <java-symbol type="string" name="ringtone_picker_custom_title" />
+    <java-symbol type="string" name="ringtone_picker_select_title" />
+    <java-symbol type="string" name="ringtone_picker_nothing_selectecd" />
+    <java-symbol type="string" name="ringtone_picker_sdcard_unmount" />
+    <java-symbol type="string" name="ringtone_picker_sdcard_busy" />
+    <java-symbol type="string" name="ringtone_picker_sdcard_empty" />
+    <java-symbol type="string" name="ringtone_picker_nothing_selectecd" />
+    <java-symbol type="string" name="lockscreen_statusbar_title" />
+    <java-symbol type="string" name="lockscreen_statusbar_msg" />
+    <java-symbol type="string" name="keyguard_password_wrong_pin_code_one" />
+    <java-symbol type="string" name="keyguard_password_wrong_pin_code_no_remain_time" />
+    <java-symbol type="string" name="invalidPinRemainTime" />
+    <java-symbol type="string" name="invalidPinOneRemainTime" />
+    <java-symbol type="string" name="badPuk_one" />
+
+    <java-symbol type="string" name="badPuk_noretrytime" />
+    <java-symbol type="string" name="simInvalidation" />
+    <java-symbol type="string" name="invalidPuk_one" />
+    <java-symbol type="string" name="invalidPuk_noremaintime" />
+    <java-symbol type="string" name="simInvalidation" />
+
+    <java-symbol type="dimen" name="yi_magnifier_range_padding" />
+    <!--java-symbol type="drawable" name="stat_sys_battery_notification" /-->
+    <java-symbol type="drawable" name="yi_ic_yellow_pages_holo_light" />
+    <java-symbol type="drawable" name="yi_popup_arrow_up" />
+    <java-symbol type="id" name="dialog_phone_num_text" />
+    <java-symbol type="id" name="dialog_sms_content_text" />
+    <java-symbol type="string" name="charge_complete" />
+    <java-symbol type="string" name="data_sms_msg" />
+    <java-symbol type="string" name="low_battery_toast" />
+    <java-symbol type="string" name="low_battery_dialog_title" />
+    <java-symbol type="string" name="low_battery_dialog_desc" />
+    <java-symbol type="string" name="low_battery_dialog_tips" />
+    <java-symbol type="string" name="remember_my_choice" />
+    <java-symbol type="layout" name="super_mode_dialog" />
+    <java-symbol type="id" name="tips" />
+    <java-symbol type="id" name="remember_or_not" />
+    <java-symbol type="id" name="battery_info" />
+    <java-symbol type="id" name="battery_apps" />
+    <java-symbol type="id" name="battery_apps_button" />
+    <java-symbol type="id" name="battery_apps_message" />
+    <java-symbol type="string" name="battery_apps_message" />
+    <java-symbol type="string" name="battery_apps_button" />
+    <java-symbol type="drawable" name="battery_apps_button" />
+    <java-symbol type="string" name="phone_call_info_msg" />
+    <java-symbol type="string" name="phone_sms_info_msg" />
+    <java-symbol type="string" name="power_settings_notification_message" />
+    <java-symbol type="string" name="power_settings_notification_title" />
+    <java-symbol type="string" name="sms_info_msg" />
+
+    <!--CL-44870:wangzirui -->
+    <java-symbol type="string" name="progress_unmounting_target" />
+    <java-symbol type="string" name="progress_erasing_target" />
+
+    <!--java-symbol for call log start-->
+    <java-symbol type="drawable" name="yi_btn_check_on_baidu_light" />
+    <java-symbol type="drawable" name="yi_btn_check_off_baidu_light" />
+    <!--java-symbol for call log end-->
+    <java-symbol type="drawable" name="yi_text_select_handle_left" />
+    <java-symbol type="drawable" name="yi_text_select_handle_right" />
+    <java-symbol type="drawable" name="yi_text_select_handle_middle" />
+
+    <java-symbol type="bool" name="config_wakeup_by_volume_key" />
+    <java-symbol type="bool" name="config_pbap_support" />
+    <!--java-symbol for Plmn list-->
+    <java-symbol type="string" name="china_telecom" />
+    <java-symbol type="string" name="china_unicom" />
+    <java-symbol type="string" name="china_mobile" />
+
+    <!--CL-21419: read autorotate delay rate from configuration rather than hardcode. -->
+    <java-symbol type="integer" name="config_automatic_rotate_delay" />
+
+    <!--CL-54446: enable user to close button backlight-->
+    <java-symbol type="bool" name="config_close_button_backlight"/>
+
+    <!--CL-37927:huxueyan -->
+    <java-symbol type="drawable" name="ic_lock_screenshot" />
+    <java-symbol type="string" name="global_action_screenshot" />
+    <java-symbol type="string" name="global_actions_toggle_airplane_mode_off" />
+    <java-symbol type="string" name="web_baike" /> 
+    <java-symbol type="string" name="network_invalid" />  
+    <java-symbol type="string" name="web_translator" />
+    <java-symbol type="string" name="global_action_reboot" />
+    <java-symbol type="string" name="reboot" />
+    <java-symbol type="string" name="reboot_progress" />
+    <java-symbol type="string" name="reboot_confirm" />
+    <java-symbol type="string" name="reboot_reboot" />
+    <java-symbol type="string" name="reboot_recovery" />
+    <java-symbol type="drawable" name="ic_lock_reboot" />
+    <java-symbol type="array" name="shutdown_reboot_actions" />
+    <java-symbol type="array" name="shutdown_reboot_options" />
+    <java-symbol type="drawable" name="baidu_p001_small"/>
+    <java-symbol type="drawable" name="baidu_p002_small"/>
+    <java-symbol type="drawable" name="baidu_p003_small"/>
+    <java-symbol type="drawable" name="baidu_p004_small"/>
+    <java-symbol type="drawable" name="baidu_p005_small"/>
+    <java-symbol type="drawable" name="baidu_p006_small"/>
+    <java-symbol type="drawable" name="baidu_p007_small"/>
+    <java-symbol type="drawable" name="baidu_p008_small"/>
+    <java-symbol type="drawable" name="longpress_select_magnifier"/>
+    <java-symbol type="drawable" name="longpress_select_magnifier_mask"/>
+
+    <!--CL-47949:huzhenyuan -->
+    <java-symbol type="drawable" name="baidu_keyguard_handle" />
+    <java-symbol type="drawable" name="baidu_keyguard_search_up_pressed" />
+    <java-symbol type="id" name="axis_bottom" />
+    <java-symbol type="id" name="axis_left" />
+    <java-symbol type="id" name="axis_right" />
+    <java-symbol type="id" name="axis_single_line" />
+    <java-symbol type="id" name="axis_top" />
+    <java-symbol type="id" name="clock" />
+    <java-symbol type="id" name="constellation_bg" />
+    <java-symbol type="id" name="constellation_container" />
+    <java-symbol type="id" name="expand_text" />
+    <java-symbol type="id" name="gallery" />
+    <java-symbol type="id" name="hotword1" />
+    <java-symbol type="id" name="hotword2" />
+    <java-symbol type="id" name="hotword3" />
+    <java-symbol type="id" name="hotword4" />
+    <java-symbol type="id" name="hotword5" />
+    <java-symbol type="id" name="hover_text" />
+    <java-symbol type="id" name="miss_message_count" />
+    <java-symbol type="id" name="power_percent" />
+    <java-symbol type="id" name="search" />
+    <java-symbol type="id" name="target_camera" />
+    <java-symbol type="id" name="target_handle" />
+    <java-symbol type="id" name="target_handle_panel" />
+    <java-symbol type="id" name="target_message" />
+    <java-symbol type="id" name="target_refresh" />
+    <java-symbol type="id" name="target_refresh2" />
+    <java-symbol type="id" name="target_ring" />
+    <java-symbol type="id" name="target_unlock" />
+    <java-symbol type="id" name="target_phone" />
+    <java-symbol type="layout" name="baidu_keyguard_constellation01" />
+    <java-symbol type="layout" name="baidu_keyguard_constellation02" />
+    <java-symbol type="layout" name="baidu_keyguard_constellation03" />
+    <java-symbol type="layout" name="baidu_keyguard_constellation04" />
+    <java-symbol type="layout" name="baidu_keyguard_constellation05" />
+    <java-symbol type="layout" name="baidu_keyguard_constellation06" />
+    <java-symbol type="layout" name="baidu_keyguard_constellation07" />
+    <java-symbol type="layout" name="baidu_keyguard_constellation08" />
+    <java-symbol type="layout" name="baidu_keyguard_constellation09" />
+    <java-symbol type="layout" name="baidu_keyguard_constellation10" />
+    <java-symbol type="layout" name="baidu_keyguard_hotword" />
+    <java-symbol type="string" name="baidu_keyguard_hotword_am" />
+    <java-symbol type="string" name="baidu_keyguard_hotword_date_format" />
+    <java-symbol type="string" name="baidu_keyguard_hotword_pm" />
+    <!-- END -->
+  
+    <!-- CL-00000: for slide lock screen-->
+    <java-symbol type="id" name="music_view" />
+    <java-symbol type="id" name="target_view" />
+    <java-symbol type="id" name="time" />
+    <java-symbol type="id" name="clock" />
+    <java-symbol type="id" name="am_pm" />
+    <java-symbol type="id" name="date" />
+    <java-symbol type="id" name="alarm_status" />
+    <java-symbol type="id" name="title" />
+    <java-symbol type="id" name="water_layer_container" />
+    <java-symbol type="id" name="album" />
+    <java-symbol type="id" name="album_title" />
+    <java-symbol type="id" name="btn_prev" />
+    <java-symbol type="id" name="btn_play" />
+    <java-symbol type="id" name="btn_next" />
+    <java-symbol type="id" name="miss_container" />
+    <java-symbol type="id" name="miss_call_count" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_play" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_pause" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_prev" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_idle_alarm" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_album_default" />
+    <java-symbol type="layout" name="baidu_keyguard_slide" />
+    <java-symbol type="layout" name="baidu_keyguard_slide_music_view" />
+    <java-symbol type="layout" name="baidu_keyguard_slide_target_view" />
+    
+    <java-symbol type="drawable" name="baidu_keyguard_slide_bg_circle" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_miss_bg" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_misscall_bot" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_misssms_bot" />
+    <java-symbol type="drawable" name="dot_l_h" />
+    <java-symbol type="drawable" name="dot_m_h" />
+    <java-symbol type="drawable" name="dot_s_h" />
+    <java-symbol type="drawable" name="dot_l_n" />
+    <java-symbol type="drawable" name="dot_m_n" />
+    <java-symbol type="drawable" name="dot_s_n" />
+    <java-symbol type="drawable" name="down_h" />
+    <java-symbol type="drawable" name="down_n" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_handle" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_handle_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_handle_pressed" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_handle_charge" />
+    <java-symbol type="drawable" name="boat" />
+    
+    <java-symbol type="drawable" name="baidu_keyguard_slide_handle_chargging" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_music_covermask" />
+    <java-symbol type="drawable" name="baidu_keyguard_slide_music_covermask_front" />
+    <java-symbol type="id" name="bg_cicle" />
+    <java-symbol type="id" name="slide_guide_arrow" />
+    <java-symbol type="id" name="targets" />
+    <java-symbol type="id" name="slide_miss_call_and_mms" />
+    <java-symbol type="id" name="miss_mms" />
+    <java-symbol type="id" name="miss_call" />
+    <java-symbol type="id" name="chargging_circle_1" />
+    <java-symbol type="id" name="chargging_circle_2" />
+    <java-symbol type="id" name="chargging_circle_3" />
+    <java-symbol type="id" name="chargging_circle_4" />
+    <java-symbol type="id" name="chargging_view" />
+    <java-symbol type="id" name="chargging_progress" />
+    <java-symbol type="id" name="chargging_tip" />
+    <java-symbol type="id" name="music_bg" />
+    <java-symbol type="string" name="chargging" />
+    <java-symbol type="string" name="charge_finished" />
+    <java-symbol type="anim" name="charge_anim" />
+
+    <java-symbol type="drawable" name="baidu_keyguard_space_shake_background" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_shake_layer0" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_shake_layer1" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_shake_layer2" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_shake_layer3" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_camera_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_camera_pressed" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_phone_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_phone_pressed" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_message_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_message_pressed" /> 
+    <java-symbol type="drawable" name="baidu_keyguard_space_unlock_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_unlock_pressed" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_handle_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_space_handle_pressed" />
+    <java-symbol type="layout" name="baidu_keyguard_space" />
+    <java-symbol type="layout" name="baidu_keyguard_space_target_view" />
+    
+    
+    <java-symbol type="drawable" name="baidu_keyguard_water_shake_background" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_shake_layer0" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_shake_layer1" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_shake_layer2" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_shake_layer3" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_shake_layer4" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_shake_layer5" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_shake_layer6" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_shake_layer7" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_camera_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_camera_pressed" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_phone_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_phone_pressed" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_message_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_message_pressed" /> 
+    <java-symbol type="drawable" name="baidu_keyguard_water_unlock_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_unlock_pressed" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_handle_normal" />
+    <java-symbol type="drawable" name="baidu_keyguard_water_handle_pressed" />
+    <java-symbol type="layout" name="baidu_keyguard_water" />
+    <java-symbol type="layout" name="baidu_keyguard_water_target_view" />
+
+    <!--CL-47236:wudi -->
+    <java-symbol type="layout" name="ringtone_custom_item" />
+    <java-symbol type="layout" name="yi_ringtone" />
+    <java-symbol type="id" name="custom" />
+    <java-symbol type="id" name="custom_list" />
+    <java-symbol type="id" name="voice_list" />
+    <java-symbol type="id" name="button" />
+    <java-symbol type="id" name="cancel_button" />
+    <java-symbol type="id" name="ok_button" />
+    <java-symbol type="id" name="text1" />
+    <java-symbol type="id" name="empty" />
+    <java-symbol type="id" name="empty_text" />
+    <java-symbol type="string" name="ringtone_custom" />
+
+    <!-- END -->
+
+    <java-symbol type="drawable" name="cld_list_bottom_selector_baidu_light" />
+    <java-symbol type="drawable" name="cld_list_selector_baidu_light" />
+    <java-symbol type="drawable" name="cld_list_single_selector_baidu_light" />
+    <java-symbol type="drawable" name="cld_list_top_selector_baidu_light" />
+    <java-symbol type="drawable" name="yi_dialog_middle_custom_baidu_light" />
+    <java-symbol type="layout" name="yi_alert_dialog_baidu_light" />
+
+    <java-symbol type="bool" name="config_quickbootSupport"/>
+
+    <!-- From Quickboot poweron event -->
+    <java-symbol type="bool" name="config_poweron_by_twice_press" />
+    <!-- ADD -->
+
+    <!-- andd by linguang -->
+    <java-symbol type="drawable" name="ic_launcher_360"/>
+    <java-symbol type="drawable" name="ic_launcher_360launcher"/>
+    <java-symbol type="drawable" name="ic_launcher_aliwangwang"/>
+    <java-symbol type="drawable" name="ic_launcher_baidumap"/>
+    <java-symbol type="drawable" name="ic_launcher_baidumarket"/>
+    <java-symbol type="drawable" name="ic_launcher_baidunetdisk"/>
+    <java-symbol type="drawable" name="ic_launcher_baidureader"/>
+    <java-symbol type="drawable" name="ic_launcher_baidusearch"/>
+    <java-symbol type="drawable" name="ic_launcher_baiduvoiceassistant"/>
+    <java-symbol type="drawable" name="ic_launcher_baidubrowser"/>
+    <java-symbol type="drawable" name="ic_launcher_baidugamecenter"/>
+    <java-symbol type="drawable" name="ic_launcher_huluxia_gametools"/>
+    <java-symbol type="drawable" name="ic_launcher_ireader"/>
+    <java-symbol type="drawable" name="ic_launcher_kugou_music"/>
+    <java-symbol type="drawable" name="ic_launcher_kuwo_player"/>
+    <java-symbol type="drawable" name="ic_launcher_moji_weather"/>
+    <java-symbol type="drawable" name="ic_launcher_momo"/>
+    <java-symbol type="drawable" name="ic_launcher_pplive"/>
+    <java-symbol type="drawable" name="ic_launcher_qq"/>
+    <java-symbol type="drawable" name="ic_launcher_qqmusic"/>
+    <java-symbol type="drawable" name="ic_launcher_qvodplayer"/>
+    <java-symbol type="drawable" name="ic_launcher_qzone"/>
+    <java-symbol type="drawable" name="ic_launcher_renren"/>
+    <java-symbol type="drawable" name="ic_launcher_security"/>
+    <java-symbol type="drawable" name="ic_launcher_shuqi"/>
+    <java-symbol type="drawable" name="ic_launcher_sim"/>
+    <java-symbol type="drawable" name="ic_launcher_sogou_input"/>
+    <java-symbol type="drawable" name="ic_launcher_taobao"/>
+    <java-symbol type="drawable" name="ic_launcher_tencent_news"/>
+    <java-symbol type="drawable" name="ic_launcher_tencent_qqlive"/>
+    <java-symbol type="drawable" name="ic_launcher_ucmobile"/>
+    <java-symbol type="drawable" name="ic_launcher_wandoujia"/>
+    <java-symbol type="drawable" name="ic_launcher_wechat"/>
+    <java-symbol type="drawable" name="ic_launcher_weibo"/>
+    <java-symbol type="drawable" name="ic_launcher_wifiwnys"/>
+    <java-symbol type="drawable" name="ic_launcher_yixin"/>
+    <java-symbol type="drawable" name="ic_launcher_youdao"/>
+    <java-symbol type="drawable" name="ic_launcher_youku"/>
+    <java-symbol type="drawable" name="ic_launcher_zhifubao"/>
+    <java-symbol type="drawable" name="ic_launcher_dolby"/>
+    <java-symbol type="drawable" name="ic_launcher_iyqiyi"/>   
+    
+    <java-symbol type="string" name="replace_browser_value"/>
+    <java-symbol type="string" name="replace_market_value"/>
+    <java-symbol type="string" name="replace_reader_value"/>
+    <java-symbol type="string" name="replace_dolby_value"/>
+    <java-symbol type="string" name="replace_browser_key"/>
+    <java-symbol type="string" name="replace_market_key"/>
+    <java-symbol type="string" name="replace_reader_key"/>
+    <java-symbol type="string" name="replace_dolby_key"/>
+    <java-symbol type="string" name="volume_end_text"/>
+
+</resources>

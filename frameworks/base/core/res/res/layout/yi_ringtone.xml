@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/custom_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/custom"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/voice_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/empty_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ringtone_picker_sdcard_empty"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- OK confirm and cancel buttons. -->
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/cancel_button"
+	        android:layout_width="0dip"
+	        android:layout_height="48dp"
+	        android:layout_gravity="left"
+	        android:layout_weight="1"
+	        android:maxLines="2"
+	        android:text="@string/cancel"
+	        android:textSize="14sp" />
+	
+	    <Button
+	        android:id="@+id/ok_button"
+	        android:layout_width="0dip"
+	        android:layout_height="48dp"
+	        android:layout_gravity="right"
+	        android:layout_weight="1"
+	        android:maxLines="2"
+	        android:text="@string/ok"
+	        android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>
