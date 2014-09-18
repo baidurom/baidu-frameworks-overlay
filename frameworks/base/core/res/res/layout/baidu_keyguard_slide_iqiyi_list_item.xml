@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/iqiyi_push_msg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/push_msg_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/baidu_keyguard_slide_iqiyi_pushmsg_icon" />
+
+        <LinearLayout
+            android:id="@+id/push_msg_text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/push_msg_icon"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/iqiyi_push_msg_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/iqiyi_push_msg_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:textColor="#979797"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iqiyi_push_msg_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iqiyi_push_msg_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+</RelativeLayout>

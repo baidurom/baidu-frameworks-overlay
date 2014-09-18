@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Displayed when a SIM PUK password is entered incorrectly. -->
+    <string name="badPuk">The PUK is not correct （<xliff:g id="HOW_MANY_TIMES">%s</xliff:g> times left）.</string>
+
+    <!-- Displayed when a SIM PUK password is too short. -->
+    <string name="invalidPuk">Type a PUK that is 8 digits （<xliff:g id="HOW_MANY_TIMES">%s</xliff:g> times left）.</string>
+
+    <!-- label for item that toggles airplane mode -->
+    <string name="global_actions_toggle_airplane_mode">Enable airplane mode</string>
+
+    <string name="lockscreen_plugged_in"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    <!-- Instructions telling the user that they entered the wrong pin while trying
+         to unlock the keyguard.  Displayed in one line in a large font.  -->
+    <string name="keyguard_password_wrong_pin_code">Incorrect PIN code （<xliff:g id="HOW_MANY_TIMES">%s</xliff:g> times left）.</string>
+
+    <!-- Text displayed when the user selects the check box for setting default application.  See the "Use by default for this action" check box. -->
+    <string name="clearDefaultHintMsg">Clear default in Home Settings &gt; Applications.</string>
+
+    <!-- [CHAR LIMIT=40] Title of dialog that is shown when performing a system upgrade. -->
+    <string name="android_upgrading_title">Upgrading...</string>
+
+    <!-- The title of the ringtone picker dialog. -->
+	 <string name="ringtone_picker_title">System default Ringtones</string>
+
+    <!-- Do not translate. Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default" translatable="false">DefaultAP</string>
+
+    <!-- See USB_STORAGE.    This is the message. [CHAR LIMIT=NONE] -->
+    <string name="usb_storage_message" product="nosdcard">You have connected to your computer via USB. Touch the button below if you want to copy files between your computer and your USB storage.</string>
+    <!-- See USB_STORAGE.    This is the message. [CHAR LIMIT=NONE] -->
+    <string name="usb_storage_message" product="default">You have connected to your computer via USB. Touch the button below if you want to copy files between your computer and your SD card.</string>
+
+    <!-- See USB_STORAGE_STOP.    This is the message. [CHAR LIMIT=NONE] -->
+    <string name="usb_storage_stop_message" product="nosdcard">Before turning off USB storage, make sure you have unmounted (\u201cejected\u201d) your USB storage from your computer.</string>
+    <!-- See USB_STORAGE_STOP.    This is the message. -->
+    <string name="usb_storage_stop_message" product="default">Before turning off USB storage, make sure you have unmounted (\u201cejected\u201d) your SD card from your computer.</string>
+
+    <!-- ActionBar action to use the current selection to perform a web search [CHAR-LIMIT=16] -->
+    <string name="websearch">Search</string>
+
+    <!-- Title of the alert when an application has crashed. -->
+    <string name="aerr_title">Application Stopped</string>
+    <!-- Text of the alert that is displayed when an application has crashed. -->
+    <string name="aerr_application">Unfortunately, <xliff:g id="application">%1$s</xliff:g> has stopped, you can feedback to help improve the application and Baidu cloud OS.</string>
+    <!-- Text of the alert that is displayed when an application has crashed. -->
+    <string name="aerr_process">Unfortunately, the process <xliff:g id="process">%1$s</xliff:g> has
+        stopped, you can feedback to help improve the application and Baidu cloud OS.</string>
+    <!-- Title of the alert when an application is not responding. -->
+    <string name="anr_title">Application Not Responding</string>
+    <!-- Text of the alert that is displayed when an application is not responding. -->
+    <string name="anr_activity_application"><xliff:g id="application">%2$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud OS.</string>
+    <!-- Text of the alert that is displayed when an application is not responding. -->
+    <string name="anr_activity_process">Activity <xliff:g id="activity">%1$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud OS.</string>
+    <!-- Text of the alert that is displayed when an application is not responding. -->
+    <string name="anr_application_process"><xliff:g id="application">%1$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud OS.</string>
+    <!-- Text of the alert that is displayed when an application is not responding. -->
+    <string name="anr_process">Process <xliff:g id="process">%1$s</xliff:g> is not responding, you can feedback to help improve the application and Baidu cloud OS.</string>
+    <!-- Button allowing the user to close an application that is not responding. This will kill the application. -->
+    <string name="force_close">Close</string>
+    <!-- Button allowing the user to send a bug report for application which has encountered an error. -->
+    <string name="report">Report</string>
+    <!-- Button allowing the user to choose to wait for an application that is not responding to become responsive again. -->
+    <string name="wait">Wait</string>
+</resources>

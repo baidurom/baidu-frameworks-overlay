@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--yi add begin-->
+    <add-resource type="dimen" name="yi_lockscreen_pattern_top_margin" />
+    <dimen name="yi_lockscreen_pattern_top_margin">40dip</dimen>
+    <!--yi add end-->
+</resources>
