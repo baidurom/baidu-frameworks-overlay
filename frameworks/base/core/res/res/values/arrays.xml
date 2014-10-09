@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
    <array name="preloaded_drawables">
-       <!--TODO: add more baidu preload image. -->
-       <item>@drawable/toast_frame_holo</item>
+       <item>@drawable/toast_frame</item>
+       <item>@drawable/btn_check_on_pressed_holo_light</item>
    </array>
 </resources>
