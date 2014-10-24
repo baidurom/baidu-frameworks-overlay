@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- for volume key wakeup, disable default
+         set it to true in device overlay when needed -->
+    <add-resource type="integer" name="config_wakeup_by_volume_key"/>
+    <bool name="config_wakeup_by_volume_key">false</bool>
+
     <add-resource type="integer" name="config_automatic_rotate_delay"/>
     <integer name="config_automatic_rotate_delay">2</integer>
     <add-resource type="bool" name="config_quickbootSupport"/>
