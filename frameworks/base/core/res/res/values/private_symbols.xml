@@ -335,6 +335,16 @@
 
     <!-- ADD -->
 
+    <!-- Begin CL-63982 show warning before shutdown -->
+    <java-symbol type="string" name="shutdown_warning_title" />
+    <java-symbol type="string" name="shutdown_warning_message" />
+    <java-symbol type="string" name="getit" />
+    <!-- END -->
+
+    <!-- Begin CL-63983 clipboard -->
+    <java-symbol type="string" name="clipboard" />
+    <!-- END -->
+
     <!-- andd by linguang -->
     <java-symbol type="drawable" name="ic_launcher_360"/>
     <java-symbol type="drawable" name="ic_launcher_360launcher"/>

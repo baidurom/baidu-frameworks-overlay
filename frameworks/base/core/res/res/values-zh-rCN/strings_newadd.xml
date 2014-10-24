@@ -305,7 +305,17 @@
     <add-resource type="string" name="charge_finished"/>
     <string name="charge_finished">充电完成</string>
     <!-- END -->
-    
+
+    <!-- Begin CL-63982 show warning before shutdown -->
+    <string name="shutdown_warning_title">电池即将耗尽</string>
+    <string name="shutdown_warning_message">"手机将在%1$s秒内关机，请立即保存数据或者连接充电器。"</string>
+    <string name="getit">"知道了"</string>
+    <!-- END -->
+
+    <!-- Begin CL-63983 clipboard -->
+    <string name="clipboard">剪贴板</string>
+    <!-- END -->
+
     <add-resource type="string" name="replace_browser_value"/>
     <string name="replace_browser_value">"浏览器"</string>
     <add-resource type="string" name="replace_market_value"/>
