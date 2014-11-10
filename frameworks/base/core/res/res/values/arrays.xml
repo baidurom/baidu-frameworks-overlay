@@ -2,6 +2,6 @@
 <resources>
    <array name="preloaded_drawables">
        <!--TODO: add more baidu preload image. -->
-       <item>@drawable/toast_frame_holo</item>
+       <item>@drawable/btn_check_on_holo_dark</item>
    </array>
 </resources>
