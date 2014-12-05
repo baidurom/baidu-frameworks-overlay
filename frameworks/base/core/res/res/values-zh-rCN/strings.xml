@@ -31,8 +31,6 @@
     <string name="invalidPin" msgid="3850018445187475377">"输入4至8位新PIN码。"</string>
     <string name="invalidPuk" msgid="8761456210898036513">"请输入8位数PUK码（剩余<xliff:g id="HOW_MANY_TIMES">%s</xliff:g>次）。"</string>
 
-    <string name="global_actions_toggle_airplane_mode" msgid="5884330306926307456">"打开飞行模式"</string>
-
     <string name="policydesc_setGlobalProxy" msgid="6387497466660154931">"请设置在启用政策的情况下要使用的设备全局代理。只有第一设备管理员才可设置有效的全局代理。"</string>
 
     <string name="keyguard_password_wrong_pin_code" msgid="1295984114338107718">"PIN 码不正确（剩余<xliff:g id="HOW_MANY_TIMES">%s</xliff:g>次）！"</string>
