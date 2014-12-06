@@ -25,8 +25,6 @@
     <string name="invalidPuk">Type a PUK that is 8 digits （<xliff:g id="HOW_MANY_TIMES">%s</xliff:g> times left）.</string>
 
     <!-- label for item that toggles airplane mode -->
-    <string name="global_actions_toggle_airplane_mode">Enable airplane mode</string>
-
     <string name="lockscreen_plugged_in"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
 
     <!-- Instructions telling the user that they entered the wrong pin while trying
