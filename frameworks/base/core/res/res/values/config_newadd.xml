@@ -13,4 +13,9 @@
     <bool name="config_poweron_by_twice_press">false</bool>
     <add-resource type="bool" name="config_close_button_backlight"/>
 	<bool name="config_close_button_backlight">false</bool>
+
+    <add-resource type="string" name="config_customCameraPackage"/>
+    <string name="config_customCameraPackage"></string>
+    <add-resource type="string" name="config_customFmRadioPackage"/>
+    <string name="config_customFmRadioPackage"></string>
 </resources>
