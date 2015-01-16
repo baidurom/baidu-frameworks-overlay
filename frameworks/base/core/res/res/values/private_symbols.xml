@@ -399,4 +399,6 @@
     <java-symbol type="string" name="replace_dolby_key"/>
     <java-symbol type="string" name="volume_end_text"/>
 
+    <java-symbol type="string" name="config_customCameraPackage"/>
+    <java-symbol type="string" name="config_customFmRadioPackage"/>
 </resources>
