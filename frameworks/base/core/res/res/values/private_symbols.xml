@@ -286,6 +286,8 @@
     <java-symbol type="string" name="chargging" />
     <java-symbol type="string" name="charge_finished" />
     <java-symbol type="anim" name="charge_anim" />
+    <java-symbol type="anim" name="task_open_enter" />
+    <java-symbol type="anim" name="task_open_exit" />
 
     <java-symbol type="drawable" name="baidu_keyguard_space_shake_background" />
     <java-symbol type="drawable" name="baidu_keyguard_space_shake_layer0" />
