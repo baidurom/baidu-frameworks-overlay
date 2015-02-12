@@ -83,6 +83,11 @@
     <add-resource type="string" name="global_actions_toggle_airplane_mode_off" />
     <string name="global_actions_toggle_airplane_mode_off">Disable airplane mode</string>
 
+    <add-resource type="string" name="open_airplane_mode" />
+    <add-resource type="string" name="close_airplane_mode" />
+    <string name="open_airplane_mode">Airplane mode will be enabled</string>
+    <string name="close_airplane_mode">Airplane mode will be disabled</string>
+
     <add-resource type="string" name="keyguard_password_wrong_pin_code_one" />
     <string name="keyguard_password_wrong_pin_code_one">Incorrect PIN code （<xliff:g id="HOW_MANY_TIMES">%s</xliff:g> time left）.</string>
     <add-resource type="string" name="keyguard_password_wrong_pin_code_no_remain_time" />

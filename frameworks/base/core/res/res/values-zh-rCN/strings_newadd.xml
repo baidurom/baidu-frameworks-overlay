@@ -42,6 +42,9 @@
     <string name="global_action_reboot" msgid="4471879440839879723">"重启"</string>
     <string name="global_actions_toggle_airplane_mode_off" msgid="5884330306926307457">"关闭飞行模式"</string>
 
+    <string name="open_airplane_mode">将启用飞行模式</string>
+    <string name="close_airplane_mode">将禁用飞行模式</string>
+
     <string name="keyguard_password_wrong_pin_code_one" >"PIN 码不正确（剩余<xliff:g id="HOW_MANY_TIMES">%s</xliff:g>次）！"</string>
     <string name="keyguard_password_wrong_pin_code_no_remain_time" >"PIN 码不正确！"</string>
 

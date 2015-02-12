@@ -72,6 +72,9 @@
     <java-symbol type="string" name="invalidPuk_noremaintime" />
     <java-symbol type="string" name="simInvalidation" />
 
+    <java-symbol type="string" name="open_airplane_mode" />
+    <java-symbol type="string" name="close_airplane_mode" />
+
     <java-symbol type="dimen" name="yi_magnifier_range_padding" />
     <!--java-symbol type="drawable" name="stat_sys_battery_notification" /-->
     <java-symbol type="drawable" name="yi_ic_yellow_pages_holo_light" />
